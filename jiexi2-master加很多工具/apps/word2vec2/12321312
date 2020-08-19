@@ -1,0 +1,13 @@
+import requests
+
+            r = requests.get(url)
+
+
+
+
+            import os
+            if os.path.exists('/saveFile9999999'):
+            os.mkdir('/saveFile9999999')
+            with open('/saveFile9999999', "wb") as f :
+                f.write(r.content)
+            fffffffff

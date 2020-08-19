@@ -1,0 +1,52 @@
+#!/bin/bash
+set -o nounset
+
+cd $(dirname $0)
+phsical_path=$(readlink $0 || echo "")
+[[ -z $phsical_path ]] || cd $phsical_path
+cd ..
+
+readonly RUNTIME=$(pwd)
+
+
+start() {
+    mkdir -p logs
+    echo $RUNTIME
+    #/export/Instances/nlp/0.nlp/runtime
+    cd $RUNTIME && nohup python python自动化运行.py  >> ../logs/access.log &
+    echo $?
+    return 0
+}
+
+stop() {
+    ps aux | grep manage.py | grep -v grep | awk '{print $2}' | xargs -I{} kill -9  {}
+    return 0
+}
+
+checkhealth() {
+    return 0
+}
+
+help() {
+    echo "${0} <start|stop|restart|status>"
+    exit 1
+}
+
+
+case "${1}" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status|health|checkhealth)
+        checkhealth
+        ;;
+    restart)
+        stop && start
+        ;;
+    *)
+        help
+        ;;
+esac

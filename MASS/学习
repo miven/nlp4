@@ -1,0 +1,8 @@
+整个模型是利用预训练来得到更好的翻译效果..
+貌似运行下面这个就可以inference 了.
+
+C:\Users\zhangbo340\PycharmProjects\MASS23\MASS-supNMT\translate.sh
+
+
+github速度太慢,改用码云来查询,这个速度快多了.
+

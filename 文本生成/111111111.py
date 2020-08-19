@@ -1,0 +1,1 @@
+from fairseq.models.masked_permutation_net import MPNet

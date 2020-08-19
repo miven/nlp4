@@ -1,0 +1,1587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="fairseq-gec" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lianghua" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="JupyterTrust" id="774df279-09b4-4fbb-87e2-ad916c7ff857" />
+  <component name="ProjectId" id="1dNrNU5oML9kEyVyV0dosY7J5L6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/albert使用" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\生成器装饰器" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\ctrl模型\ctrl原始代码\ctrl\training_utils" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\albert使用" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\albert使用\qa_data" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\研究qa\数据集" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.ImportantExmaple">
+    <configuration name="21321321312" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21321321312.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="8888888888" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/8888888888.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ImportantExmaple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/ImportantExmaple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qa2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/qa2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qa使用范例!!!!!!!!!!!!!!" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/qa使用范例!!!!!!!!!!!!!!.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_language_modeling" type="PythonConfigurationType" factoryName="Python" singleton="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling/run_language_modeling.py" />
+      <option name="PARAMETERS" value="--output_dir=output     --model_type=gpt2      --model_name_or_path=gpt2     --do_train      --train_data_file=/wiki.train.raw      --do_eval      --eval_data_file=/wiki.test.raw" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run_language_modeling" />
+      <item itemvalue="Python.8888888888" />
+      <item itemvalue="Python.qa使用范例!!!!!!!!!!!!!!" />
+      <item itemvalue="Python.qa2" />
+      <item itemvalue="Python.21321321312" />
+      <item itemvalue="Python.ImportantExmaple" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ImportantExmaple" />
+        <item itemvalue="Python.8888888888" />
+        <item itemvalue="Python.21321321312" />
+        <item itemvalue="Python.qa2" />
+        <item itemvalue="Python.qa使用范例!!!!!!!!!!!!!!" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="" />
+      <created>1592276351305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592276351305</updated>
+      <workItem from="1592276352869" duration="16293000" />
+      <workItem from="1592351874466" duration="19448000" />
+      <workItem from="1592379085733" duration="47000" />
+      <workItem from="1592436502004" duration="568000" />
+      <workItem from="1592439775740" duration="855000" />
+      <workItem from="1592444380594" duration="18523000" />
+      <workItem from="1592530274032" duration="20652000" />
+      <workItem from="1592622736267" duration="2794000" />
+      <workItem from="1592744320459" duration="628000" />
+      <workItem from="1592744976931" duration="1020000" />
+      <workItem from="1592746747885" duration="119000" />
+      <workItem from="1592882261128" duration="3721000" />
+      <workItem from="1592952509424" duration="48000" />
+      <workItem from="1592952580425" duration="393000" />
+      <workItem from="1592952994795" duration="924000" />
+      <workItem from="1592954284021" duration="524000" />
+      <workItem from="1592954860708" duration="35214000" />
+      <workItem from="1593055030687" duration="18758000" />
+      <workItem from="1593174211566" duration="42000" />
+      <workItem from="1593174311543" duration="40000" />
+      <workItem from="1593174375611" duration="5360000" />
+      <workItem from="1593181560442" duration="18093000" />
+      <workItem from="1593238855787" duration="73621000" />
+      <workItem from="1593443792898" duration="621000" />
+      <workItem from="1593471173304" duration="9000" />
+      <workItem from="1593484505329" duration="156000" />
+      <workItem from="1593527203663" duration="1247000" />
+      <workItem from="1593597204647" duration="1267000" />
+      <workItem from="1593682521884" duration="23000" />
+      <workItem from="1593999071420" duration="4160000" />
+      <workItem from="1594010683537" duration="16423000" />
+      <workItem from="1594034635457" duration="882000" />
+      <workItem from="1594082967005" duration="27381000" />
+      <workItem from="1594117961908" duration="886000" />
+      <workItem from="1594169356850" duration="13614000" />
+      <workItem from="1594204634437" duration="1601000" />
+      <workItem from="1594213641315" duration="34000" />
+      <workItem from="1594215287031" duration="2574000" />
+      <workItem from="1594265529907" duration="736000" />
+      <workItem from="1594301057012" duration="57000" />
+      <workItem from="1594540719480" duration="30000" />
+      <workItem from="1594543090554" duration="198000" />
+      <workItem from="1594596254135" duration="46000" />
+      <workItem from="1594599194674" duration="36000" />
+      <workItem from="1594607051197" duration="14000" />
+      <workItem from="1594629559148" duration="819000" />
+      <workItem from="1594630402613" duration="9028000" />
+      <workItem from="1594680600030" duration="44000" />
+      <workItem from="1594680668510" duration="9525000" />
+      <workItem from="1594693938211" duration="6003000" />
+      <workItem from="1594732366756" duration="1024000" />
+      <workItem from="1594741753475" duration="93097000" />
+      <workItem from="1595026226659" duration="12097000" />
+      <workItem from="1595068809111" duration="30000" />
+      <workItem from="1595069965629" duration="123000" />
+      <workItem from="1595070440445" duration="7103000" />
+      <workItem from="1595156161551" duration="12499000" />
+      <workItem from="1595223509563" duration="26218000" />
+      <workItem from="1595311555597" duration="8439000" />
+      <workItem from="1595378968669" duration="5994000" />
+      <workItem from="1595399280170" duration="685000" />
+      <workItem from="1595409850784" duration="34723000" />
+      <workItem from="1595552440766" duration="7148000" />
+      <workItem from="1595564886026" duration="5515000" />
+      <workItem from="1595602872878" duration="24066000" />
+      <workItem from="1595727845087" duration="2363000" />
+      <workItem from="1595730828177" duration="14000" />
+      <workItem from="1595778885170" duration="92551000" />
+      <workItem from="1596209111872" duration="38134000" />
+      <workItem from="1596380503186" duration="34031000" />
+      <workItem from="1596505463680" duration="22333000" />
+      <workItem from="1596693413134" duration="21885000" />
+      <workItem from="1596795407007" duration="7638000" />
+      <workItem from="1596807776669" duration="23192000" />
+      <workItem from="1596944206141" duration="933000" />
+      <workItem from="1596967310213" duration="44948000" />
+      <workItem from="1597212409690" duration="49485000" />
+      <workItem from="1597463380895" duration="32199000" />
+      <workItem from="1597588597547" duration="82518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="358" y="0" key="#111" timestamp="1595955910563">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="358" y="0" key="#111/0.0.1280.680@0.0.1280.680" timestamp="1595955910563" />
+    <state x="17" y="5" key="#Deployment" timestamp="1597499031149">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="17" y="5" key="#Deployment/0.0.1280.680@0.0.1280.680" timestamp="1597499031149" />
+    <state x="414" y="66" width="584" height="504" key="#Docker" timestamp="1592288438230">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="414" y="66" width="584" height="504" key="#Docker/0.0.1280.680@0.0.1280.680" timestamp="1592288438230" />
+    <state x="54" y="56" width="462" height="496" key="#Docker2" timestamp="1592288510801">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="54" y="56" width="462" height="496" key="#Docker2/0.0.1280.680@0.0.1280.680" timestamp="1592288510801" />
+    <state x="610" y="44" key="#Docker3" timestamp="1592288737688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="610" y="44" key="#Docker3/0.0.1280.680@0.0.1280.680" timestamp="1592288737688" />
+    <state x="233" y="3" key="#Options" timestamp="1597499036045">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="3" key="#Options/0.0.1280.680@0.0.1280.680" timestamp="1597499036045" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597634471276">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1597634471276" />
+    <state x="355" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597800275246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="355" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1597800275246" />
+    <state x="358" y="0" key="#pytorch_generation" timestamp="1596246409681">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="358" y="0" key="#pytorch_generation/0.0.1280.680@0.0.1280.680" timestamp="1596246409681" />
+    <state x="358" y="0" key="#run_language_modeling" timestamp="1595554241099">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="358" y="0" key="#run_language_modeling/0.0.1280.680@0.0.1280.680" timestamp="1595554241099" />
+    <state x="358" y="0" key="#train" timestamp="1595513082480">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="358" y="0" key="#train/0.0.1280.680@0.0.1280.680" timestamp="1595513082480" />
+    <state x="256" y="54" width="777" height="583" key="#xdebugger.evaluate" timestamp="1597824628418">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="256" y="54" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1597824628418" />
+    <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1596430478936">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596430478936" />
+    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1597825652847">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1597825652847" />
+    <state x="130" y="77" width="1095" height="495" key="DiffContextDialog" timestamp="1597536533322">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="130" y="77" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1597536533322" />
+    <state x="93" y="93" width="1095" height="495" key="DirDiffDialog" timestamp="1592968158498">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="DirDiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1592968158498" />
+    <state x="604" y="143" key="FileChooserDialogImpl" timestamp="1595725279250">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
+    <state width="1237" height="308" key="GridCell.Tab.0.bottom" timestamp="1597826342096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="308" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597826342096" />
+    <state width="1237" height="308" key="GridCell.Tab.0.center" timestamp="1597826342096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="308" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597826342096" />
+    <state width="1237" height="308" key="GridCell.Tab.0.left" timestamp="1597826342095">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="308" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597826342095" />
+    <state width="1237" height="308" key="GridCell.Tab.0.right" timestamp="1597826342096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="308" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597826342096" />
+    <state width="1237" height="308" key="GridCell.Tab.1.bottom" timestamp="1597826342096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="308" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597826342096" />
+    <state width="1237" height="308" key="GridCell.Tab.1.center" timestamp="1597826342096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="308" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1597826342096" />
+    <state width="1237" height="308" key="GridCell.Tab.1.left" timestamp="1597826342096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="308" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1597826342096" />
+    <state width="1237" height="308" key="GridCell.Tab.1.right" timestamp="1597826342096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="308" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1597826342096" />
+    <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="127" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597046113236" />
+    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1597825652844">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1597825652844" />
+    <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597824524591">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1597824524591" />
+    <state x="99" y="16" width="1157" height="570" key="find.popup" timestamp="1597798938989">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="99" y="16" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1597798938989" />
+    <state x="1039" y="95" key="ftp.server.browser" timestamp="1596014081714">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="1039" y="95" key="ftp.server.browser/0.0.1280.680@0.0.1280.680" timestamp="1596014081714" />
+    <state x="505" y="246" key="publish.login" timestamp="1596246278550">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="505" y="246" key="publish.login/0.0.1280.680@0.0.1280.680" timestamp="1596246278550" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1597737670757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1597737670757" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/gec_model.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/333/PIE-master/errorify/error.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/333/PIE-master/errorify/error.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/333/PIE-master/errorify/error.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/333/PIE-master/errorify/errorifier.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/333/PIE-master/errorify/errorifier.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/999999999/11111111.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train.py</url>
+          <line>313</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/utils/helpers.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/predict2222.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/222222222222222222222222.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/344234.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/wordpiece_indexer.py</url>
+          <line>419</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/b.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/2222222222222222222.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/2222222222222222222.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/datareader.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/trainer.py</url>
+          <line>665</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/utils/preprocess_data.py</url>
+          <line>550</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/7878787.py</url>
+          <line>476</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/7878787.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/56565/56565656.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/888888888888888888888888888888888/1111111111111111111.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/test3333.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/gec_model.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/seq2labels_model.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/predict.py</url>
+          <line>188</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/seq2labels_model.py</url>
+          <line>188</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/333/PIE-master/errorify/errorifier.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/utils2/errorify/loading_all_dict.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train_finetune_latest2.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/seq2labels_model.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/seq2labels_model.py</url>
+          <line>251</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/trainer.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/seq2labels_model.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/utils/3434343434.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/seq2labels_model.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train_finetune_latest2.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train_finetune_latest2.py</url>
+          <line>245</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/predict.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/gector/seq2labels_model.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master/train_finetune_latest2.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/train_finetune_latest3.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/train_finetune_latest3.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/utils/preprocess_data.py</url>
+          <line>478</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/utils/helpers.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/train_finetune_latest3.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/gector/trainer.py</url>
+          <line>341</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/文本生成/GPT2-Chinese-master/generate.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/文本生成/MASS/MASS-summarization/encode.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/文本生成/pointer-generator-master/run_summarization.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/摘要算法/encode_my2.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MPNet-master/pretraining/test66666666666666666666666666.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MPNet-master/pretraining/fairseq/checkpoint_utils.py</url>
+          <line>306</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MPNet-master/pretraining/3333333333333.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PreSumm2/src/models/trainer_ext.py</url>
+          <line>314</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PreSumm2/src/models/trainer_ext.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PreSumm2/src/train_abstractive.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PreSumm2/src/models/predictor.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PreSumm2/src/preprocess2.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PreSumm2/src/preprocess.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PreSumm2/src/prepro/data_builder.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PreSumm2/src/stanza切分句子算法.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/textfilter/filter.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/textfilter/filter.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/examples都是非常重要的例子/bart/1.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/torch/hub.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/torch/hub.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/一些可以直接调用的nlp算法/bart/1.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/一些可以直接调用的nlp算法/bart/1.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/train_finetune_latest3.py</url>
+          <line>388</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/句子分割算法/nltk句子分割算法.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/句子分割算法/stanza切分句子算法.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/utils/preprocess_data.py</url>
+          <line>396</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/predict.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/一些可以直接调用的nlp算法/汇总用法.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/文本生成/Megatron-LM-master/tools/generate_samples_gpt2.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/文本生成/huggingface重要例子/transformers/examples/text-generation/run_generation.py</url>
+          <line>278</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/bert-loses-patience/run_glue_with_pabee.py</url>
+          <line>376</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/bert-loses-patience/run_glue_with_pabee.py</url>
+          <line>380</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/bert-loses-patience/run_glue_with_pabee.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch-master88888888latest/preprocess.py</url>
+          <line>224</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils_for_bert翻译峰哥/11111111111.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/tokenization_bert.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch-master88888888latest/222222222222222.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch-master88888888latest/kkk.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch-master88888888latest/kkk.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch-master88888888latest/translate.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling/run_language_modeling.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling/run_language_modeling.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling/run_language_modeling.py</url>
+          <line>259</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling/run_language_modeling.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/text-generation/run_generation.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/text-generation/run_generation.py</url>
+          <line>280</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/text-generation/run_generation.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/text-generation/run_generation.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch最原始的版本--上课专用版/train.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch-master88888888latest/train.py</url>
+          <line>358</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch最原始的版本--上课专用版/train.py</url>
+          <line>316</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/latest-fixed_by_vocab/train.py</url>
+          <line>387</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/latest-fixed_by_vocab/train.py</url>
+          <line>339</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/传统方法做nlg/lstm方法做nlg.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/transformer666/latest-vocab2/train.py</url>
+          <line>488</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kmp/kmp_for_array.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/学习roberta/roberta/commonsense_qa/robertaLarge模型的调用.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/学习roberta/roberta/commonsense_qa/roberta模型的调用.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/111.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/一些可以直接调用的nlp算法/text-generation/run_generation.py</url>
+          <line>227</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/transformers/modeling_utils.py</url>
+          <line>292</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/一些可以直接调用的nlp算法/text-generation/run_generation.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-750683277/-1193385700/transformers/modeling_ctrl.py</url>
+          <line>396</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-750683277/-1193385700/transformers/modeling_ctrl.py</url>
+          <line>301</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-750683277/-1193385700/transformers/modeling_ctrl.py</url>
+          <line>388</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/111.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/22222222/gector-master2/predict.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/run_generation (2)_for_ctrl.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/run_generation (2)_for_ctrl.py</url>
+          <line>290</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/tokenization_ctrl经典的bpe算法教学版.py</url>
+          <line>276</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/tokenization_ctrl经典的bpe算法教学版.py</url>
+          <line>275</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/run_generation (2)_for_ctrl.py</url>
+          <line>303</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/pytorch_generation.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/pytorch_generation.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/pytorch_generation.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/pytorch_generation.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/transformer.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/scripts/demo.py</url>
+          <line>197</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset/pre_data.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset/prepare_data.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master/train_single3.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本/train_single4OnlyRunThis.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本/tokenizations/tokenization.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本/generateByme.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/train_tpu.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/trainP/modeling.py</url>
+          <line>563</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1111111.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/知识图谱项目/句法依存分析和kg的方案/句子分析/213213成熟的一套kg解决qa的方案.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/人脸/facenet-pytorch/examples/mtcnn_infer.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/人脸/facenet-pytorch/examples/predictfacenet.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/人脸/facenet-pytorch/examples/predictfacenet.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/人脸/facenet-pytorch/examples/train_facenet.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master/predict_my.py</url>
+          <line>456</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master/train.py</url>
+          <line>608</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gat网络/pyGAT-master/train.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/vae算法/variational-autoencoder-master/input_data.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master/train.py</url>
+          <line>324</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master/train_My.py</url>
+          <line>335</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/1111111111.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/1111111111albert训练.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/1111111111albert训练.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/22222albert.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/tokenization_utils.py</url>
+          <line>593</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/albert-vec-support/bert4keras_extract_feature.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/albert加kg.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/albert加kg.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/bert做词向量.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bertChineseVec.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/23232.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/8888888888.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/qa2.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/data/processors/squad.py</url>
+          <line>322</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/data/processors/squad.py</url>
+          <line>264</line>
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/data/processors/squad.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/ImportantExmaple.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="488" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1646052553/json/decoder.py</url>
+          <line>354</line>
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/ImportantExmaple.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/ImportantExmaple.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="493" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="tokenizer.encode(i, add_special_tokens=True)" />
+        <watch expression="full_file_name" />
+        <watch expression="resolved_vocab_files.values()" />
+        <watch expression="model" />
+        <watch expression="tmp" />
+        <watch expression="np.argmin(tmp3)" />
+        <watch expression="tt" />
+        <watch expression="tmp3" />
+        <watch expression="a" />
+        <watch expression=" np.linalg.norm(a, axis=1, keepdims=True)" />
+        <watch expression="np.dot(a, b.T)" />
+        <watch expression="seg[i[0]-1]" />
+        <watch expression="i[0]" />
+        <watch expression="ner" language="Python" />
+        <watch expression="ner[0]" />
+        <watch expression="ner" />
+        <watch expression="dep" />
+        <watch expression="examples" />
+        <watch expression="features" />
+        <watch expression="example" />
+        <watch expression="start" />
+        <watch expression="zip(features, start, end)" />
+        <watch expression="np.where(char_to_word == feature.token_to_orig_map[s])[0][0].item()" />
+        <watch expression="char_to_word" />
+        <watch expression="inputs" />
+        <watch expression="self.context_text" />
+        <watch expression="features_list" />
+        <watch expression="kwargs[&quot;max_seq_len&quot;]" />
+        <watch expression="encoded_dict" language="Python" />
+        <watch expression="text" />
+        <watch expression="tokenizer" />
+        <watch expression="text_pair" />
+        <watch expression="example.question_text" />
+        <watch expression="encoded_dict" />
+        <watch expression=" self.scan_once(s, idx)" />
+        <watch expression="self.scan_once(s, idx)" />
+        <watch expression="s" />
+        <watch expression="encoding" />
+        <watch expression="outputs" />
+        <watch expression="logits" />
+        <watch expression="logits.split(1, dim=-1)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fairseq_gec$23232.coverage" NAME="23232 Coverage Results" MODIFIED="1597728150090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2132321.coverage" NAME="2132321 Coverage Results" MODIFIED="1594682810561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111.coverage" NAME="1111111 Coverage Results" MODIFIED="1597318221795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianghua" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$selium__1_.coverage" NAME="成功selium (1) Coverage Results" MODIFIED="1592960179243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp$tokenization_ctrl.coverage" NAME="tokenization_ctrl经典的bpe算法教学版 Coverage Results" MODIFIED="1596189975164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$Unittests_for_66666666_TestClass_test_case2.coverage" NAME="Unittests for 66666666.TestClass.test_case2 Coverage Results" MODIFIED="1592956791878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$Doctests_in_filter.coverage" NAME="Doctests in filter Coverage Results" MODIFIED="1594952028511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/textfilter" />
+    <SUITE FILE_PATH="coverage/nlp$train__2_.coverage" NAME="train (2) Coverage Results" MODIFIED="1595819038645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch最原始的版本--上课专用版" />
+    <SUITE FILE_PATH="coverage/nlp$run_language_modeling.coverage" NAME="run_language_modeling Coverage Results" MODIFIED="1595997166744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1592955876362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2__1_.coverage" NAME="装饰器实用2修饰器带参数 (1) Coverage Results" MODIFIED="1597197522128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$222222222222.coverage" NAME="222222222222 Coverage Results" MODIFIED="1597799212715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$344234.coverage" NAME="344234 Coverage Results" MODIFIED="1592958307853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$example01.coverage" NAME="example01 Coverage Results" MODIFIED="1597485604026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$langconv.coverage" NAME="langconv Coverage Results" MODIFIED="1594902961545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/nstools/zhtools" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$3434343__1_.coverage" NAME="3434343 (1) Coverage Results" MODIFIED="1594108565431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/垃圾" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bertChineseVec.coverage" NAME="bertChineseVec Coverage Results" MODIFIED="1597725635625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$3434343.coverage" NAME="3434343 Coverage Results" MODIFIED="1594107116702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/laji" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111111111111111.coverage" NAME="1111111111111111111 Coverage Results" MODIFIED="1593418712716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/888888888888888888888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$seq2labels_model.coverage" NAME="seq2labels_model Coverage Results" MODIFIED="1594179342575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/gector" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune_latest2.coverage" NAME="train_finetune_latest2 Coverage Results" MODIFIED="1594630084486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess2.coverage" NAME="preprocess2 Coverage Results" MODIFIED="1594945413037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$213213__1_.coverage" NAME="213213 (1) Coverage Results" MODIFIED="1596930372641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句法依存分析/句子分析" />
+    <SUITE FILE_PATH="coverage/nlp$kkk.coverage" NAME="kkk Coverage Results" MODIFIED="1595514152420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/attention-is-all-you-need-pytorch-master88888888latest" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$mini_imagenet.coverage" NAME="mini_imagenet Coverage Results" MODIFIED="1596765442392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master/data" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$main.coverage" NAME="main Coverage Results" MODIFIED="1597634490947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/服务器网页展示" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$21321312.coverage" NAME="21321312 Coverage Results" MODIFIED="1596799174869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$23213.coverage" NAME="23213 Coverage Results" MODIFIED="1597284306814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/区块链" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$example02.coverage" NAME="example02 Coverage Results" MODIFIED="1597485385418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example" />
+    <SUITE FILE_PATH="coverage/nlp$train_finetune_latest3.coverage" NAME="train_finetune_latest3 Coverage Results" MODIFIED="1595302055470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$cythonma__1_.coverage" NAME="使用cython来进行ma算法究极加速 (1) Coverage Results" MODIFIED="1597319464551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$222222222222222.coverage" NAME="222222222222222 Coverage Results" MODIFIED="1596440972399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$12321321.coverage" NAME="12321321 Coverage Results" MODIFIED="1597379521739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$c__1_.coverage" NAME="c (1) Coverage Results" MODIFIED="1593220069190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$565645645.coverage" NAME="565645645 Coverage Results" MODIFIED="1597225162455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$213213kgqa.coverage" NAME="213213成熟的一套kg解决qa的方案 Coverage Results" MODIFIED="1597743300423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/句法依存分析和kg的方案/句子分析" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$a.coverage" NAME="a Coverage Results" MODIFIED="1594741930223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/889" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bert4keras_extract_feature.coverage" NAME="bert4keras_extract_feature Coverage Results" MODIFIED="1597721167191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用/albert-vec-support" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$99999999999.coverage" NAME="99999999999 Coverage Results" MODIFIED="1592745238853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_single3.coverage" NAME="train_single3 Coverage Results" MODIFIED="1596449038418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$errorifier.coverage" NAME="errorifier Coverage Results" MODIFIED="1594030640827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/333/PIE-master/errorify" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$prepare_data.coverage" NAME="prepare_data Coverage Results" MODIFIED="1596442716113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
+    <SUITE FILE_PATH="coverage/nlp$11111111111.coverage" NAME="11111111111 Coverage Results" MODIFIED="1595510253571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils_for_bert翻译峰哥" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$hello_pyx.coverage" NAME="hello.pyx Coverage Results" MODIFIED="1597319449746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$loading_all_dict.coverage" NAME="loading_all_dict Coverage Results" MODIFIED="1594033338935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils2/errorify" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$432423.coverage" NAME="432423 Coverage Results" MODIFIED="1593180292402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$models.coverage" NAME="models Coverage Results" MODIFIED="1597049794040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
+    <SUITE FILE_PATH="coverage/nlp$train.coverage" NAME="train Coverage Results" MODIFIED="1595730551033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest-fixed_by_vocab" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$generate.coverage" NAME="generate Coverage Results" MODIFIED="1594774655133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/GPT2-Chinese-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$213213.coverage" NAME="213213 Coverage Results" MODIFIED="1596928778949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句法依存分析/222222222222" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$8888888888.coverage" NAME="8888888888 Coverage Results" MODIFIED="1597817300938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$44444444.coverage" NAME="44444444 Coverage Results" MODIFIED="1593181138787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$test3333.coverage" NAME="test3333 Coverage Results" MODIFIED="1593419526583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/nlp$213123.coverage" NAME="213123 Coverage Results" MODIFIED="1595225852784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111__1_.coverage" NAME="使用cython来进行ma算法究极加速 Coverage Results" MODIFIED="1597319394535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
+    <SUITE FILE_PATH="coverage/nlp$translate.coverage" NAME="translate Coverage Results" MODIFIED="1595514756205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/attention-is-all-you-need-pytorch-master88888888latest" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$demo.coverage" NAME="demo Coverage Results" MODIFIED="1597049199234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$pytorch_generation.coverage" NAME="pytorch_generation Coverage Results" MODIFIED="1596295999178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$676575675.coverage" NAME="676575675 Coverage Results" MODIFIED="1592958600407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train.coverage" NAME="train Coverage Results" MODIFIED="1597213296277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gat网络/pyGAT-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_single3__1_.coverage" NAME="train_single3 (1) Coverage Results" MODIFIED="1596504600508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
+    <SUITE FILE_PATH="coverage/nlp$1111111111111.coverage" NAME="1111111111111 Coverage Results" MODIFIED="1595818368208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/传统方法做nlg" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$pre_data_byOnlyOneBook.coverage" NAME="pre_data_byOnlyOneBook Coverage Results" MODIFIED="1596441074461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_facenet.coverage" NAME="train_facenet Coverage Results" MODIFIED="1596979513708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$3434343434.coverage" NAME="3434343434 Coverage Results" MODIFIED="1594178265422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils" />
+    <SUITE FILE_PATH="coverage/nlp$stanza.coverage" NAME="stanza切分句子算法 Coverage Results" MODIFIED="1595230419442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111111.coverage" NAME="1111111111 Coverage Results" MODIFIED="1597558635357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$albertkg.coverage" NAME="albert加kg Coverage Results" MODIFIED="1597724187144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/nlp$kmp_for_array.coverage" NAME="kmp_for_array Coverage Results" MODIFIED="1595822352671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmp" />
+    <SUITE FILE_PATH="coverage/nlp$bpe.coverage" NAME="研究一下bpe Coverage Results" MODIFIED="1596108497083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bpe算法" />
+    <SUITE FILE_PATH="coverage/nlp$2111111111111111111.coverage" NAME="2111111111111111111 Coverage Results" MODIFIED="1595779072032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils_for_bert翻译峰哥" />
+    <SUITE FILE_PATH="coverage/nlp$run_generation__2__for_ctrl__2_.coverage" NAME="run_generation (2)_for_ctrl (2) Coverage Results" MODIFIED="1596190007707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune_latest.coverage" NAME="train_finetune_latest Coverage Results" MODIFIED="1593414566353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$predict2222.coverage" NAME="predict2222 Coverage Results" MODIFIED="1592551418359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bert_token_embedder.coverage" NAME="bert_token_embedder Coverage Results" MODIFIED="1594002607429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/gector" />
+    <SUITE FILE_PATH="coverage/nlp$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1595818871451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest-vocab2" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1point4kg.coverage" NAME="1point4亿的kg读取 Coverage Results" MODIFIED="1597535442099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/句法依存分析和kg的方案/句子分析" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$run_secret_sharing_vertically_linear_regression.coverage" NAME="run_secret_sharing_vertically_linear_regression Coverage Results" MODIFIED="1592439994168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Secret-sharing-based_2PC_vertical_fed_learning" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train2byZhang.coverage" NAME="train2byZhang Coverage Results" MODIFIED="1596765501835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2.coverage" NAME="huizong修改为词向量 Coverage Results" MODIFIED="1597734643864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bert.coverage" NAME="bert做词向量 Coverage Results" MODIFIED="1597725192942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$pre_data.coverage" NAME="pre_data Coverage Results" MODIFIED="1596430657556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$56565656.coverage" NAME="56565656 Coverage Results" MODIFIED="1596378182552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp$.coverage" NAME="迭代器读取 Coverage Results" MODIFIED="1595584730341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$download_gdrive.coverage" NAME="download_gdrive Coverage Results" MODIFIED="1597051229980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/下载google盘" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$mtcnn_infer.coverage" NAME="mtcnn_infer Coverage Results" MODIFIED="1596967677873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$infer_my.coverage" NAME="infer_my Coverage Results" MODIFIED="1597048732810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
+    <SUITE FILE_PATH="coverage/nlp$run_generation__2__for_ctrl__1_.coverage" NAME="run_generation (2)_for_ctrl (1) Coverage Results" MODIFIED="1596163485667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune.coverage" NAME="train_finetune Coverage Results" MODIFIED="1593411371905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/nlp$nltk__1_.coverage" NAME="nltk句子分割算法 (1) Coverage Results" MODIFIED="1595225966266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
+    <SUITE FILE_PATH="coverage/nlp$21321312.coverage" NAME="21321312 Coverage Results" MODIFIED="1595922153727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta/commonsense_qa" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$c.coverage" NAME="c Coverage Results" MODIFIED="1594741838162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/889" />
+    <SUITE FILE_PATH="coverage/nlp$generate_samples_gpt2.coverage" NAME="generate_samples_gpt2 Coverage Results" MODIFIED="1595321402584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/Megatron-LM-master/tools" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$encode.coverage" NAME="encode Coverage Results" MODIFIED="1594781664408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1594944823635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/nlp$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1595729866587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu__1_.coverage" NAME="train_tpu (1) Coverage Results" MODIFIED="1596535343522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/trainP" />
+    <SUITE FILE_PATH="coverage/nlp$1232312.coverage" NAME="1232312 Coverage Results" MODIFIED="1595926202258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$predict.coverage" NAME="predict Coverage Results" MODIFIED="1594217541813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1594943916206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/nlp$run_generation.coverage" NAME="run_generation Coverage Results" MODIFIED="1596014601275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/text-generation" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$training.coverage" NAME="training Coverage Results" MODIFIED="1596360390673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/training_utils" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$9898.coverage" NAME="9898 Coverage Results" MODIFIED="1593219765175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
+    <SUITE FILE_PATH="coverage/nlp$111__1_.coverage" NAME="111 (1) Coverage Results" MODIFIED="1596033324528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$111111111.coverage" NAME="111111111 Coverage Results" MODIFIED="1597195243060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$encode_my.coverage" NAME="encode_my Coverage Results" MODIFIED="1594688004652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
+    <SUITE FILE_PATH="coverage/nlp$run_glue_with_pabee.coverage" NAME="run_glue_with_pabee Coverage Results" MODIFIED="1595464242647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/bert-loses-patience" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2.coverage" NAME="装饰器实用2 Coverage Results" MODIFIED="1597197467031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$test66666666666666666666666666.coverage" NAME="test66666666666666666666666666 Coverage Results" MODIFIED="1594873713363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MPNet-master/pretraining" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$11111111111111111.coverage" NAME="11111111111111111 Coverage Results" MODIFIED="1594947623040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111111albert__1_.coverage" NAME="1111111111albert训练 (1) Coverage Results" MODIFIED="1597651960362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess_data.coverage" NAME="preprocess_data Coverage Results" MODIFIED="1593352067650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$21321321312.coverage" NAME="21321321312 Coverage Results" MODIFIED="1597816833036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$utils.coverage" NAME="utils Coverage Results" MODIFIED="1597048708471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master/tool" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$finetune.coverage" NAME="finetune词向量模型 Coverage Results" MODIFIED="1597737891238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$b.coverage" NAME="b Coverage Results" MODIFIED="1593014156848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess_by_me_test.coverage" NAME="preprocess_by_me_test Coverage Results" MODIFIED="1597472993265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bert__1_.coverage" NAME="bert做词向量 (1) Coverage Results" MODIFIED="1597724055939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$333333333333.coverage" NAME="333333333333 Coverage Results" MODIFIED="1592282921503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$error.coverage" NAME="error Coverage Results" MODIFIED="1592446924160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/333/PIE-master/errorify" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$a__1_.coverage" NAME="a (1) Coverage Results" MODIFIED="1593217385930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
+    <SUITE FILE_PATH="coverage/nlp$222222222222222222222.coverage" NAME="set_helper Coverage Results" MODIFIED="1595233665964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2/utils" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$pytest_in_train_extractive_py.coverage" NAME="pytest in train_extractive.py Coverage Results" MODIFIED="1596356423394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu__2_.coverage" NAME="train_tpu (2) Coverage Results" MODIFIED="1596536348749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master" />
+    <SUITE FILE_PATH="coverage/nlp$2222222222222222.coverage" NAME="2222222222222222 Coverage Results" MODIFIED="1595234286216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2/utils" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$8888888888888.coverage" NAME="8888888888888 Coverage Results" MODIFIED="1592553578480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/nlp$111.coverage" NAME="111 Coverage Results" MODIFIED="1595955952628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2222222222222222222.coverage" NAME="2222222222222222222 Coverage Results" MODIFIED="1593181210031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_My.coverage" NAME="train_My Coverage Results" MODIFIED="1597479209239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$pre_data_byOnlyOneBook__1_.coverage" NAME="pre_data_byOnlyOneBook (1) Coverage Results" MODIFIED="1596504555455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train2byZhangcpu.coverage" NAME="train2byZhangcpu Coverage Results" MODIFIED="1596765711715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$11111111.coverage" NAME="11111111 Coverage Results" MODIFIED="1597301859157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/区块链" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong.coverage" NAME="huizong Coverage Results" MODIFIED="1597744804162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$eval_lm.coverage" NAME="eval_lm Coverage Results" MODIFIED="1594801149907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/fairseq_cli" />
+    <SUITE FILE_PATH="coverage/nlp$preprocess__1_.coverage" NAME="preprocess (1) Coverage Results" MODIFIED="1595727970690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/latest-fixed_by_vocab" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu.coverage" NAME="train_tpu Coverage Results" MODIFIED="1596535260711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/train" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$build_graph.coverage" NAME="build_graph Coverage Results" MODIFIED="1596792048131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/QASystemOnMedicalGraph" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="qa2 Coverage Results" MODIFIED="1597816140199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$predictfacenet.coverage" NAME="predictfacenet Coverage Results" MODIFIED="1596968961324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1.coverage" NAME="装饰器实用1 Coverage Results" MODIFIED="1597197368575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1595118406055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/bart" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$888888888889999999999.coverage" NAME="888888888889999999999 Coverage Results" MODIFIED="1593182883586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$213213kgqa__1_.coverage" NAME="213213成熟的一套kg解决qa的方案 (1) Coverage Results" MODIFIED="1596931768317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句法依存分析/句子分析" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong__1_.coverage" NAME="huizong修改为词向量 (1) Coverage Results" MODIFIED="1597738293920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train3.coverage" NAME="train3 Coverage Results" MODIFIED="1594944035491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune_latest3.coverage" NAME="train_finetune_latest3 Coverage Results" MODIFIED="1594640812480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
+    <SUITE FILE_PATH="coverage/nlp$222222222222222.coverage" NAME="222222222222222 Coverage Results" MODIFIED="1595725011504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/latest-fixed_by_vocab" />
+    <SUITE FILE_PATH="coverage/nlp$predict.coverage" NAME="predict Coverage Results" MODIFIED="1595302213208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$qa______________.coverage" NAME="qa使用范例!!!!!!!!!!!!!! Coverage Results" MODIFIED="1597805361080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/nlp$2312312.coverage" NAME="2312312 Coverage Results" MODIFIED="1595213173126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp$2312321.coverage" NAME="2312321 Coverage Results" MODIFIED="1595819682503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmp" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$22222albert.coverage" NAME="22222albert Coverage Results" MODIFIED="1597654519196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$predict__1_.coverage" NAME="predict (1) Coverage Results" MODIFIED="1594640858475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$.coverage" NAME="学学量化的文档 Coverage Results" MODIFIED="1597317108173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$22222222222222222.coverage" NAME="22222222222222222 Coverage Results" MODIFIED="1592558634744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp$roberta.coverage" NAME="roberta模型的调用 Coverage Results" MODIFIED="1595922750528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta/commonsense_qa" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$12121.coverage" NAME="12121 Coverage Results" MODIFIED="1597678563987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/句法依存分析和kg的方案/句子分析" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_single4OnlyRunThis.coverage" NAME="train_single4OnlyRunThis Coverage Results" MODIFIED="1596525507454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$7878787.coverage" NAME="7878787 Coverage Results" MODIFIED="1593397641945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$Unittests_for_66666666_TestClass.coverage" NAME="Unittests for 66666666.TestClass Coverage Results" MODIFIED="1592956892777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp$run_generation__2_.coverage" NAME="run_generation (2) Coverage Results" MODIFIED="1596036563795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$filter.coverage" NAME="filter Coverage Results" MODIFIED="1594952906912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/textfilter" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$encode_my2.coverage" NAME="encode_my2 Coverage Results" MODIFIED="1594856980021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/摘要算法" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$make_tf_records.coverage" NAME="make_tf_records Coverage Results" MODIFIED="1596328408486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/training_utils" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$666666666.coverage" NAME="666666666 Coverage Results" MODIFIED="1592367329537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$222222222222222222222222.coverage" NAME="222222222222222222222222 Coverage Results" MODIFIED="1592550406117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$ImportantExmaple.coverage" NAME="ImportantExmaple Coverage Results" MODIFIED="1597824297416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/nlp$pytorch_generation.coverage" NAME="pytorch_generation Coverage Results" MODIFIED="1596202766682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$22222222222.coverage" NAME="22222222222 Coverage Results" MODIFIED="1592958178606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$albertqa.coverage" NAME="用albert做qa Coverage Results" MODIFIED="1597794881498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究qa" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$generateByme.coverage" NAME="generateByme Coverage Results" MODIFIED="1596533106763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$predict_my.coverage" NAME="predict_my Coverage Results" MODIFIED="1597068060282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
+  </component>
+</project>

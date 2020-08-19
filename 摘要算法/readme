@@ -1,0 +1,153 @@
+
+
+
+
+1.https://cs.nyu.edu/~kcho/DMQA/          下载数据.
+下载里面的story, 作为我们的数据集
+
+1.先用encode_my2.py进行tokenize
+
+
+
+2. 然后我们看如何进行preprocess
+
+
+'''
+fairseq-preprocess \
+    --user-dir mass --task masked_s2s \
+    --source-lang src --target-lang tgt \
+    --trainpref cnndm/para/train --validpref cnndm/para/valid --testpref cnndm/para/test \
+    --destdir cnndm/processed --srcdict dict.txt --tgtdict dict.txt \
+    --workers 20
+'''
+
+一份binary数据可以下载.
+https://modelrelease.blob.core.windows.net/mass/cnndm.tar.gz
+这个数据是上面这个preprocess运行之后得到的结果.
+
+
+里面dict是在mass-base-uncased.tar.gz 里面.
+我存到了mass_data/dict.txt里面
+
+
+
+
+
+
+3. 训练任务有2个        一个是transformer_mass   一个是masked_s2s
+
+
+#这个代码通了.........必须先跑这个,来生成checkpoint.pt这个东西才行.
+fairseq-train /55 \
+    --user-dir mass --task translation_mass --arch transformer_mass_base \
+    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm 0.0 \
+    --lr 0.0005 --min-lr 1e-09 \
+    --lr-scheduler inverse_sqrt --warmup-init-lr 1e-07 --warmup-updates 4000 \
+    --weight-decay 0.0 \
+    --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
+    --update-freq 8 --max-tokens 4096 \
+    --ddp-backend=no_c10d --max-epoch 0 \
+    --max-sentences=1 \
+    --max-source-positions 512 --max-target-positions 512 \
+    --skip-invalid-size-inputs-valid-test \
+    --load-from-pretrained-model /mass_data/mass-base-uncased.pt  \
+     --cpu \
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Restore the results to the word-level data by using sed 's/ ##//g'
+
+
+xxxxxx
+
+
+研究一下fairseq-generate里面的参数意义:
+首先通过task,连接到任务,然后调用任务里面的
+   task = tasks.setup_task(args)
+    task.load_dataset(args.gen_subset)         //load_dataset
+
+
+
+
+fairseq-generate /55 --path /mass_data/mass-base-uncased.pt  \
+    --user-dir mass --task translation_mass \
+    --batch-size 64 --beam 5 --min-len 50 --no-repeat-ngram-size 3 \
+    --lenpen 1.0 \
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MODEL=/mass_data/mass-base-uncased.pt
+$DATADIR=/1
+fairseq-generate $DATADIR --path $MODEL \
+    --user-dir mass --task translation_mass \
+    --batch-size 64 --beam 5 --min-len 50 --no-repeat-ngram-size 3 \
+    --lenpen 1.0 /2
+
+
+
+
+
+
+    # 先inference看看, 能跑通不.
+    # 找到了fairseq 的cmd 位置. 在fairseq_cli 里面.
+    #这库包太牛逼了. 需要读读里面的源码.
+
+
+
+
+
+
+
+
+
+MODEL=/mass_data/mass-base-uncased.pt
+$DATADIR=/1
+fairseq-interactive $DATADIR --path $MODEL \
+    --user-dir mass --task translation_mass \
+    --batch-size 64 --beam 5 --min-len 50 --no-repeat-ngram-size 3 \
+    --lenpen 1.0 /1
+    --tokenizer moses
+
+
+
+fairseq-interactive \
+    --path $MODEL_DIR/model.pt $MODEL_DIR \
+    --beam 5 --source-lang en --target-lang fr \
+    --tokenizer moses \
+    --bpe subword_nmt --bpe-codes $MODEL_DIR/bpecodes
+
+
+
+fairseq-preprocess \
+    --user-dir mass --task masked_s2s \
+    --source-lang src --target-lang tgt \
+    --trainpref cnndm/para/train --validpref cnndm/para/valid --testpref cnndm/para/test \
+    --destdir cnndm/processed --srcdict dict.txt --tgtdict dict.txt \
+    --workers 20

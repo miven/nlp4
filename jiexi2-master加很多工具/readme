@@ -1,0 +1,88 @@
+安装
+sh 部署安装脚本.sh
+运行
+python python自动化运行.py
+
+
+2019-08-20,11点10
+2019-08-20,11点10
+10.0.0.33
+
+
+root
+Root135!
+
+
+
+
+pdf-------返回txt
+html-----返回html和txt
+doc------返回txt和html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bushu:
+
+
+代码编译之后会进入这个文件夹中.
+/export/Instances/nlp/0.nlp/runtime
+
+
+
+
+
+
+
+
+2019-08-27,16点55
+
+上线完成后:
+1.代码用pycharm直接连接服务器同步代码
+2.数据库依然用ai云的mongodb服务.
+
+
+2019-08-28,13点58
+
+上线运行需要的命令
+python python自动化运行.py >> /dev/null 2>&1 &
+这样就保证了,那些输出能正常跑,不影响服务运行.
+
+python python自动化运行.py >> /dev/null 2>>12.txt
+
+2表示输出错误信息.下面一行也行.
+python python自动化运行.py >> /dev/null 2>>12.txt
+
+发布代码:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+scp -r  nlp 192.168.32.14:/test5
+
+
+
+
+优化代码:
+把所有数据都放到类的静态变量里面,这样读取速度变成冲内存读取,速度变快了.
+
+
+
+
+2019-09-23,13点19
+处理linux 解析doc的问题:
+https://stackoverflow.com/questions/52277264/convert-doc-to-docx-using-soffice-not-working
+
+
+具体就是:
+1.yum install libreoffice
+2.soffice --headless --convert-to docx   2.doc
+

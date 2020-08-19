@@ -1,0 +1,8 @@
+https://www.cnblogs.com/jclian91/p/10865377.html
+
+如果权限不够就chmod 777 arq 即可.
+
+
+然后输入arq --data ex002.ttl --query ex003.rq   就出结果了.
+
+

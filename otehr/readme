@@ -1,0 +1,39 @@
+'''
+爬取http://en.youth.cn/TopStoroes/
+'''
+
+# 这个项目必须在tutorial外面再套一层文件夹.
+教程:
+https://www.jianshu.com/p/cecb29c04cd2
+爬虫如何获得 js 运行过后的html代码
+https://www.oschina.net/question/1241680_121378?sort=time
+
+
+所以使用selenium+phantomjs来进行无界面抓取
+
+
+from selenium import webdriver
+c = webdriver.Chrome()
+c.get('http://news.sina.com.cn/c/2013-07-11/175827642839.shtml')
+comment = c.find_element_by_id('media_comment')
+count = comment.find_element_by_class_name('f_red')
+count.text
+
+作者：匿名用户
+链接：https://www.zhihu.com/question/21332889/answer/17918798
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+下载chromedriver
+http://npm.taobao.org/mirrors/chromedriver/
+
+打开chrome 输入 “chrome://version/”来查看chrome版本 如图我的是63
+
+https://blog.csdn.net/weixin_43746433/article/details/95237254
+
+
+
+
+
+

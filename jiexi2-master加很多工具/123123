@@ -1,0 +1,1 @@
+nohup python manage.py runserver 0:8082 & ;nohup python manage.py runserver 0:8083 &;

@@ -1,0 +1,25 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2020-04-21T15:33:27.502Z] GhostDriver - Main - running on port 51269
+[INFO  - 2020-04-21T15:33:30.156Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - _decorateNewWindow - page.settings: {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.2 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2020-04-21T15:33:30.156Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - page.customHeaders:  - {}
+[INFO  - 2020-04-21T15:33:30.156Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - CONSTRUCTOR - Desired Capabilities: {"browserName":"phantomjs","version":"","platform":"ANY","javascriptEnabled":true}
+[INFO  - 2020-04-21T15:33:30.156Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - CONSTRUCTOR - Negotiated Capabilities: {"browserName":"phantomjs","version":"1.9.2","driverName":"ghostdriver","driverVersion":"1.0.4","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-04-21T15:33:30.156Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 73c91990-83e5-11ea-b6d6-05b6b497fbe7
+[ERROR - 2020-04-21T15:33:30.690Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - Page at 'http://en.youth.cn/TopStoroes/' - Console Error (msg): SyntaxError: Parse error
+[ERROR - 2020-04-21T15:33:30.690Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - Page at 'http://en.youth.cn/TopStoroes/' - Console Error (stack): []
+[ERROR - 2020-04-21T15:33:30.754Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - Page at 'http://en.youth.cn/TopStoroes/' - Console Error (msg): ReferenceError: Can't find variable: jQuery
+[ERROR - 2020-04-21T15:33:30.754Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - Page at 'http://en.youth.cn/TopStoroes/' - Console Error (stack): [
+  {
+    "file": "http://news.youth.cn/images/jquery.cookie.js",
+    "line": 1,
+    "function": ""
+  }
+]
+[ERROR - 2020-04-21T15:33:30.827Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - Page at 'http://en.youth.cn/TopStoroes/' - Console Error (msg): ReferenceError: Can't find variable: $
+[ERROR - 2020-04-21T15:33:30.827Z] Session [73c91990-83e5-11ea-b6d6-05b6b497fbe7] - Page at 'http://en.youth.cn/TopStoroes/' - Console Error (stack): [
+  {
+    "file": "http://m.youth.cn/images/youthVideo-min.1.0.js?20190303",
+    "line": 1,
+    "function": ""
+  }
+]

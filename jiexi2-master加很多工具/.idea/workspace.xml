@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a823fb0-3455-4d19-a825-371093b33f3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/master/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/master/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="new" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="8c80f6f2bc5736b0ba81c164c73fad850a9f202b" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Qe4HofMlLeLpnlt4a8fB6YJ3ia" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.folder" value="C:/nlp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zhangbo340\PycharmProjects\nlp333\这个文件夹用来存一个相关的项目包可以作为工具来使用\处理数据" />
+      <recent name="C:\Users\zhangbo340\PycharmProjects\nlp333" />
+      <recent name="C:\Users\zhangbo340\PycharmProjects\nlp333\solveDoc" />
+      <recent name="C:\Users\zhangbo340\PycharmProjects\nlp333\处理doc问题" />
+      <recent name="C:\政策云\nlp\这个文件夹用来存一个相关的项目包可以作为工具来使用\处理数据" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\policy\tutorial\23\new\这个文件夹用来存一个相关的项目包可以作为工具来使用" />
+      <recent name="C:\policy\tutorial\23\new" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.python自动化运行">
+    <configuration name="爬取数据最新10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据/爬取数据最新10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2222222222222" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据/2222222222222.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="232321213213899" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/word2vec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/word2vec/232321213213899.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取数据最新8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据/爬取数据最新8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python自动化运行" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="new" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python自动化运行.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.python自动化运行" />
+        <item itemvalue="Python.232321213213899" />
+        <item itemvalue="Python.2222222222222" />
+        <item itemvalue="Python.爬取数据最新10" />
+        <item itemvalue="Python.爬取数据最新8" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a823fb0-3455-4d19-a825-371093b33f3b" name="Default Changelist" comment="" />
+      <created>1565611448501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565611448501</updated>
+      <workItem from="1565611450054" duration="4094000" />
+      <workItem from="1565663716151" duration="132000" />
+      <workItem from="1565680667201" duration="46596000" />
+      <workItem from="1565851257749" duration="3624000" />
+      <workItem from="1565857595623" duration="452000" />
+      <workItem from="1565859135248" duration="259000" />
+      <workItem from="1565859770027" duration="552000" />
+      <workItem from="1565861102736" duration="921000" />
+      <workItem from="1565864430891" duration="1717000" />
+      <workItem from="1565926921131" duration="1915000" />
+      <workItem from="1565940332849" duration="1279000" />
+      <workItem from="1565947449992" duration="329000" />
+      <workItem from="1565947845477" duration="48435000" />
+      <workItem from="1566204496541" duration="312000" />
+      <workItem from="1566211366510" duration="17950000" />
+      <workItem from="1566290653926" duration="616000" />
+      <workItem from="1566298727743" duration="24598000" />
+      <workItem from="1566444224262" duration="26283000" />
+      <workItem from="1566546624743" duration="11637000" />
+      <workItem from="1566626120327" duration="67035000" />
+      <workItem from="1566905079966" duration="87194000" />
+      <workItem from="1568114361740" duration="803000" />
+      <workItem from="1568115211102" duration="84000" />
+      <workItem from="1568115387099" duration="162000" />
+      <workItem from="1568115621781" duration="15000" />
+      <workItem from="1568116395162" duration="431000" />
+      <workItem from="1568116849867" duration="502000" />
+      <workItem from="1568117650023" duration="11878000" />
+      <workItem from="1568174277369" duration="64000" />
+      <workItem from="1568344208078" duration="967000" />
+      <workItem from="1568356602118" duration="13000" />
+      <workItem from="1568357698988" duration="628000" />
+      <workItem from="1568358448154" duration="628000" />
+      <workItem from="1568604302155" duration="8531000" />
+      <workItem from="1568621305920" duration="90000" />
+      <workItem from="1568621517801" duration="11000" />
+      <workItem from="1568635327630" duration="3391000" />
+      <workItem from="1568690385895" duration="3565000" />
+      <workItem from="1568726348792" duration="1025000" />
+      <workItem from="1568800696987" duration="151000" />
+      <workItem from="1568800873239" duration="140000" />
+      <workItem from="1568889202961" duration="671000" />
+      <workItem from="1568894311514" duration="1208000" />
+      <workItem from="1568950371115" duration="14328000" />
+      <workItem from="1569048803283" duration="175000" />
+      <workItem from="1569050346707" duration="1402000" />
+      <workItem from="1569207201868" duration="7263000" />
+      <workItem from="1569292679268" duration="1938000" />
+      <workItem from="1569319769142" duration="623000" />
+      <workItem from="1569382246523" duration="1836000" />
+      <workItem from="1569407694704" duration="2067000" />
+      <workItem from="1569586333405" duration="815000" />
+      <workItem from="1570532656519" duration="7792000" />
+      <workItem from="1570696340636" duration="3490000" />
+      <workItem from="1570795036771" duration="2249000" />
+      <workItem from="1570864834574" duration="2180000" />
+      <workItem from="1570876342063" duration="6000" />
+      <workItem from="1570876517190" duration="307000" />
+      <workItem from="1571062453287" duration="615000" />
+      <workItem from="1571221842215" duration="4315000" />
+      <workItem from="1571316373711" duration="325000" />
+      <workItem from="1571643388928" duration="3189000" />
+      <workItem from="1571888896266" duration="701000" />
+      <workItem from="1571913609495" duration="32000" />
+      <workItem from="1573701637315" duration="11832000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="C:/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/someUtils/langid.py/langid/examples/process_twitter.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/apps/word2vec/views.py</url>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="candidates" />
+        <watch expression="cost" />
+        <watch expression="reversed(cost[max(0, i-self._maxword):i])" />
+        <watch expression="cost[max(0, i-self._maxword):i]" />
+        <watch expression="s[i-k-1:i]" />
+        <watch expression=" k,c" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/new$2321.coverage" NAME="2321 Coverage Results" MODIFIED="1566299833092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/master" />
+    <SUITE FILE_PATH="coverage/nlp$34543534.coverage" NAME="34543534 Coverage Results" MODIFIED="1566467356688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/nlp$1231.coverage" NAME="1231 Coverage Results" MODIFIED="1566905738176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据/html转txt" />
+    <SUITE FILE_PATH="coverage/new$process_twitter.coverage" NAME="process_twitter Coverage Results" MODIFIED="1566103938470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/langid.py/langid/examples" />
+    <SUITE FILE_PATH="coverage/new$chconv.coverage" NAME="chconv Coverage Results" MODIFIED="1566119085045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/nstools/zhtools" />
+    <SUITE FILE_PATH="coverage/nlp$56556.coverage" NAME="56556 Coverage Results" MODIFIED="1567159256543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <SUITE FILE_PATH="coverage/nlp$11112121.coverage" NAME="11112121 Coverage Results" MODIFIED="1567060855310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/new$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1566120652657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/wordninja" />
+    <SUITE FILE_PATH="coverage/new$Unittests_in_chconv_py.coverage" NAME="Unittests in chconv.py Coverage Results" MODIFIED="1566117147466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/nstools/zhtools" />
+    <SUITE FILE_PATH="coverage/nlp333$2222222222222.coverage" NAME="2222222222222 Coverage Results" MODIFIED="1571281040734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <SUITE FILE_PATH="coverage/new$_twokenize.coverage" NAME="_twokenize Coverage Results" MODIFIED="1566102939249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/langid.py/langid/examples" />
+    <SUITE FILE_PATH="coverage/nlp$paqu.coverage" NAME="paqu Coverage Results" MODIFIED="1566557166739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据2" />
+    <SUITE FILE_PATH="coverage/nlp$dsf.coverage" NAME="dsf Coverage Results" MODIFIED="1566625478415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/new$views__1_.coverage" NAME="views (1) Coverage Results" MODIFIED="1566390367609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/new$rake.coverage" NAME="rake Coverage Results" MODIFIED="1566114486579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/cocoNLP/build/lib/cocoNLP" />
+    <SUITE FILE_PATH="coverage/new$32423.coverage" NAME="32423 Coverage Results" MODIFIED="1566103781000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/langid.py/langid/examples" />
+    <SUITE FILE_PATH="coverage/new$wordninja.coverage" NAME="wordninja Coverage Results" MODIFIED="1566123537470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/wordninja" />
+    <SUITE FILE_PATH="coverage/nlp333$1.coverage" NAME="1 Coverage Results" MODIFIED="1569216730084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solveDoc" />
+    <SUITE FILE_PATH="coverage/nlp$.coverage" NAME="爬取数据最新 Coverage Results" MODIFIED="1568614944197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <SUITE FILE_PATH="coverage/new$f.coverage" NAME="f Coverage Results" MODIFIED="1566047442222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用" />
+    <SUITE FILE_PATH="coverage/new$views.coverage" NAME="views Coverage Results" MODIFIED="1566303193408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/master" />
+    <SUITE FILE_PATH="coverage/new$.coverage" NAME="顺丰大厦 Coverage Results" MODIFIED="1566113865477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/cocoNLP/build/lib/cocoNLP" />
+    <SUITE FILE_PATH="coverage/new$Unittests_for_chconv_ConverterTest_testSimpTrad.coverage" NAME="Unittests for chconv.ConverterTest.testSimpTrad Coverage Results" MODIFIED="1566116903551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/nstools/zhtools" />
+    <SUITE FILE_PATH="coverage/nlp$html.coverage" NAME="测试html解析 Coverage Results" MODIFIED="1566639206906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/nlp$23213.coverage" NAME="23213 Coverage Results" MODIFIED="1567086541806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/seq2seq-couplet" />
+    <SUITE FILE_PATH="coverage/nlp$fetch_data.coverage" NAME="fetch_data Coverage Results" MODIFIED="1566908498852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据/MySQL_Connection" />
+    <SUITE FILE_PATH="coverage/new$setup.coverage" NAME="setup Coverage Results" MODIFIED="1566222820056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new$Test.coverage" NAME="Test Coverage Results" MODIFIED="1566114727329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/cocoNLP/cocoNLP/config/basic/time_nlp" />
+    <SUITE FILE_PATH="coverage/nlp333$10.coverage" NAME="爬取数据最新10 Coverage Results" MODIFIED="1570696706183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <SUITE FILE_PATH="coverage/nlp$4435.coverage" NAME="4435 Coverage Results" MODIFIED="1566968210980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/nlp$23.coverage" NAME="23 Coverage Results" MODIFIED="1568118575351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec" />
+    <SUITE FILE_PATH="coverage/new$bleu.coverage" NAME="bleu Coverage Results" MODIFIED="1566129922859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/seq2seq-couplet" />
+    <SUITE FILE_PATH="coverage/new$langid.coverage" NAME="langid Coverage Results" MODIFIED="1566101674873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/langid.py/langid" />
+    <SUITE FILE_PATH="coverage/nlp$testStatic.coverage" NAME="testStatic Coverage Results" MODIFIED="1567143851586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/nlp333$5.coverage" NAME="爬取数据最新5 Coverage Results" MODIFIED="1568726825659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <SUITE FILE_PATH="coverage/new$21212.coverage" NAME="21212 Coverage Results" MODIFIED="1566133740655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/seq2seq-couplet" />
+    <SUITE FILE_PATH="coverage/new$langconv.coverage" NAME="langconv Coverage Results" MODIFIED="1566119013794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/nstools/zhtools" />
+    <SUITE FILE_PATH="coverage/nlp$65.coverage" NAME="65 Coverage Results" MODIFIED="1566807752358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/nlp$21321312.coverage" NAME="21321312 Coverage Results" MODIFIED="1566825057002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/nlp$zip.coverage" NAME="测试zip解压乱码问题 Coverage Results" MODIFIED="1566901355783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp333$232321213213899.coverage" NAME="232321213213899 Coverage Results" MODIFIED="1573720139015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec" />
+    <SUITE FILE_PATH="coverage/nlp$2.coverage" NAME="导入数据2 Coverage Results" MODIFIED="1567156506806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <SUITE FILE_PATH="coverage/new$filter.coverage" NAME="filter Coverage Results" MODIFIED="1566100121885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/textfilter" />
+    <SUITE FILE_PATH="coverage/new$Doctests_in_NaiveFilter.coverage" NAME="Doctests in NaiveFilter Coverage Results" MODIFIED="1565762496264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/textfilter" />
+    <SUITE FILE_PATH="coverage/nlp$2321.coverage" NAME="2321 Coverage Results" MODIFIED="1568126091541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/master" />
+    <SUITE FILE_PATH="coverage/nlp$views.coverage" NAME="views Coverage Results" MODIFIED="1566963235101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/new$ftp.coverage" NAME="ftp服务 Coverage Results" MODIFIED="1566138540488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils" />
+    <SUITE FILE_PATH="coverage/nlp$4.coverage" NAME="导入数据4 Coverage Results" MODIFIED="1568604704995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <SUITE FILE_PATH="coverage/nlp$doc.coverage" NAME="测试doc Coverage Results" MODIFIED="1567046679870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/new$234324.coverage" NAME="234324 Coverage Results" MODIFIED="1565839686628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec" />
+    <SUITE FILE_PATH="coverage/new$Unittests_for_xpinyin_PinyinTestCase_test_get_pinyin.coverage" NAME="Unittests for xpinyin.PinyinTestCase.test_get_pinyin Coverage Results" MODIFIED="1566117349575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/nstools/zhtools" />
+    <SUITE FILE_PATH="coverage/new$3423.coverage" NAME="3423 Coverage Results" MODIFIED="1566390355793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/word2vec2" />
+    <SUITE FILE_PATH="coverage/nlp333$python.coverage" NAME="python自动化运行 Coverage Results" MODIFIED="1573723461246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/new$phone.coverage" NAME="phone Coverage Results" MODIFIED="1566109764061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/phone/phone" />
+    <SUITE FILE_PATH="coverage/new$Unittests_for_test_langconv_ConvertMapTest.coverage" NAME="Unittests for test_langconv.ConvertMapTest Coverage Results" MODIFIED="1566117365239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils/nstools/zhtools" />
+    <SUITE FILE_PATH="coverage/nlp333$8.coverage" NAME="爬取数据最新8 Coverage Results" MODIFIED="1569383222709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+    <SUITE FILE_PATH="coverage/new$kan_shuju.coverage" NAME="kan shuju Coverage Results" MODIFIED="1565769002698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/someUtils" />
+    <SUITE FILE_PATH="coverage/nlp333$manage.coverage" NAME="manage Coverage Results" MODIFIED="1568890320788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp$3.coverage" NAME="导入数据3 Coverage Results" MODIFIED="1567160498961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/这个文件夹用来存一个相关的项目包可以作为工具来使用/处理数据" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>candidates</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>
