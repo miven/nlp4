@@ -2,81 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/.idea/albert-vec-support.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/bert4keras_extract_feature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/freeze_TFmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/get_vec_from_http.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/model/albert_tiny_zh_google/albert_config_tiny_g.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/model/albert_tiny_zh_google/albert_model.ckpt.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/model/albert_tiny_zh_google/albert_model.ckpt.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/model/albert_tiny_zh_google/albert_model.ckpt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/model/albert_tiny_zh_google/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/model/albert_tiny_zh_google/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/output/albert_tiny_zh_google.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert-vec-support/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/albert使用/albert加kg带上albert的词向量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/.flaskenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/.idea/untitled6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/2222222222222.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/56.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/main2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/main3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/readme日常开发规范" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/run_back_for_coding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bert_wordEmbed-master/该项目运行方法" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertForVec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/.idea/albert-vec-support.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/bert4keras_extract_feature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/freeze_TFmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/get_vec_from_http.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/model/albert_tiny_zh_google/albert_config_tiny_g.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/model/albert_tiny_zh_google/albert_model.ckpt.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/model/albert_tiny_zh_google/albert_model.ckpt.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/model/albert_tiny_zh_google/albert_model.ckpt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/model/albert_tiny_zh_google/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/model/albert_tiny_zh_google/vocab.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/output/albert_tiny_zh_google.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albert加kg带上albert的词向量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert大版本.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert大版本222.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是bert官方service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/model/albert_tiny_zh_google/albert_config_tiny_g.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/model/albert_tiny_zh_google/albert_model.ckpt.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/model/albert_tiny_zh_google/albert_model.ckpt.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/model/albert_tiny_zh_google/albert_model.ckpt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/model/albert_tiny_zh_google/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/model/albert_tiny_zh_google/vocab.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fairseq-gec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fairseq-gec.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/textrank4zh/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/textrank4zh/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -426,7 +352,7 @@
       <workItem from="1597212409690" duration="49485000" />
       <workItem from="1597463380895" duration="32199000" />
       <workItem from="1597588597547" duration="88881000" />
-      <workItem from="1597851504065" duration="38132000" />
+      <workItem from="1597851504065" duration="38912000" />
     </task>
     <servers />
   </component>
@@ -505,22 +431,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="351" key="GridCell.Tab.0.bottom" timestamp="1597988361088">
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom" timestamp="1597988649368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="351" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597988361088" />
-    <state width="1237" height="351" key="GridCell.Tab.0.center" timestamp="1597988361088">
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597988649368" />
+    <state width="1237" height="181" key="GridCell.Tab.0.center" timestamp="1597988649368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="351" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597988361088" />
-    <state width="1237" height="351" key="GridCell.Tab.0.left" timestamp="1597988361087">
+    <state width="1237" height="181" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597988649368" />
+    <state width="1237" height="181" key="GridCell.Tab.0.left" timestamp="1597988649368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="351" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597988361087" />
-    <state width="1237" height="351" key="GridCell.Tab.0.right" timestamp="1597988361088">
+    <state width="1237" height="181" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597988649368" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right" timestamp="1597988649368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="351" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597988361088" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597988649368" />
     <state width="1237" height="188" key="GridCell.Tab.1.bottom" timestamp="1597987976096">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
