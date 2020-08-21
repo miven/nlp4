@@ -1,0 +1,4 @@
+pip3 install tensorflow 1.10
+
+
+运行run.py启动服务.

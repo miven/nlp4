@@ -17,7 +17,9 @@ huggingface:使用说明:
 
 
 
+albert词向量究极版本:
 
+知识图谱项目/kg加深度学习/huizong2使用的是albert大版本.py
 
 
 

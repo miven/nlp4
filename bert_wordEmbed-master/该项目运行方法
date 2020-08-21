@@ -1,0 +1,18 @@
+这个项目是多服务联合启动所以启动很麻烦,步奏如下:
+
+
+1. nohup python3 main.py &
+或者pycharm直接运行main.py 也行.
+
+注:直接运行main里面的shell命令不好使.没法nohup.只能python套一层就好使了!!!!!!!!很奇怪.
+
+2. 测试一下上面服务起来没. python3 56.py
+
+
+3. 再运行run.py
+
+
+4. curl 0.0.0.0:5000
+
+
+5. 杀进程用kill -9

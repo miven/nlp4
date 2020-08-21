@@ -1,0 +1,73 @@
+
+2020-08-16,11点47
+
+
+
+
+"文本生成技术：
+	用于各类文字的标题生成，信息摘要的生成-------------------abs  ， ext       --------textrank
+
+
+
+
+	Q: wo zai 北京的右边100公里胡天津吃饭。
+	wo zai tianta bianshagn de zhongliu yiyuan chifan .               feature s k              juzi tezhegn ---bert    768*word_num
+	Q:wo zai nali chifan .
+
+
+	   0    0        0       0        1 111           0                    label
+
+	   xlnet jiucuo -----------gec network
+	   zhongliuyiyuan --------------4*768-----------pinghuasuanfa ----------768
+
+
+"对话和互动系统：
+	给定一段语料，能够自动回答跟语料相关的所有问题。与5G短消息需求结合，深度学习模型。"	"备注：以下所有性能指标数据均在公司指定的数据集（10000篇文章、10万个问答对）上进行验证。
+	1、采用基于深度学习的阅读理解技术。  xunlianji duoda?  1qian w-----------zhongwen
+	2、单个问题回答速度小于100ms。
+	3、生成的答案满足EM（ExactMatch）> 75%。
+	4、生成的答案满足 F1 > 80%"
+
+	https://github.com/PaddlePaddle/ERNIE             一些语料
+	https://huggingface.co/
+
+
+
+
+	albert+qa  (ext)
+
+
+
+
+
+
+
+
+故事的几个要素：时间、地点、人物，事情的起因、经过、结果。论点挖掘的是主题。
+	1. 能够从新闻中抽取事件
+	2. 能够识别出相似或相同事件
+	3. NDCG@5>=85%
+	4. 准确率>=95%
+	5. 召回率>=95%"
+
+	albert+qa  (ext           abs)
+
+
+
+
+
+	albert
+
+
+Chatbot聊天机器人	"聊天机器人： QA机器人.
+只给问题,返回答案.KG
+	1. 能对用户输入的文本内容进行语义理解，生成候选答案并与业务相关的标准答案进行匹配，给用户返回评分最高的答案。正确答案的准确率和召回率均高于90%。
+	2. 能对用户发送的图片内容进行OCR文本语义识别，并与业务进行逻辑匹配，给用户进行合理返回。
+	3. 混乱触发机制：提供不同类型的触发器保证chatbot遇到困难也能够提出相应的解决措施。
+	"
+
+
+	albert+wiki_context------------
+
+	kg+句子从成分分析+albert句向量(词向量近似搜索.)
+
