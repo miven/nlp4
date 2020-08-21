@@ -32,7 +32,7 @@ from .file_utils import ModelOutput, add_code_sample_docstrings, add_start_docst
 from .modeling_transfo_xl_utilities import ProjectedAdaptiveLogSoftmax
 from .modeling_utils import PreTrainedModel
 
-
+# xlnet里面重要的记忆体transformer
 logger = logging.getLogger(__name__)
 
 _CONFIG_FOR_DOC = "TransfoXLConfig"

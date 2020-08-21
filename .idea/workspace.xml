@@ -1,7 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="" />
+    <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bert做词向量/23232.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/bert-parallel-pipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/client_batch_size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/cosine-vs-rougel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/fp16-xla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/gnes-logo-tight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/max_batch_size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/max_seq_len.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/num_clients.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/pool_max.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/pool_mean.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/pooling_layer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/qasearch-demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/server-demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/server-run-demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.github/workflows/pythonpublish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/client/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/client/bert_serving/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/client/bert_serving/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/client/bert_serving/client/_py2_var.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/client/bert_serving/client/_py3_var.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/client/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/client/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docker/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/section/benchmark.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/section/faq.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/section/get-start.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/section/what-is-it.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/source/client.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/source/server.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/add-monitor.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/async-encode.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/broadcast.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/fine-tune.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/http-server.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/own-tokenizer.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/simple-search.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/tf-data.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/tf-estimator.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/tf-record.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/docs/tutorial/token-embed.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/example/example1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/example/example2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/example/example3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/example/example4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/example/example5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/example/example6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/example/example7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/example/example8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/plugin/dashboard/bindings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/plugin/dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/plugin/dashboard/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/readthedocs.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/release.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/benchmark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/bert/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/bert/extract_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/bert/modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/bert/optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/bert/tokenization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/bertApi.openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/bert_serving/server/zmq_decor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-as-service-master/server/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert-base-uncased-vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bert做词向量/bert词向量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/bert-base-uncased-vocab.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/bert词向量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong平均.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fairseq-gec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fairseq-gec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albert使用/22222albert.py" beforeDir="false" afterPath="$PROJECT_DIR$/albert使用/22222albert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_transfo_xl.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_transfo_xl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme日常开发规范" beforeDir="false" afterPath="$PROJECT_DIR$/readme日常开发规范" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong修改为词向量.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong修改为词向量.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +134,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lianghua" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="JupyterTrust" id="774df279-09b4-4fbb-87e2-ad916c7ff857" />
@@ -54,12 +156,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/albert使用" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\bert做词向量" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\albert使用" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\albert使用\qa_data" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\研究qa\数据集" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\生成器装饰器" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目" />
@@ -67,16 +176,9 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\albert使用" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\albert使用\qa_data" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\研究qa\数据集" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.中文qa模型!!!!!!!!!!!!!!!!!!! (1)">
-    <configuration name="21321321312" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.huizong">
+    <configuration name="23232" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,56 +186,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bert做词向量" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21321321312.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ImportantExmaple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/ImportantExmaple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ImportantExmapleForFinetune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/ImportantExmapleForFinetune.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bert做词向量/23232.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +222,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="中文qa模型!!!!!!!!!!!!!!!!!!! (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bert词向量 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,12 +230,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bert做词向量" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/中文qa模型!!!!!!!!!!!!!!!!!!!.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bert做词向量/bert词向量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="中文qa模型!!!!!!!!!!!!!!!!!!!" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bert词向量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,12 +252,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bert做词向量" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\albert使用\中文qa模型!!!!!!!!!!!!!!!!!!!.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\bert做词向量\bert词向量.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="huizong" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="huizong修改为词向量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong修改为词向量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,19 +334,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.run_language_modeling" />
-      <item itemvalue="Python.21321321312" />
-      <item itemvalue="Python.ImportantExmaple" />
-      <item itemvalue="Python.ImportantExmapleForFinetune" />
-      <item itemvalue="Python.中文qa模型!!!!!!!!!!!!!!!!!!!" />
-      <item itemvalue="Python.中文qa模型!!!!!!!!!!!!!!!!!!! (1)" />
+      <item itemvalue="Python.huizong" />
+      <item itemvalue="Python.huizong修改为词向量" />
+      <item itemvalue="Python.23232" />
+      <item itemvalue="Python.bert词向量" />
+      <item itemvalue="Python.bert词向量 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.中文qa模型!!!!!!!!!!!!!!!!!!! (1)" />
-        <item itemvalue="Python.ImportantExmapleForFinetune" />
-        <item itemvalue="Python.ImportantExmaple" />
-        <item itemvalue="Python.中文qa模型!!!!!!!!!!!!!!!!!!!" />
-        <item itemvalue="Python.21321321312" />
+        <item itemvalue="Python.huizong" />
+        <item itemvalue="Python.bert词向量 (1)" />
+        <item itemvalue="Python.bert词向量" />
+        <item itemvalue="Python.23232" />
+        <item itemvalue="Python.huizong修改为词向量" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +454,8 @@
       <workItem from="1596967310213" duration="44948000" />
       <workItem from="1597212409690" duration="49485000" />
       <workItem from="1597463380895" duration="32199000" />
-      <workItem from="1597588597547" duration="86699000" />
+      <workItem from="1597588597547" duration="88881000" />
+      <workItem from="1597851504065" duration="24924000" />
     </task>
     <servers />
   </component>
@@ -431,38 +534,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="153" key="GridCell.Tab.0.bottom" timestamp="1597830630140">
+    <state width="1237" height="259" key="GridCell.Tab.0.bottom" timestamp="1597972065369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597830630140" />
-    <state width="1237" height="153" key="GridCell.Tab.0.center" timestamp="1597830630140">
+    <state width="1237" height="259" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597972065369" />
+    <state width="1237" height="259" key="GridCell.Tab.0.center" timestamp="1597972065369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597830630140" />
-    <state width="1237" height="153" key="GridCell.Tab.0.left" timestamp="1597830630140">
+    <state width="1237" height="259" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597972065369" />
+    <state width="1237" height="259" key="GridCell.Tab.0.left" timestamp="1597972065369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597830630140" />
-    <state width="1237" height="153" key="GridCell.Tab.0.right" timestamp="1597830630140">
+    <state width="1237" height="259" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597972065369" />
+    <state width="1237" height="259" key="GridCell.Tab.0.right" timestamp="1597972065369">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="153" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597830630140" />
-    <state width="1237" height="192" key="GridCell.Tab.1.bottom" timestamp="1597830556149">
+    <state width="1237" height="259" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597972065369" />
+    <state width="1237" height="184" key="GridCell.Tab.1.bottom" timestamp="1597971978479">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="192" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597830556149" />
-    <state width="1237" height="192" key="GridCell.Tab.1.center" timestamp="1597830556149">
+    <state width="1237" height="184" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597971978479" />
+    <state width="1237" height="184" key="GridCell.Tab.1.center" timestamp="1597971978479">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="192" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1597830556149" />
-    <state width="1237" height="192" key="GridCell.Tab.1.left" timestamp="1597830556149">
+    <state width="1237" height="184" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1597971978479" />
+    <state width="1237" height="184" key="GridCell.Tab.1.left" timestamp="1597971978479">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="192" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1597830556149" />
-    <state width="1237" height="192" key="GridCell.Tab.1.right" timestamp="1597830556149">
+    <state width="1237" height="184" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1597971978479" />
+    <state width="1237" height="184" key="GridCell.Tab.1.right" timestamp="1597971978479">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="192" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1597830556149" />
+    <state width="1237" height="184" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1597971978479" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -471,14 +574,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1597825652844" />
+    <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597911817740">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1597911817740" />
     <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597824524591">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1597824524591" />
-    <state x="99" y="16" width="1157" height="570" key="find.popup" timestamp="1597829731559">
+    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1597912939543">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="99" y="16" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1597829731559" />
+    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1597912939543" />
     <state x="1039" y="95" key="ftp.server.browser" timestamp="1596014081714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -487,10 +594,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="505" y="246" key="publish.login/0.0.1280.680@0.0.1280.680" timestamp="1596246278550" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1597737670757">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1597912952356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1597737670757" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1597912952356" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1307,7 +1414,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py</url>
-          <line>169</line>
+          <line>352</line>
           <option name="timeStamp" value="474" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -1359,6 +1466,31 @@
           <url>file://$PROJECT_DIR$/albert使用/ImportantExmapleForFinetune.py</url>
           <line>21</line>
           <option name="timeStamp" value="494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong修改为词向量.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="495" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bert做词向量/23232.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bert做词向量/bert词向量.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bert做词向量/bert词向量.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py</url>
+          <line>381</line>
+          <option name="timeStamp" value="503" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1413,11 +1545,13 @@
         <watch expression="logits" />
         <watch expression="logits.split(1, dim=-1)" />
         <watch expression="outputs[1:]" />
+        <watch expression="self" />
+        <watch expression="tmp2" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fairseq_gec$23232.coverage" NAME="23232 Coverage Results" MODIFIED="1597728150090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$23232.coverage" NAME="23232 Coverage Results" MODIFIED="1597913327913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
     <SUITE FILE_PATH="coverage/fairseq_gec$2132321.coverage" NAME="2132321 Coverage Results" MODIFIED="1594682810561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1111111.coverage" NAME="1111111 Coverage Results" MODIFIED="1597318221795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianghua" />
     <SUITE FILE_PATH="coverage/fairseq_gec$selium__1_.coverage" NAME="成功selium (1) Coverage Results" MODIFIED="1592960179243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -1464,6 +1598,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$hello_pyx.coverage" NAME="hello.pyx Coverage Results" MODIFIED="1597319449746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
     <SUITE FILE_PATH="coverage/fairseq_gec$loading_all_dict.coverage" NAME="loading_all_dict Coverage Results" MODIFIED="1594033338935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils2/errorify" />
     <SUITE FILE_PATH="coverage/fairseq_gec$432423.coverage" NAME="432423 Coverage Results" MODIFIED="1593180292402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2312312.coverage" NAME="2312312 Coverage Results" MODIFIED="1597934086887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
     <SUITE FILE_PATH="coverage/fairseq_gec$models.coverage" NAME="models Coverage Results" MODIFIED="1597049794040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
     <SUITE FILE_PATH="coverage/nlp$train.coverage" NAME="train Coverage Results" MODIFIED="1595730551033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest-fixed_by_vocab" />
     <SUITE FILE_PATH="coverage/fairseq_gec$generate.coverage" NAME="generate Coverage Results" MODIFIED="1594774655133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/GPT2-Chinese-master" />
@@ -1533,10 +1668,11 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$21321321312.coverage" NAME="21321321312 Coverage Results" MODIFIED="1597816833036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$utils.coverage" NAME="utils Coverage Results" MODIFIED="1597048708471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master/tool" />
     <SUITE FILE_PATH="coverage/fairseq_gec$finetune.coverage" NAME="finetune词向量模型 Coverage Results" MODIFIED="1597737891238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$qa_Finetune.coverage" NAME="中文qa模型!Finetune Coverage Results" MODIFIED="1597908974092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$b.coverage" NAME="b Coverage Results" MODIFIED="1593014156848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
     <SUITE FILE_PATH="coverage/fairseq_gec$preprocess_by_me_test.coverage" NAME="preprocess_by_me_test Coverage Results" MODIFIED="1597472993265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$bert__1_.coverage" NAME="bert做词向量 (1) Coverage Results" MODIFIED="1597724055939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$ImportantExmapleForFinetune.coverage" NAME="ImportantExmapleForFinetune Coverage Results" MODIFIED="1597830269802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bert__1_.coverage" NAME="bert词向量 (1) Coverage Results" MODIFIED="1597969321099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
     <SUITE FILE_PATH="coverage/fairseq_gec$333333333333.coverage" NAME="333333333333 Coverage Results" MODIFIED="1592282921503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$error.coverage" NAME="error Coverage Results" MODIFIED="1592446924160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/333/PIE-master/errorify" />
     <SUITE FILE_PATH="coverage/fairseq_gec$a__1_.coverage" NAME="a (1) Coverage Results" MODIFIED="1593217385930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
@@ -1551,7 +1687,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$pre_data_byOnlyOneBook__1_.coverage" NAME="pre_data_byOnlyOneBook (1) Coverage Results" MODIFIED="1596504555455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train2byZhangcpu.coverage" NAME="train2byZhangcpu Coverage Results" MODIFIED="1596765711715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$11111111.coverage" NAME="11111111 Coverage Results" MODIFIED="1597301859157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/区块链" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$huizong.coverage" NAME="huizong Coverage Results" MODIFIED="1597744804162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong.coverage" NAME="huizong Coverage Results" MODIFIED="1597972065363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$eval_lm.coverage" NAME="eval_lm Coverage Results" MODIFIED="1594801149907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/fairseq_cli" />
     <SUITE FILE_PATH="coverage/nlp$preprocess__1_.coverage" NAME="preprocess (1) Coverage Results" MODIFIED="1595727970690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/latest-fixed_by_vocab" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu.coverage" NAME="train_tpu Coverage Results" MODIFIED="1596535260711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/train" />

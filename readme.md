@@ -1,5 +1,9 @@
 
-
+huggingface:使用说明:
+找model:类别为
+   1.sentence classification : gleu任务
+   2.toekn calssification: ner任务
+   3.qa:qa任务
 
 
 
@@ -7,6 +11,38 @@
 
 本仓库,项目汇总说明:
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+中文qa模型:
+albert使用/中文qa模型!!!!!!!!!!!!!!!!!!!.py
+
+中文qa finetune模型 :
+albert使用/中文qa模型!Finetune.py
+
+
+
+
+
+
+
+英文qa finetune代码:
+albert使用/ImportantExmapleForFinetune.py
+
+
+英文qa:
+albert使用/ImportantExmaple.py
 
 
 

@@ -204,11 +204,11 @@ def vec2(tex):
     # 编码测试
     token_ids, segment_ids = tokenizer.encode(tex)
     token_ids, segment_ids = to_array([token_ids], [segment_ids])
-
-    tmp=model.predict([token_ids, segment_ids])[:,0,:] # 0代表取[CLS]
-
+    global tmp
+    # tmp=model.predict([token_ids, segment_ids])[:,0,:] # 0代表取[CLS]
+    tmp3=tmp(tex)
     # print(tmp)
-    return tmp
+    return tmp3
 
 
 
@@ -283,7 +283,7 @@ import torch
 kglist=['大学','人口','面积']
 text='姚明的妻子的丈夫的妻子'
 text='我现在在天津,这里有什么大学?'
-text='姚明的妻子'
+# text='姚明的妻子'
 
 
 
@@ -379,7 +379,7 @@ for ner_sample in ner:
 if 1:
     print("下面用bert做辅助判断")
     #kglist = luxian[0] 这个东西的所有的边.
-    tiaozhuan = searchKG(kglist=['地点','地址','大小','老婆','丈夫'], text=text)
+    tiaozhuan = searchKG(kglist=['地点','地址','大小','老婆','丈夫'], text='妻子')
     # 利用距离小于一个阈值,我们就使用这个tiaozhuan,目前只支持bert算法的一次跳转,多次跳转没想到.
 
 if len(luxian)==0:

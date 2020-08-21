@@ -45,7 +45,7 @@ model = AlbertForSequenceClassification.from_pretrained(pretrained)
 inputtext = "今天[MASK]情很好"  # 编码后第一个位置是cls,所以msk的索引是3
 #计算mask所在的索引位置,
 
-
+AutoModelWithLMHead
 
 
 '''
