@@ -36,7 +36,7 @@ class PretrainedConfig(object):
         Note:
             A configuration file can be loaded and saved to disk. Loading the configuration file and using this file to
             initialize a model does **not** load the model weights.
-            It only affects the model's configuration.
+            It only affects the model's configuration. # 只影响模型的配置参数,不影响权重.
 
         Class attributes (overridden by derived classes)
             - **model_type** (:obj:`str`): An identifier for the model type, serialized into the JSON file, and used to
@@ -132,7 +132,7 @@ class PretrainedConfig(object):
     model_type: str = ""
 
     def __init__(self, **kwargs):
-        # Attributes with defaults
+        # Attributes with defaults # 使用pop 来配置默认参数.
         self.return_tuple = kwargs.pop("return_tuple", False)
         self.output_hidden_states = kwargs.pop("output_hidden_states", False)
         self.output_attentions = kwargs.pop("output_attentions", False)
