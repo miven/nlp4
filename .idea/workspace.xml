@@ -2,13 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据结构/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/跳表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/albertForVec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/synonym.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/122222222222222.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/data/aishell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/data/helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/data/labels/aishell_labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/data/labels/labels.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/data/librispeech.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/data/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/img/aishell_loss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/img/pytorch-logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/models/asr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/models/asr/transformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/models/common_layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/requirement.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/trainer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/trainer/asr/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/trainer/asr/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/awd_lstm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/lm_data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/lm_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/lstm_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/语音/end2end-asr-pytorch/utils/optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fairseq-gec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fairseq-gec.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/data/datasets/glue.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/data/datasets/glue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +93,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/语音" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\语音" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习\词向量finetune" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\词向量finetune" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\albert使用\词向量finetune" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习" />
@@ -83,7 +114,7 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.跳表">
+  <component name="RunManager" selected="Python.122222222222222">
     <configuration name="跳表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,6 +129,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/跳表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="122222222222222" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/122222222222222.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,28 +225,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="huizong2使用的是albert大版本" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert大版本.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="huizong2使用的是albert小版本222" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,18 +272,18 @@
     <list>
       <item itemvalue="Python.run_language_modeling" />
       <item itemvalue="Python.huizong2使用的是albert" />
-      <item itemvalue="Python.huizong2使用的是albert大版本" />
       <item itemvalue="Python.huizong2使用的是albert小版本222" />
       <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好" />
       <item itemvalue="Python.跳表" />
+      <item itemvalue="Python.122222222222222" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.122222222222222" />
         <item itemvalue="Python.跳表" />
         <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好" />
         <item itemvalue="Python.huizong2使用的是albert" />
         <item itemvalue="Python.huizong2使用的是albert小版本222" />
-        <item itemvalue="Python.huizong2使用的是albert大版本" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +392,7 @@
       <workItem from="1597212409690" duration="49485000" />
       <workItem from="1597463380895" duration="32199000" />
       <workItem from="1597588597547" duration="88881000" />
-      <workItem from="1597851504065" duration="45655000" />
+      <workItem from="1597851504065" duration="49067000" />
     </task>
     <servers />
   </component>
@@ -440,38 +471,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="138" key="GridCell.Tab.0.bottom" timestamp="1598013639203">
+    <state width="1237" height="227" key="GridCell.Tab.0.bottom" timestamp="1598055130505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598013639203" />
-    <state width="1237" height="138" key="GridCell.Tab.0.center" timestamp="1598013639203">
+    <state width="1237" height="227" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598055130505" />
+    <state width="1237" height="227" key="GridCell.Tab.0.center" timestamp="1598055130505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598013639203" />
-    <state width="1237" height="138" key="GridCell.Tab.0.left" timestamp="1598013639203">
+    <state width="1237" height="227" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598055130505" />
+    <state width="1237" height="227" key="GridCell.Tab.0.left" timestamp="1598055130505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598013639203" />
-    <state width="1237" height="138" key="GridCell.Tab.0.right" timestamp="1598013639203">
+    <state width="1237" height="227" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598055130505" />
+    <state width="1237" height="227" key="GridCell.Tab.0.right" timestamp="1598055130505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598013639203" />
-    <state width="1237" height="138" key="GridCell.Tab.1.bottom" timestamp="1598013639203">
+    <state width="1237" height="227" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598055130505" />
+    <state width="1237" height="138" key="GridCell.Tab.1.bottom" timestamp="1598053603181">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598013639203" />
-    <state width="1237" height="138" key="GridCell.Tab.1.center" timestamp="1598013639203">
+    <state width="1237" height="138" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598053603181" />
+    <state width="1237" height="138" key="GridCell.Tab.1.center" timestamp="1598053603181">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598013639203" />
-    <state width="1237" height="138" key="GridCell.Tab.1.left" timestamp="1598013639203">
+    <state width="1237" height="138" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598053603181" />
+    <state width="1237" height="138" key="GridCell.Tab.1.left" timestamp="1598053603181">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598013639203" />
-    <state width="1237" height="138" key="GridCell.Tab.1.right" timestamp="1598013639203">
+    <state width="1237" height="138" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598053603181" />
+    <state width="1237" height="138" key="GridCell.Tab.1.right" timestamp="1598053603181">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598013639203" />
+    <state width="1237" height="138" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598053603181" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1562,6 +1593,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$example01.coverage" NAME="example01 Coverage Results" MODIFIED="1597977057979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example" />
     <SUITE FILE_PATH="coverage/fairseq_gec$langconv.coverage" NAME="langconv Coverage Results" MODIFIED="1594902961545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/nstools/zhtools" />
     <SUITE FILE_PATH="coverage/fairseq_gec$3434343__1_.coverage" NAME="3434343 (1) Coverage Results" MODIFIED="1594108565431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/垃圾" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$122222222222222.coverage" NAME="122222222222222 Coverage Results" MODIFIED="1598055130497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$bertChineseVec.coverage" NAME="bertChineseVec Coverage Results" MODIFIED="1597725635625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$3434343.coverage" NAME="3434343 Coverage Results" MODIFIED="1594107116702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/laji" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1111111111111111111.coverage" NAME="1111111111111111111 Coverage Results" MODIFIED="1593418712716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/888888888888888888888888888888888" />
