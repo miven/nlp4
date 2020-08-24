@@ -23,6 +23,12 @@ huggingface:使用说明:
 
 
 
+abstract模型加finetune代码:
+
+abstract算法/t5摘要效果还行加了finetune.py
+
+
+
 
 
 

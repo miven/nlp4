@@ -1,9 +1,19 @@
+'''
+跑这个abstract 模型.
+
+'''
+
+
+
 
 from transformers import AutoTokenizer, AutoModelWithLMHead
 
-tokenizer = AutoTokenizer.from_pretrained("sshleifer/distilbart-cnn-12-6")
+tokenizer = AutoTokenizer.from_pretrained("sshleifer/distilbart-xsum-1-1")
 
-model = AutoModelWithLMHead.from_pretrained("sshleifer/distilbart-cnn-12-6")
+model = AutoModelWithLMHead.from_pretrained("sshleifer/distilbart-xsum-1-1")
+
+
+
 
 
 

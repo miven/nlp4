@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/abstract算法/312321.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstract算法/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/PATENTS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/classification-example.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/classification-results.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/eval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/gen_vec.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/gen_vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/get-wikimedia.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/pretrained-vectors.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/quantization-example.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/quantization-results.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/args.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/args.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/dictionary.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/dictionary.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/fasttext.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/fasttext.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/main.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/matrix.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/model.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/model.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/productquantizer.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/productquantizer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/qmatrix.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/qmatrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/real.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/utils.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/vector.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/vector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/tutorials/cbo_vs_skipgram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/tutorials/supervised-learning.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/tutorials/unsupervised-learning.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/wikifil.pl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/word-vector-example.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fasttext中文词向量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract算法/abstarct模型.英文的跑起来.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstract算法/312321.py" beforeDir="false" afterPath="$PROJECT_DIR$/abstract算法/312321.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +62,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/abstract算法" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py" />
@@ -115,14 +76,14 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\网站中插入视频和音频" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\语音" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习\词向量finetune" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\词向量finetune" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.fasttext中文词向量">
+  <component name="RunManager" selected="Python.t5摘要效果还行加了finetune">
     <configuration name="312321" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="对albert模型做finetune让他的词向量距离效果更好 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="abstarct模型.英文的跑起来 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,12 +136,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abstract算法/abstarct模型.英文的跑起来.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fasttext中文词向量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="abstarct模型.英文的跑起来" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,56 +158,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\fasttext中文词向量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="中文qa模型!Finetune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="中文qa模型!!!!!!!!!!!!!!!!!!!" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/中文qa模型!!!!!!!!!!!!!!!!!!!.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法\abstarct模型.英文的跑起来.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,21 +194,86 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="t5摘要效果还行" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法\t5摘要效果还行.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t5摘要效果还行加了finetune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法\t5摘要效果还行加了finetune.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t5摘要效果还行加了finetune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法\t5摘要效果还行加了finetune.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.run_language_modeling" />
-      <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好 (1)" />
-      <item itemvalue="Python.中文qa模型!!!!!!!!!!!!!!!!!!!" />
-      <item itemvalue="Python.中文qa模型!Finetune" />
       <item itemvalue="Python.312321" />
-      <item itemvalue="Python.fasttext中文词向量" />
+      <item itemvalue="Python.abstarct模型.英文的跑起来" />
+      <item itemvalue="Python.abstarct模型.英文的跑起来 (1)" />
+      <item itemvalue="Python.t5摘要效果还行加了finetune" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fasttext中文词向量" />
+        <item itemvalue="Python.t5摘要效果还行加了finetune" />
+        <item itemvalue="Python.t5摘要效果还行加了finetune" />
         <item itemvalue="Python.312321" />
-        <item itemvalue="Python.中文qa模型!Finetune" />
-        <item itemvalue="Python.中文qa模型!!!!!!!!!!!!!!!!!!!" />
-        <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好 (1)" />
+        <item itemvalue="Python.abstarct模型.英文的跑起来 (1)" />
+        <item itemvalue="Python.abstarct模型.英文的跑起来" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +384,7 @@
       <workItem from="1597588597547" duration="88881000" />
       <workItem from="1597851504065" duration="65100000" />
       <workItem from="1598138802584" duration="601000" />
-      <workItem from="1598140423850" duration="33759000" />
+      <workItem from="1598140423850" duration="45505000" />
     </task>
     <servers />
   </component>
@@ -465,10 +447,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596430478936" />
-    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1597986953806">
+    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1598261434728">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1597986953806" />
+    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1598261434728" />
     <state x="130" y="77" width="1095" height="495" key="DiffContextDialog" timestamp="1597536533322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -481,46 +463,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="237" key="GridCell.Tab.0.bottom" timestamp="1598256951538">
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom" timestamp="1598284276398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="237" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598256951538" />
-    <state width="1237" height="237" key="GridCell.Tab.0.center" timestamp="1598256951538">
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598284276398" />
+    <state width="1237" height="165" key="GridCell.Tab.0.center" timestamp="1598284276398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="237" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598256951538" />
-    <state width="1237" height="237" key="GridCell.Tab.0.left" timestamp="1598256951538">
+    <state width="1237" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598284276398" />
+    <state width="1237" height="165" key="GridCell.Tab.0.left" timestamp="1598284276398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="237" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598256951538" />
-    <state width="1237" height="237" key="GridCell.Tab.0.right" timestamp="1598256951538">
+    <state width="1237" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598284276398" />
+    <state width="1237" height="165" key="GridCell.Tab.0.right" timestamp="1598284276398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="237" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598256951538" />
-    <state width="1237" height="305" key="GridCell.Tab.1.bottom" timestamp="1598256504171">
+    <state width="1237" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598284276398" />
+    <state width="1237" height="39" key="GridCell.Tab.1.bottom" timestamp="1598283891376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="305" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598256504171" />
-    <state width="1237" height="305" key="GridCell.Tab.1.center" timestamp="1598256504171">
+    <state width="1237" height="39" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598283891376" />
+    <state width="1237" height="39" key="GridCell.Tab.1.center" timestamp="1598283891376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="305" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598256504171" />
-    <state width="1237" height="305" key="GridCell.Tab.1.left" timestamp="1598256504171">
+    <state width="1237" height="39" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598283891376" />
+    <state width="1237" height="39" key="GridCell.Tab.1.left" timestamp="1598283891376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="305" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598256504171" />
-    <state width="1237" height="305" key="GridCell.Tab.1.right" timestamp="1598256504171">
+    <state width="1237" height="39" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598283891376" />
+    <state width="1237" height="39" key="GridCell.Tab.1.right" timestamp="1598283891376">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="305" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598256504171" />
+    <state width="1237" height="39" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598283891376" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="127" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597046113236" />
-    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1597986301774">
+    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1598262585940">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1597986301774" />
+    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1598262585940" />
     <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598256455756">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -529,10 +511,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1597824524591" />
-    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1598249627144">
+    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1598265589698">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598249627144" />
+    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598265589698" />
     <state x="1039" y="95" key="ftp.server.browser" timestamp="1596014081714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1519,6 +1501,16 @@
           <line>13</line>
           <option name="timeStamp" value="533" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/abstract算法/abstarct模型.英文的跑起来.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="535" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="540" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1560,7 +1552,7 @@
         <watch expression="kwargs[&quot;max_seq_len&quot;]" />
         <watch expression="encoded_dict" language="Python" />
         <watch expression="text" />
-        <watch expression="tokenizer" />
+        <watch expression="tokenizer" language="Python" />
         <watch expression="text_pair" />
         <watch expression="example.question_text" />
         <watch expression="encoded_dict" />
@@ -1589,200 +1581,210 @@
         <watch expression="data" />
         <watch expression=" map(float, tokens[1:])" />
         <watch expression=" tokens[1:]" />
+        <watch expression="config_dict" />
+        <watch expression="config_dict[&quot;model_type&quot;]" />
+        <watch expression="MODEL_WITH_LM_HEAD_MAPPING" />
+        <watch expression="hidden_states" />
+        <watch expression="decoder_outputs" language="Python" />
+        <watch expression="decoder_outputs" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fairseq_gec$23232.coverage" NAME="23232 Coverage Results" MODIFIED="1597913327913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$2132321.coverage" NAME="2132321 Coverage Results" MODIFIED="1594682810561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1111111.coverage" NAME="1111111 Coverage Results" MODIFIED="1597318221795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianghua" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$312321.coverage" NAME="312321 Coverage Results" MODIFIED="1598252018819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$selium__1_.coverage" NAME="成功selium (1) Coverage Results" MODIFIED="1592960179243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nlp$tokenization_ctrl.coverage" NAME="tokenization_ctrl经典的bpe算法教学版 Coverage Results" MODIFIED="1596189975164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$312321.coverage" NAME="312321 Coverage Results" MODIFIED="1598260741982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$Unittests_for_66666666_TestClass_test_case2.coverage" NAME="Unittests for 66666666.TestClass.test_case2 Coverage Results" MODIFIED="1592956791878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa_____________________1_.coverage" NAME="中文qa模型!!!!!!!!!!!!!!!!!!! (1) Coverage Results" MODIFIED="1597830630130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$Doctests_in_filter.coverage" NAME="Doctests in filter Coverage Results" MODIFIED="1594952028511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/textfilter" />
-    <SUITE FILE_PATH="coverage/nlp$train__2_.coverage" NAME="train (2) Coverage Results" MODIFIED="1595819038645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch最原始的版本--上课专用版" />
-    <SUITE FILE_PATH="coverage/nlp$run_language_modeling.coverage" NAME="run_language_modeling Coverage Results" MODIFIED="1595997166744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2albert222.coverage" NAME="huizong2使用的是albert大版本222 Coverage Results" MODIFIED="1597988278339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1592955876362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial" />
     <SUITE FILE_PATH="coverage/fairseq_gec$2__1_.coverage" NAME="装饰器实用2修饰器带参数 (1) Coverage Results" MODIFIED="1597197522128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />
     <SUITE FILE_PATH="coverage/fairseq_gec$222222222222.coverage" NAME="222222222222 Coverage Results" MODIFIED="1597799212715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$344234.coverage" NAME="344234 Coverage Results" MODIFIED="1592958307853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$example01.coverage" NAME="example01 Coverage Results" MODIFIED="1597977057979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example" />
     <SUITE FILE_PATH="coverage/fairseq_gec$12233.coverage" NAME="12233 Coverage Results" MODIFIED="1598256951532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$langconv.coverage" NAME="langconv Coverage Results" MODIFIED="1594902961545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/nstools/zhtools" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$3434343__1_.coverage" NAME="3434343 (1) Coverage Results" MODIFIED="1594108565431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/垃圾" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$122222222222222.coverage" NAME="122222222222222 Coverage Results" MODIFIED="1598055130497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$bertChineseVec.coverage" NAME="bertChineseVec Coverage Results" MODIFIED="1597725635625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$3434343.coverage" NAME="3434343 Coverage Results" MODIFIED="1594107116702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/laji" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1111111111111111111.coverage" NAME="1111111111111111111 Coverage Results" MODIFIED="1593418712716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/888888888888888888888888888888888" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$seq2labels_model.coverage" NAME="seq2labels_model Coverage Results" MODIFIED="1594179342575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/gector" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune_latest2.coverage" NAME="train_finetune_latest2 Coverage Results" MODIFIED="1594630084486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess2.coverage" NAME="preprocess2 Coverage Results" MODIFIED="1594945413037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$213213__1_.coverage" NAME="213213 (1) Coverage Results" MODIFIED="1596930372641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句法依存分析/句子分析" />
-    <SUITE FILE_PATH="coverage/nlp$kkk.coverage" NAME="kkk Coverage Results" MODIFIED="1595514152420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/attention-is-all-you-need-pytorch-master88888888latest" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$mini_imagenet.coverage" NAME="mini_imagenet Coverage Results" MODIFIED="1596765442392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master/data" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$main.coverage" NAME="main Coverage Results" MODIFIED="1597972478737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_wordEmbed-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$23213.coverage" NAME="23213 Coverage Results" MODIFIED="1597284306814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/区块链" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$example02.coverage" NAME="example02 Coverage Results" MODIFIED="1597485385418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example" />
     <SUITE FILE_PATH="coverage/fairseq_gec$21321312.coverage" NAME="21321312 Coverage Results" MODIFIED="1598237423330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$albertfinetune__1_.coverage" NAME="对albert模型做finetune让他的词向量距离效果更好 (1) Coverage Results" MODIFIED="1598239561996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune" />
-    <SUITE FILE_PATH="coverage/nlp$train_finetune_latest3.coverage" NAME="train_finetune_latest3 Coverage Results" MODIFIED="1595302055470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$cythonma__1_.coverage" NAME="使用cython来进行ma算法究极加速 (1) Coverage Results" MODIFIED="1597319464551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
     <SUITE FILE_PATH="coverage/fairseq_gec$222222222222222.coverage" NAME="222222222222222 Coverage Results" MODIFIED="1596440972399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
     <SUITE FILE_PATH="coverage/fairseq_gec$12321321.coverage" NAME="12321321 Coverage Results" MODIFIED="1597379521739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$c__1_.coverage" NAME="c (1) Coverage Results" MODIFIED="1593220069190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$565645645.coverage" NAME="565645645 Coverage Results" MODIFIED="1597225162455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$213213kgqa.coverage" NAME="213213成熟的一套kg解决qa的方案 Coverage Results" MODIFIED="1597743300423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/句法依存分析和kg的方案/句子分析" />
     <SUITE FILE_PATH="coverage/fairseq_gec$a.coverage" NAME="a Coverage Results" MODIFIED="1594741930223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/889" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$bert4keras_extract_feature.coverage" NAME="bert4keras_extract_feature Coverage Results" MODIFIED="1597981039459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert-vec-support" />
     <SUITE FILE_PATH="coverage/fairseq_gec$99999999999.coverage" NAME="99999999999 Coverage Results" MODIFIED="1592745238853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_single3.coverage" NAME="train_single3 Coverage Results" MODIFIED="1596449038418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$errorifier.coverage" NAME="errorifier Coverage Results" MODIFIED="1594030640827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/333/PIE-master/errorify" />
     <SUITE FILE_PATH="coverage/fairseq_gec$prepare_data.coverage" NAME="prepare_data Coverage Results" MODIFIED="1596442716113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
     <SUITE FILE_PATH="coverage/nlp$11111111111.coverage" NAME="11111111111 Coverage Results" MODIFIED="1595510253571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils_for_bert翻译峰哥" />
     <SUITE FILE_PATH="coverage/fairseq_gec$hello_pyx.coverage" NAME="hello.pyx Coverage Results" MODIFIED="1597319449746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$loading_all_dict.coverage" NAME="loading_all_dict Coverage Results" MODIFIED="1594033338935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils2/errorify" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$432423.coverage" NAME="432423 Coverage Results" MODIFIED="1593180292402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$2312312.coverage" NAME="2312312 Coverage Results" MODIFIED="1597934086887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
     <SUITE FILE_PATH="coverage/fairseq_gec$models.coverage" NAME="models Coverage Results" MODIFIED="1597049794040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
     <SUITE FILE_PATH="coverage/nlp$train.coverage" NAME="train Coverage Results" MODIFIED="1595730551033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest-fixed_by_vocab" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$generate.coverage" NAME="generate Coverage Results" MODIFIED="1594774655133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/GPT2-Chinese-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$213213.coverage" NAME="213213 Coverage Results" MODIFIED="1596928778949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句法依存分析/222222222222" />
     <SUITE FILE_PATH="coverage/fairseq_gec$8888888888.coverage" NAME="8888888888 Coverage Results" MODIFIED="1597817300938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$44444444.coverage" NAME="44444444 Coverage Results" MODIFIED="1593181138787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
     <SUITE FILE_PATH="coverage/fairseq_gec$test3333.coverage" NAME="test3333 Coverage Results" MODIFIED="1593419526583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
     <SUITE FILE_PATH="coverage/nlp$213123.coverage" NAME="213123 Coverage Results" MODIFIED="1595225852784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$1111111__1_.coverage" NAME="使用cython来进行ma算法究极加速 Coverage Results" MODIFIED="1597319394535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
-    <SUITE FILE_PATH="coverage/nlp$translate.coverage" NAME="translate Coverage Results" MODIFIED="1595514756205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/attention-is-all-you-need-pytorch-master88888888latest" />
     <SUITE FILE_PATH="coverage/fairseq_gec$demo.coverage" NAME="demo Coverage Results" MODIFIED="1597049199234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$pytorch_generation.coverage" NAME="pytorch_generation Coverage Results" MODIFIED="1596295999178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$676575675.coverage" NAME="676575675 Coverage Results" MODIFIED="1592958600407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train.coverage" NAME="train Coverage Results" MODIFIED="1597213296277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gat网络/pyGAT-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_single3__1_.coverage" NAME="train_single3 (1) Coverage Results" MODIFIED="1596504600508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
-    <SUITE FILE_PATH="coverage/nlp$1111111111111.coverage" NAME="1111111111111 Coverage Results" MODIFIED="1595818368208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/传统方法做nlg" />
     <SUITE FILE_PATH="coverage/fairseq_gec$pre_data_byOnlyOneBook.coverage" NAME="pre_data_byOnlyOneBook Coverage Results" MODIFIED="1596441074461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$train_facenet.coverage" NAME="train_facenet Coverage Results" MODIFIED="1596979513708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$3434343434.coverage" NAME="3434343434 Coverage Results" MODIFIED="1594178265422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils" />
-    <SUITE FILE_PATH="coverage/nlp$stanza.coverage" NAME="stanza切分句子算法 Coverage Results" MODIFIED="1595230419442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$1111111111.coverage" NAME="1111111111 Coverage Results" MODIFIED="1597558635357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$albertfinetune.coverage" NAME="对albert模型做finetune让他的词向量距离效果更好 Coverage Results" MODIFIED="1598237553109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$albertkg.coverage" NAME="albert加kg Coverage Results" MODIFIED="1597724187144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
-    <SUITE FILE_PATH="coverage/nlp$kmp_for_array.coverage" NAME="kmp_for_array Coverage Results" MODIFIED="1595822352671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmp" />
     <SUITE FILE_PATH="coverage/nlp$bpe.coverage" NAME="研究一下bpe Coverage Results" MODIFIED="1596108497083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bpe算法" />
-    <SUITE FILE_PATH="coverage/nlp$2111111111111111111.coverage" NAME="2111111111111111111 Coverage Results" MODIFIED="1595779072032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils_for_bert翻译峰哥" />
     <SUITE FILE_PATH="coverage/nlp$run_generation__2__for_ctrl__2_.coverage" NAME="run_generation (2)_for_ctrl (2) Coverage Results" MODIFIED="1596190007707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$bert4keras_extract_feature__1_.coverage" NAME="bert4keras_extract_feature (1) Coverage Results" MODIFIED="1597986528469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune_latest.coverage" NAME="train_finetune_latest Coverage Results" MODIFIED="1593414566353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2bertservice__1_.coverage" NAME="huizong2使用的是bert官方service (1) Coverage Results" MODIFIED="1597973199714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$predict2222.coverage" NAME="predict2222 Coverage Results" MODIFIED="1592551418359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$bert_token_embedder.coverage" NAME="bert_token_embedder Coverage Results" MODIFIED="1594002607429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/gector" />
-    <SUITE FILE_PATH="coverage/nlp$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1595818871451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest-vocab2" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1point4kg.coverage" NAME="1point4亿的kg读取 Coverage Results" MODIFIED="1597535442099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/句法依存分析和kg的方案/句子分析" />
     <SUITE FILE_PATH="coverage/fairseq_gec$run_secret_sharing_vertically_linear_regression.coverage" NAME="run_secret_sharing_vertically_linear_regression Coverage Results" MODIFIED="1592439994168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Secret-sharing-based_2PC_vertical_fed_learning" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$train2byZhang.coverage" NAME="train2byZhang Coverage Results" MODIFIED="1596765501835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2.coverage" NAME="huizong2 Coverage Results" MODIFIED="1597972775545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$albertkgalbert.coverage" NAME="albert加kg带上albert的词向量 Coverage Results" MODIFIED="1597984639979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$bert.coverage" NAME="bert做词向量 Coverage Results" MODIFIED="1597725192942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$pre_data.coverage" NAME="pre_data Coverage Results" MODIFIED="1596430657556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$56565656.coverage" NAME="56565656 Coverage Results" MODIFIED="1596378182552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$Doctests_in_albertForVec.coverage" NAME="Doctests in albertForVec Coverage Results" MODIFIED="1597987461083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/nlp$.coverage" NAME="迭代器读取 Coverage Results" MODIFIED="1595584730341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$download_gdrive.coverage" NAME="download_gdrive Coverage Results" MODIFIED="1597051229980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/下载google盘" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$mtcnn_infer.coverage" NAME="mtcnn_infer Coverage Results" MODIFIED="1596967677873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
     <SUITE FILE_PATH="coverage/fairseq_gec$infer_my.coverage" NAME="infer_my Coverage Results" MODIFIED="1597048732810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
-    <SUITE FILE_PATH="coverage/nlp$run_generation__2__for_ctrl__1_.coverage" NAME="run_generation (2)_for_ctrl (1) Coverage Results" MODIFIED="1596163485667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune.coverage" NAME="train_finetune Coverage Results" MODIFIED="1593411371905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
     <SUITE FILE_PATH="coverage/nlp$nltk__1_.coverage" NAME="nltk句子分割算法 (1) Coverage Results" MODIFIED="1595225966266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
     <SUITE FILE_PATH="coverage/nlp$21321312.coverage" NAME="21321312 Coverage Results" MODIFIED="1595922153727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta/commonsense_qa" />
     <SUITE FILE_PATH="coverage/fairseq_gec$c.coverage" NAME="c Coverage Results" MODIFIED="1594741838162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/889" />
-    <SUITE FILE_PATH="coverage/nlp$generate_samples_gpt2.coverage" NAME="generate_samples_gpt2 Coverage Results" MODIFIED="1595321402584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/Megatron-LM-master/tools" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$encode.coverage" NAME="encode Coverage Results" MODIFIED="1594781664408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1594944823635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
     <SUITE FILE_PATH="coverage/nlp$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1595729866587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu__1_.coverage" NAME="train_tpu (1) Coverage Results" MODIFIED="1596535343522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/trainP" />
-    <SUITE FILE_PATH="coverage/nlp$1232312.coverage" NAME="1232312 Coverage Results" MODIFIED="1595926202258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$predict.coverage" NAME="predict Coverage Results" MODIFIED="1594217541813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1594943916206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
-    <SUITE FILE_PATH="coverage/nlp$run_generation.coverage" NAME="run_generation Coverage Results" MODIFIED="1596014601275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/text-generation" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$training.coverage" NAME="training Coverage Results" MODIFIED="1596360390673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/training_utils" />
     <SUITE FILE_PATH="coverage/fairseq_gec$9898.coverage" NAME="9898 Coverage Results" MODIFIED="1593219765175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
     <SUITE FILE_PATH="coverage/nlp$111__1_.coverage" NAME="111 (1) Coverage Results" MODIFIED="1596033324528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$111111111.coverage" NAME="111111111 Coverage Results" MODIFIED="1597195243060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$encode_my.coverage" NAME="encode_my Coverage Results" MODIFIED="1594688004652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
-    <SUITE FILE_PATH="coverage/nlp$run_glue_with_pabee.coverage" NAME="run_glue_with_pabee Coverage Results" MODIFIED="1595464242647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/bert-loses-patience" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$2.coverage" NAME="装饰器实用2 Coverage Results" MODIFIED="1597197467031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa___________________.coverage" NAME="中文qa模型!!!!!!!!!!!!!!!!!!! Coverage Results" MODIFIED="1598240259926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$test66666666666666666666666666.coverage" NAME="test66666666666666666666666666 Coverage Results" MODIFIED="1594873713363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MPNet-master/pretraining" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$11111111111111111.coverage" NAME="11111111111111111 Coverage Results" MODIFIED="1594947623040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$1111111111albert__1_.coverage" NAME="1111111111albert训练 (1) Coverage Results" MODIFIED="1597651960362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$preprocess_data.coverage" NAME="preprocess_data Coverage Results" MODIFIED="1593352067650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils" />
     <SUITE FILE_PATH="coverage/fairseq_gec$21321321312.coverage" NAME="21321321312 Coverage Results" MODIFIED="1597816833036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$utils.coverage" NAME="utils Coverage Results" MODIFIED="1597048708471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master/tool" />
     <SUITE FILE_PATH="coverage/fairseq_gec$finetune.coverage" NAME="finetune词向量模型 Coverage Results" MODIFIED="1597737891238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa_Finetune.coverage" NAME="中文qa模型!Finetune Coverage Results" MODIFIED="1598240474973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$b.coverage" NAME="b Coverage Results" MODIFIED="1593014156848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess_by_me_test.coverage" NAME="preprocess_by_me_test Coverage Results" MODIFIED="1597472993265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$ImportantExmapleForFinetune.coverage" NAME="ImportantExmapleForFinetune Coverage Results" MODIFIED="1597830269802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$bert__1_.coverage" NAME="bert词向量 (1) Coverage Results" MODIFIED="1597969321099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
     <SUITE FILE_PATH="coverage/fairseq_gec$333333333333.coverage" NAME="333333333333 Coverage Results" MODIFIED="1592282921503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$error.coverage" NAME="error Coverage Results" MODIFIED="1592446924160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/333/PIE-master/errorify" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$a__1_.coverage" NAME="a (1) Coverage Results" MODIFIED="1593217385930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
     <SUITE FILE_PATH="coverage/nlp$222222222222222222222.coverage" NAME="set_helper Coverage Results" MODIFIED="1595233665964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2/utils" />
     <SUITE FILE_PATH="coverage/fairseq_gec$pytest_in_train_extractive_py.coverage" NAME="pytest in train_extractive.py Coverage Results" MODIFIED="1596356423394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2albert.coverage" NAME="huizong2使用的是albert Coverage Results" MODIFIED="1598237491195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu__2_.coverage" NAME="train_tpu (2) Coverage Results" MODIFIED="1596536348749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master" />
     <SUITE FILE_PATH="coverage/nlp$2222222222222222.coverage" NAME="2222222222222222 Coverage Results" MODIFIED="1595234286216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2/utils" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$8888888888888.coverage" NAME="8888888888888 Coverage Results" MODIFIED="1592553578480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
     <SUITE FILE_PATH="coverage/nlp$111.coverage" NAME="111 Coverage Results" MODIFIED="1595955952628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$2222222222222222222.coverage" NAME="2222222222222222222 Coverage Results" MODIFIED="1593181210031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$train_My.coverage" NAME="train_My Coverage Results" MODIFIED="1597479209239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$pre_data_byOnlyOneBook__1_.coverage" NAME="pre_data_byOnlyOneBook (1) Coverage Results" MODIFIED="1596504555455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train2byZhangcpu.coverage" NAME="train2byZhangcpu Coverage Results" MODIFIED="1596765711715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$11111111.coverage" NAME="11111111 Coverage Results" MODIFIED="1597301859157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/区块链" />
     <SUITE FILE_PATH="coverage/fairseq_gec$huizong.coverage" NAME="huizong平均 Coverage Results" MODIFIED="1597972991565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$eval_lm.coverage" NAME="eval_lm Coverage Results" MODIFIED="1594801149907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/fairseq_cli" />
-    <SUITE FILE_PATH="coverage/nlp$preprocess__1_.coverage" NAME="preprocess (1) Coverage Results" MODIFIED="1595727970690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/latest-fixed_by_vocab" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu.coverage" NAME="train_tpu Coverage Results" MODIFIED="1596535260711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/train" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$build_graph.coverage" NAME="build_graph Coverage Results" MODIFIED="1596792048131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/QASystemOnMedicalGraph" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$t5__1_.coverage" NAME="t5摘要效果还行 (1) Coverage Results" MODIFIED="1598284276389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="qa2 Coverage Results" MODIFIED="1597816140199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$predictfacenet.coverage" NAME="predictfacenet Coverage Results" MODIFIED="1596968961324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$1.coverage" NAME="装饰器实用1 Coverage Results" MODIFIED="1597197368575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1595118406055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/bart" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$888888888889999999999.coverage" NAME="888888888889999999999 Coverage Results" MODIFIED="1593182883586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$213213kgqa__1_.coverage" NAME="213213成熟的一套kg解决qa的方案 (1) Coverage Results" MODIFIED="1596931768317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句法依存分析/句子分析" />
     <SUITE FILE_PATH="coverage/fairseq_gec$huizong__1_.coverage" NAME="huizong修改为词向量 (1) Coverage Results" MODIFIED="1597738293920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train3.coverage" NAME="train3 Coverage Results" MODIFIED="1594944035491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune_latest3.coverage" NAME="train_finetune_latest3 Coverage Results" MODIFIED="1594640812480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
-    <SUITE FILE_PATH="coverage/nlp$222222222222222.coverage" NAME="222222222222222 Coverage Results" MODIFIED="1595725011504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/latest-fixed_by_vocab" />
-    <SUITE FILE_PATH="coverage/nlp$predict.coverage" NAME="predict Coverage Results" MODIFIED="1595302213208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa______________.coverage" NAME="qa使用范例!!!!!!!!!!!!!! Coverage Results" MODIFIED="1597805361080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/nlp$2312312.coverage" NAME="2312312 Coverage Results" MODIFIED="1595213173126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nlp$2312321.coverage" NAME="2312321 Coverage Results" MODIFIED="1595819682503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmp" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$22222albert.coverage" NAME="22222albert Coverage Results" MODIFIED="1597654519196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$example01__1_.coverage" NAME="example01 (1) Coverage Results" MODIFIED="1597978162858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/TextRank4ZH-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$predict__1_.coverage" NAME="predict (1) Coverage Results" MODIFIED="1594640858475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$56.coverage" NAME="56 Coverage Results" MODIFIED="1597972528534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_wordEmbed-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$.coverage" NAME="跳表 Coverage Results" MODIFIED="1598013257127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构" />
     <SUITE FILE_PATH="coverage/fairseq_gec$22222222222222222.coverage" NAME="22222222222222222 Coverage Results" MODIFIED="1592558634744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nlp$roberta.coverage" NAME="roberta模型的调用 Coverage Results" MODIFIED="1595922750528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta/commonsense_qa" />
     <SUITE FILE_PATH="coverage/fairseq_gec$12121.coverage" NAME="12121 Coverage Results" MODIFIED="1597678563987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/句法依存分析和kg的方案/句子分析" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_single4OnlyRunThis.coverage" NAME="train_single4OnlyRunThis Coverage Results" MODIFIED="1596525507454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$7878787.coverage" NAME="7878787 Coverage Results" MODIFIED="1593397641945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$Unittests_for_66666666_TestClass.coverage" NAME="Unittests for 66666666.TestClass Coverage Results" MODIFIED="1592956892777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nlp$run_generation__2_.coverage" NAME="run_generation (2) Coverage Results" MODIFIED="1596036563795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
     <SUITE FILE_PATH="coverage/fairseq_gec$filter.coverage" NAME="filter Coverage Results" MODIFIED="1594952906912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/textfilter" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$abstarct___1_.coverage" NAME="abstarct模型.英文的跑起来 (1) Coverage Results" MODIFIED="1598260538474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$encode_my2.coverage" NAME="encode_my2 Coverage Results" MODIFIED="1594856980021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/摘要算法" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$make_tf_records.coverage" NAME="make_tf_records Coverage Results" MODIFIED="1596328408486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/training_utils" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$666666666.coverage" NAME="666666666 Coverage Results" MODIFIED="1592367329537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$222222222222222222222222.coverage" NAME="222222222222222222222222 Coverage Results" MODIFIED="1592550406117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$ImportantExmaple.coverage" NAME="ImportantExmaple Coverage Results" MODIFIED="1597824297416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/nlp$pytorch_generation.coverage" NAME="pytorch_generation Coverage Results" MODIFIED="1596202766682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl" />
     <SUITE FILE_PATH="coverage/fairseq_gec$albertForVec.coverage" NAME="albertForVec Coverage Results" MODIFIED="1597987482002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$22222222222.coverage" NAME="22222222222 Coverage Results" MODIFIED="1592958178606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$albertqa.coverage" NAME="用albert做qa Coverage Results" MODIFIED="1597794881498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究qa" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$generateByme.coverage" NAME="generateByme Coverage Results" MODIFIED="1596533106763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
     <SUITE FILE_PATH="coverage/fairseq_gec$predict_my.coverage" NAME="predict_my Coverage Results" MODIFIED="1597068060282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$23232.coverage" NAME="23232 Coverage Results" MODIFIED="1597913327913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2132321.coverage" NAME="2132321 Coverage Results" MODIFIED="1594682810561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$selium__1_.coverage" NAME="成功selium (1) Coverage Results" MODIFIED="1592960179243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp$tokenization_ctrl.coverage" NAME="tokenization_ctrl经典的bpe算法教学版 Coverage Results" MODIFIED="1596189975164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
+    <SUITE FILE_PATH="coverage/nlp$train__2_.coverage" NAME="train (2) Coverage Results" MODIFIED="1595819038645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/attention-is-all-you-need-pytorch最原始的版本--上课专用版" />
+    <SUITE FILE_PATH="coverage/nlp$run_language_modeling.coverage" NAME="run_language_modeling Coverage Results" MODIFIED="1595997166744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2albert222.coverage" NAME="huizong2使用的是albert大版本222 Coverage Results" MODIFIED="1597988278339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1592955876362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$langconv.coverage" NAME="langconv Coverage Results" MODIFIED="1594902961545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/nstools/zhtools" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$3434343__1_.coverage" NAME="3434343 (1) Coverage Results" MODIFIED="1594108565431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/垃圾" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$122222222222222.coverage" NAME="122222222222222 Coverage Results" MODIFIED="1598055130497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bertChineseVec.coverage" NAME="bertChineseVec Coverage Results" MODIFIED="1597725635625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$seq2labels_model.coverage" NAME="seq2labels_model Coverage Results" MODIFIED="1594179342575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/gector" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess2.coverage" NAME="preprocess2 Coverage Results" MODIFIED="1594945413037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$213213__1_.coverage" NAME="213213 (1) Coverage Results" MODIFIED="1596930372641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句法依存分析/句子分析" />
+    <SUITE FILE_PATH="coverage/nlp$kkk.coverage" NAME="kkk Coverage Results" MODIFIED="1595514152420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/attention-is-all-you-need-pytorch-master88888888latest" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$mini_imagenet.coverage" NAME="mini_imagenet Coverage Results" MODIFIED="1596765442392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master/data" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$main.coverage" NAME="main Coverage Results" MODIFIED="1597972478737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_wordEmbed-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$example02.coverage" NAME="example02 Coverage Results" MODIFIED="1597485385418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example" />
+    <SUITE FILE_PATH="coverage/nlp$train_finetune_latest3.coverage" NAME="train_finetune_latest3 Coverage Results" MODIFIED="1595302055470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$cythonma__1_.coverage" NAME="使用cython来进行ma算法究极加速 (1) Coverage Results" MODIFIED="1597319464551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$565645645.coverage" NAME="565645645 Coverage Results" MODIFIED="1597225162455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$213213kgqa.coverage" NAME="213213成熟的一套kg解决qa的方案 Coverage Results" MODIFIED="1597743300423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/句法依存分析和kg的方案/句子分析" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bert4keras_extract_feature.coverage" NAME="bert4keras_extract_feature Coverage Results" MODIFIED="1597981039459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert-vec-support" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$errorifier.coverage" NAME="errorifier Coverage Results" MODIFIED="1594030640827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/333/PIE-master/errorify" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$loading_all_dict.coverage" NAME="loading_all_dict Coverage Results" MODIFIED="1594033338935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils2/errorify" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$432423.coverage" NAME="432423 Coverage Results" MODIFIED="1593180292402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2312312.coverage" NAME="2312312 Coverage Results" MODIFIED="1597934086887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$generate.coverage" NAME="generate Coverage Results" MODIFIED="1594774655133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/GPT2-Chinese-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111__1_.coverage" NAME="使用cython来进行ma算法究极加速 Coverage Results" MODIFIED="1597319394535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/量化/main" />
+    <SUITE FILE_PATH="coverage/nlp$translate.coverage" NAME="translate Coverage Results" MODIFIED="1595514756205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/attention-is-all-you-need-pytorch-master88888888latest" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$676575675.coverage" NAME="676575675 Coverage Results" MODIFIED="1592958600407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nlp$1111111111111.coverage" NAME="1111111111111 Coverage Results" MODIFIED="1595818368208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/传统方法做nlg" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_facenet.coverage" NAME="train_facenet Coverage Results" MODIFIED="1596979513708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$3434343434.coverage" NAME="3434343434 Coverage Results" MODIFIED="1594178265422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master/utils" />
+    <SUITE FILE_PATH="coverage/nlp$stanza.coverage" NAME="stanza切分句子算法 Coverage Results" MODIFIED="1595230419442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111111.coverage" NAME="1111111111 Coverage Results" MODIFIED="1597558635357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$albertkg.coverage" NAME="albert加kg Coverage Results" MODIFIED="1597724187144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$222.coverage" NAME="222 Coverage Results" MODIFIED="1598260887397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
+    <SUITE FILE_PATH="coverage/nlp$kmp_for_array.coverage" NAME="kmp_for_array Coverage Results" MODIFIED="1595822352671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kmp" />
+    <SUITE FILE_PATH="coverage/nlp$2111111111111111111.coverage" NAME="2111111111111111111 Coverage Results" MODIFIED="1595779072032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils_for_bert翻译峰哥" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bert4keras_extract_feature__1_.coverage" NAME="bert4keras_extract_feature (1) Coverage Results" MODIFIED="1597986528469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2bertservice__1_.coverage" NAME="huizong2使用的是bert官方service (1) Coverage Results" MODIFIED="1597973199714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/nlp$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1595818871451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest-vocab2" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train2byZhang.coverage" NAME="train2byZhang Coverage Results" MODIFIED="1596765501835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2.coverage" NAME="huizong2 Coverage Results" MODIFIED="1597972775545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$56565656.coverage" NAME="56565656 Coverage Results" MODIFIED="1596378182552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$mtcnn_infer.coverage" NAME="mtcnn_infer Coverage Results" MODIFIED="1596967677873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
+    <SUITE FILE_PATH="coverage/nlp$run_generation__2__for_ctrl__1_.coverage" NAME="run_generation (2)_for_ctrl (1) Coverage Results" MODIFIED="1596163485667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
+    <SUITE FILE_PATH="coverage/nlp$generate_samples_gpt2.coverage" NAME="generate_samples_gpt2 Coverage Results" MODIFIED="1595321402584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/Megatron-LM-master/tools" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$encode.coverage" NAME="encode Coverage Results" MODIFIED="1594781664408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1594944823635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu__1_.coverage" NAME="train_tpu (1) Coverage Results" MODIFIED="1596535343522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/trainP" />
+    <SUITE FILE_PATH="coverage/nlp$1232312.coverage" NAME="1232312 Coverage Results" MODIFIED="1595926202258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$predict.coverage" NAME="predict Coverage Results" MODIFIED="1594217541813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1594943916206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/nlp$run_generation.coverage" NAME="run_generation Coverage Results" MODIFIED="1596014601275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/text-generation" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$training.coverage" NAME="training Coverage Results" MODIFIED="1596360390673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/training_utils" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$111111111.coverage" NAME="111111111 Coverage Results" MODIFIED="1597195243060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$encode_my.coverage" NAME="encode_my Coverage Results" MODIFIED="1594688004652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
+    <SUITE FILE_PATH="coverage/nlp$run_glue_with_pabee.coverage" NAME="run_glue_with_pabee Coverage Results" MODIFIED="1595464242647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/bert-loses-patience" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2.coverage" NAME="装饰器实用2 Coverage Results" MODIFIED="1597197467031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$test66666666666666666666666666.coverage" NAME="test66666666666666666666666666 Coverage Results" MODIFIED="1594873713363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MPNet-master/pretraining" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$11111111111111111.coverage" NAME="11111111111111111 Coverage Results" MODIFIED="1594947623040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111111albert__1_.coverage" NAME="1111111111albert训练 (1) Coverage Results" MODIFIED="1597651960362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$preprocess_by_me_test.coverage" NAME="preprocess_by_me_test Coverage Results" MODIFIED="1597472993265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$bert__1_.coverage" NAME="bert词向量 (1) Coverage Results" MODIFIED="1597969321099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$a__1_.coverage" NAME="a (1) Coverage Results" MODIFIED="1593217385930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong2albert.coverage" NAME="huizong2使用的是albert Coverage Results" MODIFIED="1598237491195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$8888888888888.coverage" NAME="8888888888888 Coverage Results" MODIFIED="1592553578480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2222222222222222222.coverage" NAME="2222222222222222222 Coverage Results" MODIFIED="1593181210031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_My.coverage" NAME="train_My Coverage Results" MODIFIED="1597479209239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$pre_data_byOnlyOneBook__1_.coverage" NAME="pre_data_byOnlyOneBook (1) Coverage Results" MODIFIED="1596504555455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$222222222.coverage" NAME="222222222 Coverage Results" MODIFIED="1598258985854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
+    <SUITE FILE_PATH="coverage/nlp$preprocess__1_.coverage" NAME="preprocess (1) Coverage Results" MODIFIED="1595727970690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/latest-fixed_by_vocab" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_tpu.coverage" NAME="train_tpu Coverage Results" MODIFIED="1596535260711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-master/train" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$build_graph.coverage" NAME="build_graph Coverage Results" MODIFIED="1596792048131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/QASystemOnMedicalGraph" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1.coverage" NAME="装饰器实用1 Coverage Results" MODIFIED="1597197368575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$888888888889999999999.coverage" NAME="888888888889999999999 Coverage Results" MODIFIED="1593182883586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$213213kgqa__1_.coverage" NAME="213213成熟的一套kg解决qa的方案 (1) Coverage Results" MODIFIED="1596931768317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句法依存分析/句子分析" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune_latest3.coverage" NAME="train_finetune_latest3 Coverage Results" MODIFIED="1594640812480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
+    <SUITE FILE_PATH="coverage/nlp$222222222222222.coverage" NAME="222222222222222 Coverage Results" MODIFIED="1595725011504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer-project_byFengge/latest-fixed_by_vocab" />
+    <SUITE FILE_PATH="coverage/nlp$predict.coverage" NAME="predict Coverage Results" MODIFIED="1595302213208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$22222albert.coverage" NAME="22222albert Coverage Results" MODIFIED="1597654519196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$56.coverage" NAME="56 Coverage Results" MODIFIED="1597972528534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_wordEmbed-master" />
+    <SUITE FILE_PATH="coverage/nlp$roberta.coverage" NAME="roberta模型的调用 Coverage Results" MODIFIED="1595922750528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta/commonsense_qa" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$7878787.coverage" NAME="7878787 Coverage Results" MODIFIED="1593397641945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$Unittests_for_66666666_TestClass.coverage" NAME="Unittests for 66666666.TestClass Coverage Results" MODIFIED="1592956892777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$make_tf_records.coverage" NAME="make_tf_records Coverage Results" MODIFIED="1596328408486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/training_utils" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$666666666.coverage" NAME="666666666 Coverage Results" MODIFIED="1592367329537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$ImportantExmaple.coverage" NAME="ImportantExmaple Coverage Results" MODIFIED="1597824297416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$generateByme.coverage" NAME="generateByme Coverage Results" MODIFIED="1596533106763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
   </component>
 </project>
