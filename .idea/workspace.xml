@@ -2,17 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/21321312.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract算法/312321.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract算法/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/PATENTS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/classification-example.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/classification-results.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/gen_vec.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/gen_vec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/get-wikimedia.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/pretrained-vectors.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/quantization-example.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/quantization-results.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/args.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/args.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/dictionary.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/dictionary.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/fasttext.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/fasttext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/matrix.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/matrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/model.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/model.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/productquantizer.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/productquantizer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/qmatrix.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/qmatrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/real.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/utils.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/vector.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/src/vector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/tutorials/cbo_vs_skipgram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/tutorials/supervised-learning.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/tutorials/unsupervised-learning.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/wikifil.pl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastText-0.1.0/word-vector-example.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fasttext中文词向量.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert使用/中文qa模型!!!!!!!!!!!!!!!!!!!.py" beforeDir="false" afterPath="$PROJECT_DIR$/albert使用/中文qa模型!!!!!!!!!!!!!!!!!!!.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert使用/对albert模型做finetune让他的词向量距离效果更好.py" beforeDir="false" afterPath="$PROJECT_DIR$/albert使用/对albert模型做finetune让他的词向量距离效果更好.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme日常开发规范" beforeDir="false" afterPath="$PROJECT_DIR$/readme日常开发规范" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,19 +101,12 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/网站中插入视频和音频" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\网站中插入视频和音频" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\语音" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习\词向量finetune" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\词向量finetune" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\生成器装饰器" />
@@ -88,8 +114,37 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\ctrl模型\ctrl原始代码\ctrl\training_utils" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\网站中插入视频和音频" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\语音" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习\词向量finetune" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\词向量finetune" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.中文qa模型!Finetune">
+  <component name="RunManager" selected="Python.fasttext中文词向量">
+    <configuration name="312321" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abstract算法/312321.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="对albert模型做finetune让他的词向量距离效果更好" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fasttext中文词向量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,34 +197,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/对albert模型做finetune让他的词向量距离效果更好.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="huizong2使用的是albert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert.py" />
+      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\fasttext中文词向量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,19 +279,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.run_language_modeling" />
-      <item itemvalue="Python.huizong2使用的是albert" />
-      <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好" />
       <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好 (1)" />
       <item itemvalue="Python.中文qa模型!!!!!!!!!!!!!!!!!!!" />
       <item itemvalue="Python.中文qa模型!Finetune" />
+      <item itemvalue="Python.312321" />
+      <item itemvalue="Python.fasttext中文词向量" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fasttext中文词向量" />
+        <item itemvalue="Python.312321" />
         <item itemvalue="Python.中文qa模型!Finetune" />
         <item itemvalue="Python.中文qa模型!!!!!!!!!!!!!!!!!!!" />
         <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好 (1)" />
-        <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好" />
-        <item itemvalue="Python.huizong2使用的是albert" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +402,7 @@
       <workItem from="1597588597547" duration="88881000" />
       <workItem from="1597851504065" duration="65100000" />
       <workItem from="1598138802584" duration="601000" />
-      <workItem from="1598140423850" duration="24586000" />
+      <workItem from="1598140423850" duration="33759000" />
     </task>
     <servers />
   </component>
@@ -424,10 +457,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="358" y="0" key="#train/0.0.1280.680@0.0.1280.680" timestamp="1595513082480" />
-    <state x="385" y="41" width="777" height="583" key="#xdebugger.evaluate" timestamp="1597985644653">
+    <state x="385" y="41" width="777" height="583" key="#xdebugger.evaluate" timestamp="1598249729356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="385" y="41" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1597985644653" />
+    <state x="385" y="41" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1598249729356" />
     <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1596430478936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -448,38 +481,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="172" key="GridCell.Tab.0.bottom" timestamp="1598240474981">
+    <state width="1237" height="237" key="GridCell.Tab.0.bottom" timestamp="1598256951538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598240474981" />
-    <state width="1237" height="172" key="GridCell.Tab.0.center" timestamp="1598240474981">
+    <state width="1237" height="237" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598256951538" />
+    <state width="1237" height="237" key="GridCell.Tab.0.center" timestamp="1598256951538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598240474981" />
-    <state width="1237" height="172" key="GridCell.Tab.0.left" timestamp="1598240474981">
+    <state width="1237" height="237" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598256951538" />
+    <state width="1237" height="237" key="GridCell.Tab.0.left" timestamp="1598256951538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598240474981" />
-    <state width="1237" height="172" key="GridCell.Tab.0.right" timestamp="1598240474981">
+    <state width="1237" height="237" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598256951538" />
+    <state width="1237" height="237" key="GridCell.Tab.0.right" timestamp="1598256951538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="172" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598240474981" />
-    <state width="1237" height="268" key="GridCell.Tab.1.bottom" timestamp="1598239562032">
+    <state width="1237" height="237" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598256951538" />
+    <state width="1237" height="305" key="GridCell.Tab.1.bottom" timestamp="1598256504171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="268" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598239562032" />
-    <state width="1237" height="268" key="GridCell.Tab.1.center" timestamp="1598239562032">
+    <state width="1237" height="305" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598256504171" />
+    <state width="1237" height="305" key="GridCell.Tab.1.center" timestamp="1598256504171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="268" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598239562032" />
-    <state width="1237" height="268" key="GridCell.Tab.1.left" timestamp="1598239562032">
+    <state width="1237" height="305" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598256504171" />
+    <state width="1237" height="305" key="GridCell.Tab.1.left" timestamp="1598256504171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="268" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598239562032" />
-    <state width="1237" height="268" key="GridCell.Tab.1.right" timestamp="1598239562032">
+    <state width="1237" height="305" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598256504171" />
+    <state width="1237" height="305" key="GridCell.Tab.1.right" timestamp="1598256504171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="268" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598239562032" />
+    <state width="1237" height="305" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598256504171" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -488,18 +521,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1597986301774" />
-    <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598237628602">
+    <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598256455756">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1598237628602" />
+    <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1598256455756" />
     <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597824524591">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1597824524591" />
-    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1598237823454">
+    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1598249627144">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598237823454" />
+    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598249627144" />
     <state x="1039" y="95" key="ftp.server.browser" timestamp="1596014081714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1481,6 +1514,11 @@
           <line>40</line>
           <option name="timeStamp" value="525" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fasttext中文词向量.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="533" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1548,6 +1586,9 @@
         <watch expression="self.model" />
         <watch expression="pooled_output" />
         <watch expression="k" />
+        <watch expression="data" />
+        <watch expression=" map(float, tokens[1:])" />
+        <watch expression=" tokens[1:]" />
       </configuration>
     </watches-manager>
   </component>
@@ -1555,6 +1596,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$23232.coverage" NAME="23232 Coverage Results" MODIFIED="1597913327913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert做词向量" />
     <SUITE FILE_PATH="coverage/fairseq_gec$2132321.coverage" NAME="2132321 Coverage Results" MODIFIED="1594682810561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1111111.coverage" NAME="1111111 Coverage Results" MODIFIED="1597318221795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianghua" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$312321.coverage" NAME="312321 Coverage Results" MODIFIED="1598252018819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$selium__1_.coverage" NAME="成功selium (1) Coverage Results" MODIFIED="1592960179243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nlp$tokenization_ctrl.coverage" NAME="tokenization_ctrl经典的bpe算法教学版 Coverage Results" MODIFIED="1596189975164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
     <SUITE FILE_PATH="coverage/fairseq_gec$Unittests_for_66666666_TestClass_test_case2.coverage" NAME="Unittests for 66666666.TestClass.test_case2 Coverage Results" MODIFIED="1592956791878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -1568,6 +1610,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$222222222222.coverage" NAME="222222222222 Coverage Results" MODIFIED="1597799212715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$344234.coverage" NAME="344234 Coverage Results" MODIFIED="1592958307853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$example01.coverage" NAME="example01 Coverage Results" MODIFIED="1597977057979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$12233.coverage" NAME="12233 Coverage Results" MODIFIED="1598256951532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$langconv.coverage" NAME="langconv Coverage Results" MODIFIED="1594902961545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/nstools/zhtools" />
     <SUITE FILE_PATH="coverage/fairseq_gec$3434343__1_.coverage" NAME="3434343 (1) Coverage Results" MODIFIED="1594108565431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/垃圾" />
     <SUITE FILE_PATH="coverage/fairseq_gec$122222222222222.coverage" NAME="122222222222222 Coverage Results" MODIFIED="1598055130497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
