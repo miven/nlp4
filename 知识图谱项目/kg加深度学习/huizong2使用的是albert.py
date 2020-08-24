@@ -54,7 +54,7 @@ dict_path = '/mnt/chinese_L-12_H-768_A-12/vocab.txt'
 
 import os, re, json
 import json
-import nmslib
+# import nmslib
 import torch
 import random
 import pandas as pd

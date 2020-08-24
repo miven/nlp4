@@ -39,7 +39,7 @@ import torch # 试着在这个上面做finetune
 # 可以手动去https://huggingface.co/valhalla/bart-large-finetuned-squadv1#   下载需要的文件.
 
 
-question, text = "我是谁", "我是张博啊"
+question, text = "我是谁", "我是朱光旭"
 encoding = tokenizer(question, text, return_tensors='pt')
 input_ids = encoding['input_ids']
 attention_mask = encoding['attention_mask']
@@ -68,7 +68,7 @@ if 1:
 
 
     for _ in range(10):
-        batch=[input_ids,attention_mask,torch.tensor([0]),torch.tensor([1])]
+        batch=[input_ids,attention_mask,torch.tensor([7]),torch.tensor([9])]  # ---------表示训练数据. 注意所以所以是整个q,t 放一起算的
         inputs = {
             "input_ids": batch[0],
             "attention_mask": batch[1],

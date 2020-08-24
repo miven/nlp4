@@ -95,7 +95,7 @@ def finetune():
         left=torch.tensor(tokenizer.encode(left, add_special_tokens=True)).unsqueeze(0)
         right=torch.tensor(tokenizer.encode(right, add_special_tokens=True)).unsqueeze(0)  # 注意这个地方要拓展一维batch_size
         outputs1 = model(left, )
-        outputs2 = model(right, )
+        outputs2 = model(right, )         #  [left,right]     batch_size=2            [left,[sep],right]
         tmp=torch.cosine_similarity(outputs1,outputs2)
         loss=1-tmp
         print(loss)
@@ -151,7 +151,7 @@ def search128(tex):# 返回维度128的向量.
 
 import os, re, json
 import json
-import nmslib
+# import nmslib
 import torch
 import random
 import pandas as pd
@@ -165,7 +165,7 @@ from operator import itemgetter
 from functools import wraps
 from pytorch_pretrained_bert import BertModel, BertTokenizer, BertConfig
 from sklearn.metrics.pairwise import cosine_similarity
-from rusenttokenize import ru_sent_tokenize
+# from rusenttokenize import ru_sent_tokenize
 
 
 
@@ -283,6 +283,9 @@ import torch
 kglist=['大学','人口','面积']
 text='姚明的妻子的丈夫的妻子'
 text='我现在在天津,这里有什么大学?'
+text='姚明可以吃吗'
+text='黄瓜的烹饪方法'
+text='决明子的烹饪方法'          #  决明子---------烹饪方法
 # text='姚明的妻子'
 
 
@@ -315,6 +318,7 @@ text='我现在在天津,这里有什么大学?'
 
 # 加入句子成分跳转.
 seg, hidden = ltp.seg([text])
+help(ltp.seg)
 # sdp = ltp.sdp(hidden, graph=False)
 
 print(seg,"seg")
@@ -378,8 +382,8 @@ for ner_sample in ner:
 # 如果luxian里面长度是1,说明没有找到跳转.只有ner.那么我们就用luxian里面这个.进入词向量.搜索算法即可.
 if 1:
     print("下面用bert做辅助判断")
-    #kglist = luxian[0] 这个东西的所有的边.
-    tiaozhuan = searchKG(kglist=['地点','地址','大小','老婆','丈夫'], text='妻子')
+    #kglist = luxian[0] 这个东西的所有的边.--------找ner-----天津-----kg里面天津素有的边放到kglist里面.
+    tiaozhuan = searchKG(kglist=['地点','地址','大小','老婆','丈夫'], text='妻子')    # 该用fasttext 做词向量比较.
     # 利用距离小于一个阈值,我们就使用这个tiaozhuan,目前只支持bert算法的一次跳转,多次跳转没想到.
 
 if len(luxian)==0:

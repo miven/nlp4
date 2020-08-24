@@ -22,7 +22,7 @@ import tensorflow as tf
 
 logger = logging.getLogger(__name__)
 
-
+# tf里面的 ml模型的生成代码.
 class TFGenerationMixin:
     """
     A class contraining all of the functions supporting generation, to be used as a mixin in TFPreTrainedModel.
@@ -148,8 +148,15 @@ class TFGenerationMixin:
 
             tokenizer = AutoTokenizer.from_pretrained('distilgpt2')   # Initialize tokenizer
             model = TFAutoModelWithLMHead.from_pretrained('distilgpt2')    # Download model and configuration from S3 and cache.
-            outputs = model.generate(max_length=40)  # do greedy decoding
+            outputs = model.generate(max_length=40)  # do greedy decoding # 默认的模式是贪婪模式. 效果当然不好,
             print('Generated: {}'.format(tokenizer.decode(outputs[0], skip_special_tokens=True)))
+
+
+
+
+
+
+
 
             tokenizer = AutoTokenizer.from_pretrained('openai-gpt')   # Initialize tokenizer
             model = TFAutoModelWithLMHead.from_pretrained('openai-gpt')    # Download model and configuration from S3 and cache.
