@@ -63,7 +63,7 @@ except (ImportError, AssertionError):
 
 try:
     from torch.hub import _get_torch_home
-
+# DEFAULT_CACHE_DIR = '~/.cache'   默认文件都放在这里面.
     torch_cache_home = _get_torch_home()
 except ImportError:
     torch_cache_home = os.path.expanduser(
@@ -154,7 +154,7 @@ def is_apex_available():
 
 
 def add_start_docstrings(*docstr):
-    def docstring_decorator(fn):
+    def docstring_decorator(fn):# 等于把加入的函数多赋予了一个属性叫__doc__
         fn.__doc__ = "".join(docstr) + (fn.__doc__ if fn.__doc__ is not None else "")
         return fn
 
@@ -212,7 +212,7 @@ def _prepare_output_docstrings(output_type, config_class):
     intro = RETURN_INTRODUCTION.format(full_output_type=full_output_type, config_class=config_class)
     return intro + docstrings
 
-
+# token分类的例子.
 PT_TOKEN_CLASSIFICATION_SAMPLE = r"""
     Example::
 
@@ -223,12 +223,15 @@ PT_TOKEN_CLASSIFICATION_SAMPLE = r"""
         >>> model = {model_class}.from_pretrained('{checkpoint}')
 
         >>> inputs = tokenizer("Hello, my dog is cute", return_tensors="pt")
+        
+        # 下行传入了label,所以可以算loss.这里面label就是全都是1. 表示所有token都是正样本.
         >>> labels = torch.tensor([1] * inputs["input_ids"].size(1)).unsqueeze(0)  # Batch size 1
 
         >>> outputs = model(**inputs, labels=labels)
         >>> loss, scores = outputs[:2]
 """
 
+# 下面是qa 的例子.
 PT_QUESTION_ANSWERING_SAMPLE = r"""
     Example::
 
@@ -245,7 +248,7 @@ PT_QUESTION_ANSWERING_SAMPLE = r"""
         >>> outputs = model(**inputs, start_positions=start_positions, end_positions=end_positions)
         >>> loss, start_scores, end_scores = outputs[:3]
 """
-
+#句子分类例子.
 PT_SEQUENCE_CLASSIFICATION_SAMPLE = r"""
     Example::
 
@@ -260,7 +263,7 @@ PT_SEQUENCE_CLASSIFICATION_SAMPLE = r"""
         >>> outputs = model(**inputs, labels=labels)
         >>> loss, logits = outputs[:2]
 """
-
+#ml例子
 PT_MASKED_LM_SAMPLE = r"""
     Example::
 
@@ -275,7 +278,7 @@ PT_MASKED_LM_SAMPLE = r"""
         >>> outputs = model(input_ids, labels=input_ids)
         >>> loss, prediction_scores = outputs[:2]
 """
-
+# 这个是词向量的例子, 直接输出最后的hideen层.
 PT_BASE_MODEL_SAMPLE = r"""
     Example::
 
@@ -291,6 +294,8 @@ PT_BASE_MODEL_SAMPLE = r"""
         >>> last_hidden_states = outputs[0]  # The last hidden-state is the first element of the output tuple
 """
 
+
+# 最后一个是多重选择, 也就是qa里面的选择题.
 PT_MULTIPLE_CHOICE_SAMPLE = r"""
     Example::
 
@@ -304,14 +309,14 @@ PT_MULTIPLE_CHOICE_SAMPLE = r"""
         >>> choice0 = "It is eaten with a fork and a knife."
         >>> choice1 = "It is eaten while held in the hand."
         >>> labels = torch.tensor(0).unsqueeze(0)  # choice0 is correct (according to Wikipedia ;)), batch size 1
-
+# 输入就是2个重复的prompt分别表示给choice的上下文. 根据上下文做出选择,因为unsliced所以需要刀叉.
         >>> encoding = tokenizer([[prompt, prompt], [choice0, choice1]], return_tensors='pt', padding=True)
         >>> outputs = model(**{{k: v.unsqueeze(0) for k,v in encoding.items()}}, labels=labels)  # batch size is 1
 
         >>> # the linear classifier still needs to be trained
         >>> loss, logits = outputs[:2]
 """
-
+# 因果lm模型.
 PT_CAUSAL_LM_SAMPLE = r"""
     Example::
 
@@ -478,7 +483,7 @@ def replace_return_docstrings(output_type=None, config_class=None):
         i = 0
         while i < len(lines) and re.search(r"^\s*Returns?:\s*$", lines[i]) is None:
             i += 1
-        if i < len(lines):
+        if i < len(lines): # 替换文档.
             lines[i] = _prepare_output_docstrings(output_type, config_class)
             docstrings = "\n".join(lines)
         else:
@@ -532,7 +537,13 @@ def url_to_filename(url, etag=None):
     url_bytes = url.encode("utf-8")
     url_hash = sha256(url_bytes)
     filename = url_hash.hexdigest()
+    '''
+    hash.digest() 
+返回摘要，作为二进制数据字符串值
 
+hash.hexdigest() 
+返回摘要，作为十六进制数据字符串值
+    '''
     if etag:
         etag_bytes = etag.encode("utf-8")
         etag_hash = sha256(etag_bytes)
@@ -635,9 +646,10 @@ def cached_path(
         # Path where we extract compressed archives
         # We avoid '.' in dir name and add "-extracted" at the end: "./model.zip" => "./model-zip-extracted/"
         output_dir, output_file = os.path.split(output_path)
+        # 目标目录多写一个-extracted
         output_extract_dir_name = output_file.replace(".", "-") + "-extracted"
         output_path_extracted = os.path.join(output_dir, output_extract_dir_name)
-
+# 如果已经存在解压后的,直接返回即可.
         if os.path.isdir(output_path_extracted) and os.listdir(output_path_extracted) and not force_extract:
             return output_path_extracted
 
@@ -645,12 +657,12 @@ def cached_path(
         lock_path = output_path + ".lock"
         with FileLock(lock_path):
             shutil.rmtree(output_path_extracted, ignore_errors=True)
-            os.makedirs(output_path_extracted)
-            if is_zipfile(output_path):
+            os.makedirs(output_path_extracted) # 先删除然后重新建立.
+            if is_zipfile(output_path): # 一种是zip格式
                 with ZipFile(output_path, "r") as zip_file:
                     zip_file.extractall(output_path_extracted)
                     zip_file.close()
-            elif tarfile.is_tarfile(output_path):
+            elif tarfile.is_tarfile(output_path): # 一种是tar格式.
                 tar_file = tarfile.open(output_path)
                 tar_file.extractall(output_path_extracted)
                 tar_file.close()

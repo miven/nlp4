@@ -185,7 +185,7 @@ class PretrainedConfig(object):
 
         # TPU arguments
         self.xla_device = kwargs.pop("xla_device", None)
-
+# 剩余的其他值也进行配置.
         # Additional attributes without default values
         for key, value in kwargs.items():
             try:
@@ -198,7 +198,10 @@ class PretrainedConfig(object):
     def use_return_tuple(self):
         # If torchscript is set, force return_tuple to avoid jit errors
         return self.return_tuple or self.torchscript
-
+# https://www.liaoxuefeng.com/wiki/897692888725344/923030547069856   这里面是property的使用方式.
+    # 具体就是用@property来进行检查, 调用时候会进入相关的 @num_labels.setter 方法.从而让这个属性的赋值不会随便修改.
+    # 具体就是这个类.num_labels=40 那么就会调用里面的setter方法. 调用    @num_labels.setter
+    #     def num_labels(self, num_labels: int): 这个方法.来进行具体的运行.这样就保证了合法性.
     @property
     def num_labels(self) -> int:
         return len(self.id2label)
@@ -208,6 +211,8 @@ class PretrainedConfig(object):
         self.id2label = {i: "LABEL_{}".format(i) for i in range(num_labels)}
         self.label2id = dict(zip(self.id2label.values(), self.id2label.keys()))
 
+
+# 保存config到本地文件里面.
     def save_pretrained(self, save_directory: str):
         """
         Save a configuration object to the directory ``save_directory``, so that it can be re-loaded using the
@@ -353,7 +358,7 @@ class PretrainedConfig(object):
             logger.info("loading configuration file {} from cache at {}".format(config_file, resolved_config_file))
 
         return config_dict, kwargs
-
+# 从一个字典配置参数.
     @classmethod
     def from_dict(cls, config_dict: Dict[str, Any], **kwargs) -> "PretrainedConfig":
         """
@@ -412,7 +417,7 @@ class PretrainedConfig(object):
     def _dict_from_json_file(cls, json_file: str):
         with open(json_file, "r", encoding="utf-8") as reader:
             text = reader.read()
-        return json.loads(text)
+        return json.loads(text) # 读取一个json到字典.
 
     def __eq__(self, other):
         return self.__dict__ == other.__dict__
@@ -425,6 +430,8 @@ class PretrainedConfig(object):
         Removes all attributes from config which correspond to the default
         config attributes for better readability and serializes to a Python
         dictionary.
+
+        得到一个去除了default参数的字典, 这样保存起来更小更纯粹. 其实没啥必要,因为一共也没几个参数.
 
         Returns:
             :obj:`Dict[str, Any]`: Dictionary of all the attributes that make up this configuration instance,
