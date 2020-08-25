@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/abstract算法/abstarct模型.英文的跑起来.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract算法/312321.py" beforeDir="false" afterPath="$PROJECT_DIR$/abstract算法/312321.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习\词向量finetune" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.t5摘要效果还行加了finetune">
+  <component name="RunManager" selected="Python.t5摘要效果还行加了finetune (1)">
     <configuration name="312321" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t5摘要效果还行" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t5摘要效果还行加了finetune (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,7 +204,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法\t5摘要效果还行.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,14 +263,15 @@
       <item itemvalue="Python.abstarct模型.英文的跑起来" />
       <item itemvalue="Python.abstarct模型.英文的跑起来 (1)" />
       <item itemvalue="Python.t5摘要效果还行加了finetune" />
+      <item itemvalue="Python.t5摘要效果还行加了finetune (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t5摘要效果还行加了finetune (1)" />
         <item itemvalue="Python.t5摘要效果还行加了finetune" />
         <item itemvalue="Python.t5摘要效果还行加了finetune" />
         <item itemvalue="Python.312321" />
         <item itemvalue="Python.abstarct模型.英文的跑起来 (1)" />
-        <item itemvalue="Python.abstarct模型.英文的跑起来" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +382,8 @@
       <workItem from="1597588597547" duration="88881000" />
       <workItem from="1597851504065" duration="65100000" />
       <workItem from="1598138802584" duration="601000" />
-      <workItem from="1598140423850" duration="45505000" />
+      <workItem from="1598140423850" duration="46700000" />
+      <workItem from="1598310435335" duration="4739000" />
     </task>
     <servers />
   </component>
@@ -463,38 +462,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="165" key="GridCell.Tab.0.bottom" timestamp="1598284276398">
+    <state width="1237" height="185" key="GridCell.Tab.0.bottom" timestamp="1598311904882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598284276398" />
-    <state width="1237" height="165" key="GridCell.Tab.0.center" timestamp="1598284276398">
+    <state width="1237" height="185" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598311904882" />
+    <state width="1237" height="185" key="GridCell.Tab.0.center" timestamp="1598311904882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598284276398" />
-    <state width="1237" height="165" key="GridCell.Tab.0.left" timestamp="1598284276398">
+    <state width="1237" height="185" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598311904882" />
+    <state width="1237" height="185" key="GridCell.Tab.0.left" timestamp="1598311904881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598284276398" />
-    <state width="1237" height="165" key="GridCell.Tab.0.right" timestamp="1598284276398">
+    <state width="1237" height="185" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598311904881" />
+    <state width="1237" height="185" key="GridCell.Tab.0.right" timestamp="1598311904882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598284276398" />
-    <state width="1237" height="39" key="GridCell.Tab.1.bottom" timestamp="1598283891376">
+    <state width="1237" height="185" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598311904882" />
+    <state width="1237" height="39" key="GridCell.Tab.1.bottom" timestamp="1598310411007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="39" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598283891376" />
-    <state width="1237" height="39" key="GridCell.Tab.1.center" timestamp="1598283891376">
+    <state width="1237" height="39" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598310411007" />
+    <state width="1237" height="39" key="GridCell.Tab.1.center" timestamp="1598310411007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="39" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598283891376" />
-    <state width="1237" height="39" key="GridCell.Tab.1.left" timestamp="1598283891376">
+    <state width="1237" height="39" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598310411007" />
+    <state width="1237" height="39" key="GridCell.Tab.1.left" timestamp="1598310411007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="39" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598283891376" />
-    <state width="1237" height="39" key="GridCell.Tab.1.right" timestamp="1598283891376">
+    <state width="1237" height="39" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598310411007" />
+    <state width="1237" height="39" key="GridCell.Tab.1.right" timestamp="1598310411007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="39" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598283891376" />
+    <state width="1237" height="39" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598310411007" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1648,6 +1647,7 @@
     <SUITE FILE_PATH="coverage/nlp$21321312.coverage" NAME="21321312 Coverage Results" MODIFIED="1595922153727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta/commonsense_qa" />
     <SUITE FILE_PATH="coverage/fairseq_gec$c.coverage" NAME="c Coverage Results" MODIFIED="1594741838162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/889" />
     <SUITE FILE_PATH="coverage/nlp$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1595729866587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$t5finetune__1_.coverage" NAME="t5摘要效果还行加了finetune (1) Coverage Results" MODIFIED="1598310923485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$9898.coverage" NAME="9898 Coverage Results" MODIFIED="1593219765175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
     <SUITE FILE_PATH="coverage/nlp$111__1_.coverage" NAME="111 (1) Coverage Results" MODIFIED="1596033324528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa___________________.coverage" NAME="中文qa模型!!!!!!!!!!!!!!!!!!! Coverage Results" MODIFIED="1598240259926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />

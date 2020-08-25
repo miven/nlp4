@@ -27,7 +27,7 @@ class TFGenerationMixin:
     """
     A class contraining all of the functions supporting generation, to be used as a mixin in TFPreTrainedModel.
     """
-
+# 包成一个字典
     def prepare_inputs_for_generation(self, inputs, **kwargs):
         return {"inputs": inputs}
 
@@ -38,6 +38,7 @@ class TFGenerationMixin:
         if hasattr(self.config, "mem_len") and self.config.mem_len == 0:
             return False
         return True
+
 
     def generate(
         self,
@@ -163,6 +164,7 @@ class TFGenerationMixin:
             input_context = 'The dog'
             input_ids = tokenizer.encode(input_context, return_tensors='tf')  # encode input context
             outputs = model.generate(input_ids=input_ids, num_beams=5, num_return_sequences=3, temperature=1.5)  # generate 3 independent sequences using beam search decoding (5 beams) with sampling from initial context 'The dog'
+            # 把生成出来的句子都打印出来, 每一个sample都已经是一个完整的句子. 因为decoder层的输出本身就是一个完整的句子.
             for i in range(3): #  3 output sequences were generated
                 print('Generated {}: {}'.format(i, tokenizer.decode(outputs[i], skip_special_tokens=True)))
 
@@ -279,9 +281,9 @@ class TFGenerationMixin:
         # create attention mask if necessary
         # TODO (PVP): this should later be handled by the forward fn() in each model in the future see PR 3140
         if (attention_mask is None) and (pad_token_id is not None) and (pad_token_id in input_ids.numpy()):
-            attention_mask = tf.cast(tf.math.not_equal(input_ids, pad_token_id), dtype=tf.int32)
+            attention_mask = tf.cast(tf.math.not_equal(input_ids, pad_token_id), dtype=tf.int32)       # 做pad mask
         elif attention_mask is None:
-            attention_mask = tf.ones_like(input_ids)
+            attention_mask = tf.ones_like(input_ids)  # 否则就没有,所以全是1即可.
 
         if pad_token_id is None and eos_token_id is not None:
             logger.warning(
