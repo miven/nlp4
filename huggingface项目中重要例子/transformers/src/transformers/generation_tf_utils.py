@@ -317,7 +317,7 @@ class TFGenerationMixin:
             encoder = self.get_encoder()
 
             encoder_outputs = encoder(input_ids, attention_mask=attention_mask)
-
+# 是否进行批处理.
         # Expand input ids if num_beams > 1 or num_return_sequences > 1
         if num_return_sequences > 1 or num_beams > 1:
             input_ids_len = shape_list(input_ids)[-1]
@@ -336,7 +336,7 @@ class TFGenerationMixin:
 
         if self.config.is_encoder_decoder:
 
-            # create empty decoder_input_ids
+            # create empty decoder_input_ids        #因为decoder 的第一个位置一定是 <s> ,所以填充上先.
             input_ids = tf.ones((effective_batch_size * num_beams, 1), dtype=tf.int32,) * decoder_start_token_id
             cur_len = 1
 
