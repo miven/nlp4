@@ -412,7 +412,7 @@ class TFGenerationMixin:
             )
 
         return output
-
+# 非beam 生成算法.
     def _generate_no_beam_search(
         self,
         input_ids,
@@ -442,15 +442,15 @@ class TFGenerationMixin:
 
         # length of generated sentences / unfinished sentences
         unfinished_sents = tf.ones_like(input_ids[:, 0])
-        sent_lengths = tf.ones_like(input_ids[:, 0]) * max_length
+        sent_lengths = tf.ones_like(input_ids[:, 0]) * max_length   # 每一个位置都乘以amx_length
 
         past = encoder_outputs  # defined for encoder-decoder models, None for decoder-only models
-
+# 下面就是核心的generate代码.反复生成一个token,知道==max length
         while cur_len < max_length:
             model_inputs = self.prepare_inputs_for_generation(
                 input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache
             )
-            outputs = self(**model_inputs)
+            outputs = self(**model_inputs)  # 这个里面走的是forward函数.在子类中实现.
             next_token_logits = outputs[0][:, -1, :]
 
             # if model has past, then set the past variable to speed up decoding
@@ -458,7 +458,7 @@ class TFGenerationMixin:
                 past = outputs[1]
 
             # repetition penalty from CTRL paper (https://arxiv.org/abs/1909.05858)
-            if repetition_penalty != 1.0:
+            if repetition_penalty != 1.0: # 在每一个出现过的token上乘以一个衰减率.
                 next_token_logits_penalties = _create_next_token_logits_penalties(
                     input_ids, next_token_logits, repetition_penalty
                 )
@@ -505,9 +505,9 @@ class TFGenerationMixin:
                     next_token_logits, eos_token_indices_mask, -float("inf")
                 )
 
-            if do_sample:
+            if do_sample:      # 进行采样.就是根据结果进行随机抽取.  否则就是argmax算法.
                 # Temperature (higher temperature => more likely to sample low probability tokens)
-                if temperature != 1.0:
+                if temperature != 1.0: # 首先是除以系数,这样后面的在top-p里面更有可能获取到了.
                     next_token_logits = next_token_logits / temperature
                 # Top-p/top-k filtering
                 next_token_logits = tf_top_k_top_p_filtering(next_token_logits, top_k=top_k, top_p=top_p)
