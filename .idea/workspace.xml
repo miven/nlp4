@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +382,7 @@
       <workItem from="1597851504065" duration="65100000" />
       <workItem from="1598138802584" duration="601000" />
       <workItem from="1598140423850" duration="46700000" />
-      <workItem from="1598310435335" duration="14809000" />
+      <workItem from="1598310435335" duration="20873000" />
     </task>
     <servers />
   </component>
