@@ -22,6 +22,16 @@ from torch import Tensor
 from torch.nn import functional as F
 
 
+
+'''
+这个是上面generatin_tf的 pytorch版本. 看这个吧, tf看着头疼.
+'''
+
+
+
+
+
+
 logger = logging.getLogger(__name__)
 
 
@@ -49,6 +59,7 @@ class GenerationMixin:
         for i in range(batch_size * num_beams):
             for previous_token in set(prev_output_tokens[i].tolist()):
                 # if score < 0 then repetition penalty has to multiplied to reduce the previous token probability
+                # 根据概率正负进行区分.
                 if lprobs[i, previous_token] < 0:
                     lprobs[i, previous_token] *= repetition_penalty
                 else:
@@ -75,8 +86,14 @@ class GenerationMixin:
             )
 
         # set eos token prob to zero if min_length is not reached
+        # 如果当前还没到需要的最小句子长度,那么就让eos概率为0,这里面的概率是softmax之前的数,所以取负无穷.
         if eos_token_id is not None and cur_len < min_length:
             scores[:, eos_token_id] = -float("inf")
+
+
+
+
+
 
         if no_repeat_ngram_size > 0:
             # calculate a list of banned tokens to prevent repetitively generating the same ngrams

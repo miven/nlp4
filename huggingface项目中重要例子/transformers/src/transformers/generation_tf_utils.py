@@ -535,7 +535,7 @@ class TFGenerationMixin:
                 # if sentence is unfinished and the token to add is eos, sent_lengths is filled with current length
                 is_sents_unfinished_and_token_to_add_is_eos = tf.math.multiply(
                     unfinished_sents, tf.cast(eos_in_sents, tf.int32)
-                )
+                ) # 直接加满/s到句子长度.
                 sent_lengths = (
                     sent_lengths * (1 - is_sents_unfinished_and_token_to_add_is_eos)
                     + cur_len * is_sents_unfinished_and_token_to_add_is_eos

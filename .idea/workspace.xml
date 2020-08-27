@@ -2,7 +2,304 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/riscV/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/app/app.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/app/link.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pymem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv_regs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv_riscv_def.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/README.en.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/pic/arch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/pic/test_output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/defines.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/div.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/ex.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/id.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/if_id.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/openriscv_core.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/pc_reg.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/regs.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/sim_ram.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/inst.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/openriscv_core_tb.v" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/openriscv_core_tb.vcd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/out.vvp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/sim_default_nowave.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/sim_new_nowave.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/example.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/example.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/link.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/reset.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-add" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-add.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-add.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-add.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-addi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-addi.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-addi.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-addi.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-and" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-and.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-and.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-and.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-andi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-andi.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-andi.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-andi.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-auipc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-auipc.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-auipc.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-auipc.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-beq" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-beq.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-beq.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-beq.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bge" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bge.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bge.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bge.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bgeu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bgeu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bgeu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bgeu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-blt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-blt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-blt.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-blt.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bltu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bltu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bltu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bltu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bne" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bne.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bne.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bne.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-fence_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-fence_i.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-fence_i.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-fence_i.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jal.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jal.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jal.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jalr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jalr.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jalr.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jalr.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lb.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lb.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lb.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lbu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lbu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lbu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lbu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lh.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lh.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lh.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lhu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lhu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lhu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lhu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lui.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lui.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lui.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lw.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lw.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lw.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-or" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-or.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-or.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-or.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-ori" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-ori.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-ori.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-ori.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sb.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sb.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sb.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sh.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sh.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sh.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-simple" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-simple.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-simple.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-simple.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sll.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sll.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sll.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slli" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slli.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slli.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slli.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slt.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slt.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slt.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slti" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slti.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slti.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slti.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltiu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltiu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltiu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltiu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sra.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sra.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sra.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srai.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srai.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srai.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srl.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srl.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srl.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srli" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srli.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srli.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srli.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sub.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sub.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sub.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sw.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sw.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sw.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xor.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xor.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xor.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xori" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xori.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xori.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xori.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-div" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-div.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-div.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-div.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-divu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-divu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-divu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-divu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mul" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mul.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mul.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mul.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulh.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulh.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulh.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhsu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhsu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhsu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhsu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-rem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-rem.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-rem.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-rem.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-remu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-remu.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-remu.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-remu.verilog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/link.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/riscv_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/Makefrag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/add.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/addi.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/and.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/andi.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/auipc.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/beq.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/bge.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/bgeu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/blt.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/bltu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/bne.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/fence_i.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/jal.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/jalr.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lb.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lbu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/ld.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lh.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lhu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lui.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lw.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lwu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/or.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/ori.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sb.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sd.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sh.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/simple.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sll.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/slli.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/slt.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/slti.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sltiu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sltu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sra.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/srai.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/srl.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/srli.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sub.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sw.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/xor.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/xori.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/Makefrag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/div.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/divu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/mul.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/mulh.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/mulhsu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/mulhu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/rem.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/remu.S" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/test_macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tools/BinToMem_CLI.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tools/BinToMem_CLI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tools/BinToMem_GUI.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unilm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/峰哥翻译项目/111111111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/峰哥翻译项目/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/峰哥翻译项目/撮合算法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +355,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/abstract算法" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/riscV" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\riscV" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\网站中插入视频和音频" />
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\语音" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\生成器装饰器" />
@@ -71,16 +375,9 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\ctrl模型\ctrl原始代码\ctrl\training_utils" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\网站中插入视频和音频" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\语音" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习\词向量finetune" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.t5摘要效果还行加了finetune (1)">
-    <configuration name="312321" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.中文qa模型!Finetune">
+    <configuration name="111111111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,12 +385,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/峰哥翻译项目" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abstract算法/312321.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/峰哥翻译项目/111111111.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +443,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="abstarct模型.英文的跑起来" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="中文qa模型!Finetune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +451,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法\abstarct模型.英文的跑起来.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,19 +555,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.run_language_modeling" />
-      <item itemvalue="Python.312321" />
-      <item itemvalue="Python.abstarct模型.英文的跑起来" />
       <item itemvalue="Python.abstarct模型.英文的跑起来 (1)" />
       <item itemvalue="Python.t5摘要效果还行加了finetune" />
       <item itemvalue="Python.t5摘要效果还行加了finetune (1)" />
+      <item itemvalue="Python.中文qa模型!Finetune" />
+      <item itemvalue="Python.111111111" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.中文qa模型!Finetune" />
+        <item itemvalue="Python.111111111" />
         <item itemvalue="Python.t5摘要效果还行加了finetune (1)" />
         <item itemvalue="Python.t5摘要效果还行加了finetune" />
         <item itemvalue="Python.t5摘要效果还行加了finetune" />
-        <item itemvalue="Python.312321" />
-        <item itemvalue="Python.abstarct模型.英文的跑起来 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +679,8 @@
       <workItem from="1597851504065" duration="65100000" />
       <workItem from="1598138802584" duration="601000" />
       <workItem from="1598140423850" duration="46700000" />
-      <workItem from="1598310435335" duration="20873000" />
+      <workItem from="1598310435335" duration="48023000" />
+      <workItem from="1598491176773" duration="1115000" />
     </task>
     <servers />
   </component>
@@ -437,10 +735,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="358" y="0" key="#train/0.0.1280.680@0.0.1280.680" timestamp="1595513082480" />
-    <state x="385" y="41" width="777" height="583" key="#xdebugger.evaluate" timestamp="1598249729356">
+    <state x="454" y="79" width="777" height="583" key="#xdebugger.evaluate" timestamp="1598457828083">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="385" y="41" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1598249729356" />
+    <state x="454" y="79" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1598457828083" />
     <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1596430478936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -461,58 +759,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="185" key="GridCell.Tab.0.bottom" timestamp="1598311904882">
+    <state width="1237" height="274" key="GridCell.Tab.0.bottom" timestamp="1598492224219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="185" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598311904882" />
-    <state width="1237" height="185" key="GridCell.Tab.0.center" timestamp="1598311904882">
+    <state width="1237" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
+    <state width="1237" height="274" key="GridCell.Tab.0.center" timestamp="1598492224219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="185" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598311904882" />
-    <state width="1237" height="185" key="GridCell.Tab.0.left" timestamp="1598311904881">
+    <state width="1237" height="274" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
+    <state width="1237" height="274" key="GridCell.Tab.0.left" timestamp="1598492224218">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="185" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598311904881" />
-    <state width="1237" height="185" key="GridCell.Tab.0.right" timestamp="1598311904882">
+    <state width="1237" height="274" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598492224218" />
+    <state width="1237" height="274" key="GridCell.Tab.0.right" timestamp="1598492224219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="185" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598311904882" />
-    <state width="1237" height="39" key="GridCell.Tab.1.bottom" timestamp="1598310411007">
+    <state width="1237" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
+    <state width="1237" height="274" key="GridCell.Tab.1.bottom" timestamp="1598492224219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="39" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598310411007" />
-    <state width="1237" height="39" key="GridCell.Tab.1.center" timestamp="1598310411007">
+    <state width="1237" height="274" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
+    <state width="1237" height="274" key="GridCell.Tab.1.center" timestamp="1598492224219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="39" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598310411007" />
-    <state width="1237" height="39" key="GridCell.Tab.1.left" timestamp="1598310411007">
+    <state width="1237" height="274" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
+    <state width="1237" height="274" key="GridCell.Tab.1.left" timestamp="1598492224219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="39" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598310411007" />
-    <state width="1237" height="39" key="GridCell.Tab.1.right" timestamp="1598310411007">
+    <state width="1237" height="274" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
+    <state width="1237" height="274" key="GridCell.Tab.1.right" timestamp="1598492224219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="39" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598310411007" />
+    <state width="1237" height="274" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="127" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597046113236" />
-    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1598262585940">
+    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1598492066363">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1598262585940" />
+    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1598492066363" />
     <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598256455756">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1598256455756" />
-    <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597824524591">
+    <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598456800091">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1597824524591" />
-    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1598265589698">
+    <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1598456800091" />
+    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1598450499173">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598265589698" />
+    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598450499173" />
     <state x="1039" y="95" key="ftp.server.browser" timestamp="1596014081714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1384,130 +1682,170 @@
           <line>11</line>
           <option name="timeStamp" value="492" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/albert使用/ImportantExmaple.py</url>
           <line>6</line>
           <option name="timeStamp" value="493" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/albert使用/ImportantExmapleForFinetune.py</url>
           <line>21</line>
           <option name="timeStamp" value="494" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong修改为词向量.py</url>
           <line>109</line>
           <option name="timeStamp" value="495" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/bert做词向量/23232.py</url>
           <line>18</line>
           <option name="timeStamp" value="496" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/bert做词向量/bert词向量.py</url>
           <line>115</line>
           <option name="timeStamp" value="501" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/bert做词向量/bert词向量.py</url>
           <line>109</line>
           <option name="timeStamp" value="502" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py</url>
           <line>381</line>
           <option name="timeStamp" value="503" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是bert官方service.py</url>
           <line>384</line>
           <option name="timeStamp" value="504" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example/example01.py</url>
           <line>16</line>
           <option name="timeStamp" value="505" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example01.py</url>
           <line>32</line>
           <option name="timeStamp" value="507" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/中国搜索/TextRank4ZH-master/example01.py</url>
           <line>16</line>
           <option name="timeStamp" value="508" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/中国搜索/TextRank4ZH-master/textrank4zh/TextRank4Sentence.py</url>
           <line>69</line>
           <option name="timeStamp" value="509" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert.py</url>
           <line>108</line>
           <option name="timeStamp" value="510" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/albert-vec-support/bert4keras_extract_feature.py</url>
           <line>27</line>
           <option name="timeStamp" value="511" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/albert加kg带上albert的词向量.py</url>
           <line>43</line>
           <option name="timeStamp" value="512" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert大版本.py</url>
           <line>81</line>
           <option name="timeStamp" value="517" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertvecsupport/bert4keras_extract_feature.py</url>
           <line>36</line>
           <option name="timeStamp" value="519" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertForVec.py</url>
           <line>741</line>
           <option name="timeStamp" value="521" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong2使用的是albert大版本.py</url>
           <line>80</line>
           <option name="timeStamp" value="522" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py</url>
           <line>96</line>
           <option name="timeStamp" value="523" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/知识图谱项目/kg加深度学习/albertForVec.py</url>
           <line>728</line>
           <option name="timeStamp" value="524" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/数据结构/跳表.py</url>
           <line>40</line>
           <option name="timeStamp" value="525" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/fasttext中文词向量.py</url>
           <line>13</line>
           <option name="timeStamp" value="533" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/abstract算法/abstarct模型.英文的跑起来.py</url>
           <line>26</line>
           <option name="timeStamp" value="535" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py</url>
           <line>140</line>
           <option name="timeStamp" value="540" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/tokenization_utils.py</url>
+          <line>535</line>
+          <option name="timeStamp" value="544" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/tokenization_utils.py</url>
+          <line>539</line>
+          <option name="timeStamp" value="545" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/tokenization_utils_base.py</url>
+          <line>2058</line>
+          <option name="timeStamp" value="546" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/tokenization_utils_base.py</url>
+          <line>2059</line>
+          <option name="timeStamp" value="547" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/峰哥翻译项目/111111111.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="549" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/峰哥翻译项目/111111111.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="551" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_bart.py</url>
+          <line>1004</line>
+          <option name="timeStamp" value="552" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="553" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1520,71 +1858,10 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="tokenizer.encode(i, add_special_tokens=True)" />
-        <watch expression="full_file_name" />
-        <watch expression="resolved_vocab_files.values()" />
-        <watch expression="model" />
-        <watch expression="tmp" />
-        <watch expression="np.argmin(tmp3)" />
-        <watch expression="tt" />
-        <watch expression="tmp3" />
-        <watch expression="a" language="Python" />
-        <watch expression=" np.linalg.norm(a, axis=1, keepdims=True)" />
-        <watch expression="np.dot(a, b.T)" />
-        <watch expression="seg[i[0]-1]" />
-        <watch expression="i[0]" />
-        <watch expression="ner" language="Python" />
-        <watch expression="ner[0]" />
-        <watch expression="ner" />
-        <watch expression="dep" />
-        <watch expression="examples" />
-        <watch expression="features" />
-        <watch expression="example" />
-        <watch expression="start" />
-        <watch expression="zip(features, start, end)" />
-        <watch expression="np.where(char_to_word == feature.token_to_orig_map[s])[0][0].item()" />
-        <watch expression="char_to_word" />
-        <watch expression="inputs" />
-        <watch expression="self.context_text" />
-        <watch expression="features_list" />
-        <watch expression="kwargs[&quot;max_seq_len&quot;]" />
-        <watch expression="encoded_dict" language="Python" />
-        <watch expression="text" />
-        <watch expression="tokenizer" language="Python" />
-        <watch expression="text_pair" />
-        <watch expression="example.question_text" />
-        <watch expression="encoded_dict" />
-        <watch expression=" self.scan_once(s, idx)" />
-        <watch expression="self.scan_once(s, idx)" />
-        <watch expression="s" />
-        <watch expression="encoding" />
-        <watch expression="outputs" />
-        <watch expression="logits" />
-        <watch expression="logits.split(1, dim=-1)" />
-        <watch expression="outputs[1:]" />
-        <watch expression="self" />
-        <watch expression="tmp2" />
-        <watch expression="result" />
-        <watch expression="word_list1" />
-        <watch expression="word_list2" />
-        <watch expression="vec1" />
-        <watch expression="torch.tensor(tokenizer.encode(inputtext, add_special_tokens=True)).unsqueeze(0)" />
-        <watch expression="tokenizer.encode(inputtext, add_special_tokens=True)" />
-        <watch expression="encoder_outputs" />
-        <watch expression="sequence_output" />
-        <watch expression="Model" />
-        <watch expression="self.model" />
-        <watch expression="pooled_output" />
-        <watch expression="k" />
-        <watch expression="data" />
-        <watch expression=" map(float, tokens[1:])" />
-        <watch expression=" tokens[1:]" />
-        <watch expression="config_dict" />
-        <watch expression="config_dict[&quot;model_type&quot;]" />
-        <watch expression="MODEL_WITH_LM_HEAD_MAPPING" />
-        <watch expression="hidden_states" />
-        <watch expression="decoder_outputs" language="Python" />
-        <watch expression="decoder_outputs" />
+        <watch expression="lm_logits" />
+        <watch expression="start_scores" />
+        <watch expression="torch.argmax(start_scores)" />
+        <watch expression="torch.argmax(end_scores)+1" />
       </configuration>
     </watches-manager>
   </component>
@@ -1646,7 +1923,7 @@
     <SUITE FILE_PATH="coverage/nlp$21321312.coverage" NAME="21321312 Coverage Results" MODIFIED="1595922153727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta/commonsense_qa" />
     <SUITE FILE_PATH="coverage/fairseq_gec$c.coverage" NAME="c Coverage Results" MODIFIED="1594741838162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989谢兄pickle处理bug/888888888888888/889" />
     <SUITE FILE_PATH="coverage/nlp$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1595729866587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/transformer666/latest" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$t5finetune__1_.coverage" NAME="t5摘要效果还行加了finetune (1) Coverage Results" MODIFIED="1598310923485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$t5finetune__1_.coverage" NAME="t5摘要效果还行加了finetune (1) Coverage Results" MODIFIED="1598435119867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$9898.coverage" NAME="9898 Coverage Results" MODIFIED="1593219765175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888/889" />
     <SUITE FILE_PATH="coverage/nlp$111__1_.coverage" NAME="111 (1) Coverage Results" MODIFIED="1596033324528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/做ctrl模型" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa___________________.coverage" NAME="中文qa模型!!!!!!!!!!!!!!!!!!! Coverage Results" MODIFIED="1598240259926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
@@ -1654,7 +1931,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$21321321312.coverage" NAME="21321321312 Coverage Results" MODIFIED="1597816833036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$utils.coverage" NAME="utils Coverage Results" MODIFIED="1597048708471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究yolov4/pytorch-YOLOv4-master/tool" />
     <SUITE FILE_PATH="coverage/fairseq_gec$finetune.coverage" NAME="finetune词向量模型 Coverage Results" MODIFIED="1597737891238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$qa_Finetune.coverage" NAME="中文qa模型!Finetune Coverage Results" MODIFIED="1598240474973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$qa_Finetune.coverage" NAME="中文qa模型!Finetune Coverage Results" MODIFIED="1598492224200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$b.coverage" NAME="b Coverage Results" MODIFIED="1593014156848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8989/888888888888888" />
     <SUITE FILE_PATH="coverage/fairseq_gec$ImportantExmapleForFinetune.coverage" NAME="ImportantExmapleForFinetune Coverage Results" MODIFIED="1597830269802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$333333333333.coverage" NAME="333333333333 Coverage Results" MODIFIED="1592282921503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -1751,7 +2028,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$train2.coverage" NAME="train2 Coverage Results" MODIFIED="1594943916206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PreSumm2/src" />
     <SUITE FILE_PATH="coverage/nlp$run_generation.coverage" NAME="run_generation Coverage Results" MODIFIED="1596014601275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/text-generation" />
     <SUITE FILE_PATH="coverage/fairseq_gec$training.coverage" NAME="training Coverage Results" MODIFIED="1596360390673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型/ctrl原始代码/ctrl/training_utils" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$111111111.coverage" NAME="111111111 Coverage Results" MODIFIED="1597195243060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$111111111.coverage" NAME="111111111 Coverage Results" MODIFIED="1598487765554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/峰哥翻译项目" />
     <SUITE FILE_PATH="coverage/fairseq_gec$encode_my.coverage" NAME="encode_my Coverage Results" MODIFIED="1594688004652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文本生成/MASS/MASS-summarization" />
     <SUITE FILE_PATH="coverage/nlp$run_glue_with_pabee.coverage" NAME="run_glue_with_pabee Coverage Results" MODIFIED="1595464242647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/bert-loses-patience" />
     <SUITE FILE_PATH="coverage/fairseq_gec$2.coverage" NAME="装饰器实用2 Coverage Results" MODIFIED="1597197467031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/生成器装饰器" />

@@ -136,8 +136,8 @@ if 1:
     model.train()
     num=100
     for _ in range(num):
-        input_ids = tokenizer.encode("summarize: "+"Hello, my dog is cute and what is the problem of it ? i don't know", return_tensors="pt")  # Batch size 1
-        input_ids2 = tokenizer.encode("Hello, my dog is cute.", return_tensors="pt")  # Batch size 1
+        input_ids = tokenizer.encode("summarize: "+"Hello, my pig is cute and what is the problem of it ? i don't know", return_tensors="pt")  # Batch size 1
+        input_ids2 = tokenizer.encode("Hello, my pig is cute.", return_tensors="pt")  # Batch size 1
         outputs = model(input_ids=input_ids, decoder_input_ids=input_ids2, labels=input_ids2)
         loss, prediction_scores = outputs[:2]
         print(loss)
