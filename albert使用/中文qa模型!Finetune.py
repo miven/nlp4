@@ -94,7 +94,7 @@ print("8888888888888888888888")
 
 
 
-question, text = "我叫什么", "我是张博啊"
+question, text = "时间", "上午八时,我杀了一个人"
 encoding = tokenizer(question, text, return_tensors='pt')
 input_ids = encoding['input_ids']
 attention_mask = encoding['attention_mask']

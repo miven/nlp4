@@ -9,11 +9,11 @@
       <sourceFolder url="file://$MODULE_DIR$/gat网络/pyGAT-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/vae算法/variational-autoencoder-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/中国搜索/PreSumm2/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/知识图谱项目/kg加深度学习" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bert做词向量/bert-as-service-master/server/bert_serving" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/albert使用" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/语音/end2end-asr-pytorch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/语音/end2end-asr-pytorch/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/中国搜索/TextRank4ZH-master" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/中国搜索/文本摘要/Text-Summarizer-Pytorch-Chinese-master" />
     </content>
     <orderEntry type="jdk" jdkName="Remote Python 3.6.8 (sftp://root@127.0.0.1:10022/usr/bin/python3)" jdkType="Python SDK" />

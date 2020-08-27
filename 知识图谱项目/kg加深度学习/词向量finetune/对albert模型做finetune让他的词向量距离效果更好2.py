@@ -3,6 +3,33 @@
 
 '''
 
+'''
+创造2级搜索.比如天津的大夫没有
+
+那么我们把天津的所有属性里面的属性 都跟天津相连接. 作为天津新的边. 作为扩充搜索.
+'''
+
+
+
+
+
+
+kglist=['大学','人口','面积'] # ----------ignore it
+# text='姚明的妻子的丈夫的妻子'
+# text='我现在在天津,这里有什么大学?'
+text='天津最好的治疗骨科的大夫是谁'
+# text='天津的医院'
+# text='姚明可以吃吗'
+# text='黄瓜的烹饪方法'
+# text='决明子的烹饪方法'          #  决明子---------烹饪方法
+# text='姚明的妻子'
+
+
+
+
+
+
+
 
 
 
@@ -108,8 +135,8 @@ def finetune():
     return "over"
 
 
-
-finetune()
+if 0:
+    finetune()
 
 print("finetune结束")
 model.eval()
@@ -280,15 +307,7 @@ kg里面:
 #---------------下面开始调用!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 import torch
 
-kglist=['大学','人口','面积'] # ----------ignore it
-text='姚明的妻子的丈夫的妻子'
-text='我现在在天津,这里有什么大学?'
-text='天津治疗糖尿病最好的医院'
-text='天津的医院'
-# text='姚明可以吃吗'
-# text='黄瓜的烹饪方法'
-# text='决明子的烹饪方法'          #  决明子---------烹饪方法
-# text='姚明的妻子'
+
 
 
 
@@ -335,8 +354,8 @@ print(ner,"ner结果")
 seg=seg[0]
 dep=dep[0]
 sdp=sdp[0]
-print(sdp,"语义分析!!!!!!!!!!!!!!!!!!!") # 太难用了.
-print(dep)
+# print(sdp,"语义分析!!!!!!!!!!!!!!!!!!!") # 太难用了.
+# print(dep)
 for i in dep: #dep算法目前识别不出来老婆的跳转.
 
     print(i, seg[i[0]-1], seg[i[1]-1]) # 注意下标会多一个, 箭1后为真正下标.
@@ -351,23 +370,50 @@ tiaozhuanlist={'ATT','SBV'} # 正序表
 tiaozhuanlist2={'VOB'} # 范旭表
 ner=ner[0]
 luxian=[]
+
+
+
+
+stopWord={'好'}
+
+
 for ner_sample in ner:
     # 然后对ner_sample进行跳跃搜索.
 
     ner_sample_index=ner_sample[1]+1 # 变成dep图的索引类型.
     luxian = [ner_sample_index]
+
+    def pandingStopWord(list1,stopWord=stopWord):
+
+        list1=[seg[i-1] for i in list1[:2]]
+
+        if list1[0] in stopWord:
+            return False
+
+
+        if list1[1] in stopWord:
+            return False
+        return True
+
     def search_new_node():
         ner_sample_index=luxian[-1]
         for i in dep:
-            if i[0]==ner_sample_index and i[2] in tiaozhuanlist and i[1] not in luxian: # 进行的字跳转.并且防止循环.
+            if i[0]==ner_sample_index and i[2] in tiaozhuanlist and i[1] not in luxian and pandingStopWord(i): # 进行的字跳转.并且防止循环.
                 luxian.append(i[1])
                 ner_sample_index=i[1]
                 return 1
-            if i[0]==ner_sample_index and i[2] in tiaozhuanlist2 and i[1] not in luxian: # 进行的字跳转.并且防止循环.
+            # 加入  反向 形容词 att关系
+            if i[1]==ner_sample_index and i[2] in tiaozhuanlist and i[0] not in luxian and pandingStopWord(i): # 进行的字跳转.并且防止循环.
+                luxian.append(i[0])
+                ner_sample_index=i[0]
+                return 1
+
+
+            if i[0]==ner_sample_index and i[2] in tiaozhuanlist2 and i[1] not in luxian and pandingStopWord(i): # 进行的字跳转.并且防止循环.
                 luxian.append(i[1])
                 ner_sample_index=i[1]
                 return 1
-            if i[1]==ner_sample_index and i[2] in tiaozhuanlist2 and i[0] not in luxian: # 进行的字跳转.并且防止循环. vob可能会反.也要考虑
+            if i[1]==ner_sample_index and i[2] in tiaozhuanlist2 and i[0] not in luxian and pandingStopWord(i): # 进行的字跳转.并且防止循环. vob可能会反.也要考虑
                 luxian.append(i[0])
                 ner_sample_index=i[0]
                 return 1
@@ -375,6 +421,11 @@ for ner_sample in ner:
     while search_new_node():
         print("running")
     print(luxian,"bfs方法找到的路线!!!!!!!!!!!!!!!")
+    tmp=[]
+    tmp=[seg[i-1] for i in luxian]
+    print("原始句子",text)
+    print("跳转名词打印")
+    print(' '.join(tmp))
     # 根据luxian 跳转即可,原则是能跳转就跳转,跳转不了就停下,直接返回当前结果.
 
 

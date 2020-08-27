@@ -17,7 +17,35 @@ huggingface:使用说明:
 
 
 
+
+知识图谱进展2: 另外一种思路.
+知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好2.py
+
+
+
+
+交易撮合算法:
+撮合/test.py
+
+
+
+
 # word2vec 做中文, 根本不能用. oov问题.太严重.       中华,------中,   华 拆开语义就完全不一样.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -29,6 +57,10 @@ abstract算法/t5摘要效果还行加了finetune.py
 
 
 
+
+
+知识图谱的简单查看:   查询8G数据
+知识图谱项目/知识图谱简单查看数据.py
 
 
 
@@ -119,6 +151,8 @@ C:\Users\Administrator\.PyCharm2019.3\system\remote_sources\-456540730\-33750251
 
 
 
+知识图谱数据库的简历:
+知识图谱项目/setUpKG
 
 
 
