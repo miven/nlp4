@@ -54,7 +54,7 @@ model = build_transformer_model(config_path, checkpoint_path)  # 建立模型，
 
 import os, re, json
 import json
-import nmslib
+# import nmslib
 import torch
 import random
 import pandas as pd
@@ -68,7 +68,7 @@ from operator import itemgetter
 from functools import wraps
 from pytorch_pretrained_bert import BertModel, BertTokenizer, BertConfig
 from sklearn.metrics.pairwise import cosine_similarity
-from rusenttokenize import ru_sent_tokenize
+# from rusenttokenize import ru_sent_tokenize
 
 
 def singleton(cls):

@@ -275,17 +275,17 @@ kg里面:
 
 
 
-
+#------------------------------------------------提问题的位置...........text变量.
 
 #---------------下面开始调用!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 import torch
 
-kglist=['大学','人口','面积']
+kglist=['大学','人口','面积'] # ----------ignore it
 text='姚明的妻子的丈夫的妻子'
 text='我现在在天津,这里有什么大学?'
-text='姚明可以吃吗'
-text='黄瓜的烹饪方法'
-text='决明子的烹饪方法'          #  决明子---------烹饪方法
+# text='姚明可以吃吗'
+# text='黄瓜的烹饪方法'
+# text='决明子的烹饪方法'          #  决明子---------烹饪方法
 # text='姚明的妻子'
 
 
@@ -318,7 +318,7 @@ text='决明子的烹饪方法'          #  决明子---------烹饪方法
 
 # 加入句子成分跳转.
 seg, hidden = ltp.seg([text])
-help(ltp.seg)
+# help(ltp.seg)
 # sdp = ltp.sdp(hidden, graph=False)
 
 print(seg,"seg")
@@ -381,9 +381,9 @@ for ner_sample in ner:
 
 # 如果luxian里面长度是1,说明没有找到跳转.只有ner.那么我们就用luxian里面这个.进入词向量.搜索算法即可.
 if 1:
-    print("下面用bert做辅助判断")
+    print("下面用bert做辅助判断") #可以后续改成fasttext
     #kglist = luxian[0] 这个东西的所有的边.--------找ner-----天津-----kg里面天津素有的边放到kglist里面.
-    tiaozhuan = searchKG(kglist=['地点','地址','大小','老婆','丈夫'], text='妻子')    # 该用fasttext 做词向量比较.
+    tiaozhuan = searchKG(kglist=['高等学府','地址','大小','老婆','丈夫'], text='我现在在天津,这里有什么大学?')    # 该用fasttext 做词向量比较.
     # 利用距离小于一个阈值,我们就使用这个tiaozhuan,目前只支持bert算法的一次跳转,多次跳转没想到.
 
 if len(luxian)==0:

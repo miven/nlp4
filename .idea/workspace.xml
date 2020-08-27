@@ -2,304 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/riscV/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/app/app.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/app/link.ld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pymem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv_operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv_regs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv_riscv_def.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/pyriscv-master/src/pyriscv_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/README.en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/pic/arch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/pic/test_output.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/defines.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/div.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/ex.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/id.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/if_id.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/openriscv_core.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/pc_reg.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/regs.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/rtl/sim_ram.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/inst.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/openriscv_core_tb.v" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/openriscv_core_tb.vcd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/out.vvp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/sim_default_nowave.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/sim/sim_new_nowave.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/example.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/example.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/link.ld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/example/reset.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-add" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-add.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-add.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-add.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-addi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-addi.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-addi.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-addi.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-and" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-and.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-and.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-and.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-andi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-andi.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-andi.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-andi.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-auipc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-auipc.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-auipc.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-auipc.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-beq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-beq.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-beq.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-beq.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bge" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bge.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bge.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bge.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bgeu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bgeu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bgeu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bgeu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-blt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-blt.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-blt.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-blt.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bltu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bltu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bltu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bltu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bne" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bne.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bne.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-bne.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-fence_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-fence_i.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-fence_i.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-fence_i.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jal.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jal.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jal.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jalr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jalr.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jalr.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-jalr.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lb.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lb.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lb.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lbu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lbu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lbu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lbu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lh.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lh.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lh.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lhu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lhu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lhu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lhu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lui.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lui.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lui.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lw.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lw.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-lw.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-or" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-or.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-or.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-or.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-ori" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-ori.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-ori.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-ori.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sb.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sb.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sb.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sh.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sh.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sh.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-simple" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-simple.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-simple.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-simple.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sll.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sll.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sll.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slli" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slli.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slli.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slli.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slt.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slt.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slt.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slti" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slti.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slti.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-slti.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltiu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltiu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltiu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltiu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sltu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sra" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sra.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sra.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sra.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srai.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srai.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srai.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srl.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srl.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srl.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srli" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srli.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srli.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-srli.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sub.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sub.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sub.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sw.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sw.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-sw.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xor.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xor.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xor.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xori" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xori.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xori.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32ui-p-xori.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-div" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-div.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-div.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-div.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-divu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-divu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-divu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-divu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mul" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mul.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mul.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mul.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulh.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulh.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulh.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhsu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhsu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhsu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhsu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-mulhu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-rem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-rem.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-rem.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-rem.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-remu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-remu.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-remu.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/generated/rv32um-p-remu.verilog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/link.ld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/riscv_test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/Makefrag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/add.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/addi.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/and.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/andi.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/auipc.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/beq.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/bge.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/bgeu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/blt.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/bltu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/bne.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/fence_i.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/jal.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/jalr.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lb.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lbu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/ld.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lh.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lhu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lui.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lw.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/lwu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/or.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/ori.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sb.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sd.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sh.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/simple.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sll.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/slli.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/slt.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/slti.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sltiu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sltu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sra.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/srai.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/srl.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/srli.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sub.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/sw.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/xor.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32ui/xori.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/Makefrag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/div.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/divu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/mul.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/mulh.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/mulhsu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/mulhu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/rem.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/rv32um/remu.S" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tests/isa/test_macros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tools/BinToMem_CLI.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tools/BinToMem_CLI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/riscV/tinyriscv/tools/BinToMem_GUI.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unilm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/峰哥翻译项目/111111111.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/峰哥翻译项目/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/峰哥翻译项目/撮合算法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/abstract算法/t5摘要效果还行加了finetune.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_tf_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +82,7 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.中文qa模型!Finetune">
+  <component name="RunManager" selected="Python.对albert模型做finetune让他的词向量距离效果更好">
     <configuration name="111111111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -421,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="abstarct模型.英文的跑起来 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="对albert模型做finetune让他的词向量距离效果更好" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -429,12 +135,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abstract算法/abstarct模型.英文的跑起来.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="huizong" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/huizong.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -531,43 +259,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t5摘要效果还行加了finetune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法\t5摘要效果还行加了finetune.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.run_language_modeling" />
-      <item itemvalue="Python.abstarct模型.英文的跑起来 (1)" />
-      <item itemvalue="Python.t5摘要效果还行加了finetune" />
       <item itemvalue="Python.t5摘要效果还行加了finetune (1)" />
       <item itemvalue="Python.中文qa模型!Finetune" />
       <item itemvalue="Python.111111111" />
+      <item itemvalue="Python.huizong" />
+      <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好" />
+        <item itemvalue="Python.huizong" />
         <item itemvalue="Python.中文qa模型!Finetune" />
         <item itemvalue="Python.111111111" />
         <item itemvalue="Python.t5摘要效果还行加了finetune (1)" />
-        <item itemvalue="Python.t5摘要效果还行加了finetune" />
-        <item itemvalue="Python.t5摘要效果还行加了finetune" />
       </list>
     </recent_temporary>
   </component>
@@ -680,7 +386,7 @@
       <workItem from="1598138802584" duration="601000" />
       <workItem from="1598140423850" duration="46700000" />
       <workItem from="1598310435335" duration="48023000" />
-      <workItem from="1598491176773" duration="1115000" />
+      <workItem from="1598491176773" duration="2231000" />
     </task>
     <servers />
   </component>
@@ -759,22 +465,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="274" key="GridCell.Tab.0.bottom" timestamp="1598492224219">
+    <state width="1237" height="197" key="GridCell.Tab.0.bottom" timestamp="1598493335821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="274" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
-    <state width="1237" height="274" key="GridCell.Tab.0.center" timestamp="1598492224219">
+    <state width="1237" height="197" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598493335821" />
+    <state width="1237" height="197" key="GridCell.Tab.0.center" timestamp="1598493335821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="274" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
-    <state width="1237" height="274" key="GridCell.Tab.0.left" timestamp="1598492224218">
+    <state width="1237" height="197" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598493335821" />
+    <state width="1237" height="197" key="GridCell.Tab.0.left" timestamp="1598493335821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="274" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598492224218" />
-    <state width="1237" height="274" key="GridCell.Tab.0.right" timestamp="1598492224219">
+    <state width="1237" height="197" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598493335821" />
+    <state width="1237" height="197" key="GridCell.Tab.0.right" timestamp="1598493335821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="274" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598492224219" />
+    <state width="1237" height="197" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598493335821" />
     <state width="1237" height="274" key="GridCell.Tab.1.bottom" timestamp="1598492224219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1903,7 +1609,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$train.coverage" NAME="train Coverage Results" MODIFIED="1597213296277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gat网络/pyGAT-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_single3__1_.coverage" NAME="train_single3 (1) Coverage Results" MODIFIED="1596504600508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
     <SUITE FILE_PATH="coverage/fairseq_gec$pre_data_byOnlyOneBook.coverage" NAME="pre_data_byOnlyOneBook Coverage Results" MODIFIED="1596441074461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/gpt2-ml-finetune--master/dataset" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$albertfinetune.coverage" NAME="对albert模型做finetune让他的词向量距离效果更好 Coverage Results" MODIFIED="1598237553109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$albertfinetune.coverage" NAME="对albert模型做finetune让他的词向量距离效果更好 Coverage Results" MODIFIED="1598493335813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune" />
     <SUITE FILE_PATH="coverage/nlp$bpe.coverage" NAME="研究一下bpe Coverage Results" MODIFIED="1596108497083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bpe算法" />
     <SUITE FILE_PATH="coverage/nlp$run_generation__2__for_ctrl__2_.coverage" NAME="run_generation (2)_for_ctrl (2) Coverage Results" MODIFIED="1596190007707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrl模型" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train_finetune_latest.coverage" NAME="train_finetune_latest Coverage Results" MODIFIED="1593414566353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master" />
@@ -1943,7 +1649,7 @@
     <SUITE FILE_PATH="coverage/nlp$111.coverage" NAME="111 Coverage Results" MODIFIED="1595955952628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$train2byZhangcpu.coverage" NAME="train2byZhangcpu Coverage Results" MODIFIED="1596765711715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/元学习/MetaOptNet-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$11111111.coverage" NAME="11111111 Coverage Results" MODIFIED="1597301859157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/区块链" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$huizong.coverage" NAME="huizong平均 Coverage Results" MODIFIED="1597972991565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$huizong.coverage" NAME="huizong Coverage Results" MODIFIED="1598492791510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$eval_lm.coverage" NAME="eval_lm Coverage Results" MODIFIED="1594801149907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/fairseq_cli" />
     <SUITE FILE_PATH="coverage/fairseq_gec$t5__1_.coverage" NAME="t5摘要效果还行 (1) Coverage Results" MODIFIED="1598284276389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="qa2 Coverage Results" MODIFIED="1597816140199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
