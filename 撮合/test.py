@@ -32,7 +32,10 @@ print("Trade price = %.2f" % trades[0].trade_price)         # Trade price = 1.10
 print("Trade quantity = %d" % trades[0].trade_qty)          # Trade quantity = 1000
 print("Trade side = %d" % trades[0].trade_side)             # Trade side = 2
 
-
+'''
+说明: 每次打印trades里面的数据即可.
+    这里面表示交易了的操作, 买卖算2笔交易,所以上面例子汇总trades长度是2.
+'''
 
 
 

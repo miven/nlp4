@@ -11,15 +11,14 @@ huggingface:使用说明:
 
 本仓库,项目汇总说明:
 
-知识图谱最新进展的代码:
-对于albert做词向量finetune,得到更好的刻画:!!!!!!!!!!!!
-知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好.py
+
+
+图谱最新进展3: 加入了自己的词典.
+知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好3加入了自定义词典.py
 
 
 
 
-知识图谱进展2: 另外一种思路.
-知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好2.py
 
 
 
