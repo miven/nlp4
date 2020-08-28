@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/QAServer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/cqa/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/cqa/cqa_meta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/htmlprocessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/news/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/news/caixin_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/news/fetch_daily.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/news/wallstreet_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/parser/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/parser/baidu_processer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/parser/base_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/parser/htmlfetch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/parser/processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/parser/so_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/parser/sougou_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/parser/zhihu_processor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/similarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/wrapper/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/QAServer-master/wrapper/time_wrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/句子相似度qa/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/撮合/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/撮合/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好3加入了自定义词典.py" beforeDir="false" afterPath="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好3加入了自定义词典.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +79,7 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.QAServer">
+  <component name="RunManager" selected="Python.similarity">
     <configuration name="QAServer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,28 +146,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="对albert模型做finetune让他的词向量距离效果更好2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="对albert模型做finetune让他的词向量距离效果更好3加入了自定义词典" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,6 +183,28 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling/run_language_modeling.py" />
       <option name="PARAMETERS" value="--output_dir=output     --model_type=gpt2      --model_name_or_path=gpt2     --do_train      --train_data_file=/wiki.train.raw      --do_eval      --eval_data_file=/wiki.test.raw" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="similarity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/句子相似度qa/QAServer-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/句子相似度qa/QAServer-master/similarity.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -286,19 +258,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.run_language_modeling" />
-      <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好2" />
       <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好3加入了自定义词典" />
       <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.QAServer" />
+      <item itemvalue="Python.similarity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.similarity" />
         <item itemvalue="Python.QAServer" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好3加入了自定义词典" />
         <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好" />
-        <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好2" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +384,7 @@
       <workItem from="1598140423850" duration="46700000" />
       <workItem from="1598310435335" duration="48023000" />
       <workItem from="1598491176773" duration="10290000" />
-      <workItem from="1598512212867" duration="26096000" />
+      <workItem from="1598512212867" duration="26758000" />
     </task>
     <servers />
   </component>
@@ -491,22 +463,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="206" key="GridCell.Tab.0.bottom" timestamp="1598578196178">
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom" timestamp="1598579513007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="206" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598578196178" />
-    <state width="1237" height="206" key="GridCell.Tab.0.center" timestamp="1598578196177">
+    <state width="1237" height="182" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598579513007" />
+    <state width="1237" height="182" key="GridCell.Tab.0.center" timestamp="1598579513006">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="206" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598578196177" />
-    <state width="1237" height="206" key="GridCell.Tab.0.left" timestamp="1598578196177">
+    <state width="1237" height="182" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598579513006" />
+    <state width="1237" height="182" key="GridCell.Tab.0.left" timestamp="1598579513006">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="206" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598578196177" />
-    <state width="1237" height="206" key="GridCell.Tab.0.right" timestamp="1598578196177">
+    <state width="1237" height="182" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598579513006" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right" timestamp="1598579513007">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="206" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598578196177" />
+    <state width="1237" height="182" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598579513007" />
     <state width="1237" height="206" key="GridCell.Tab.1.bottom" timestamp="1598578196178">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1746,6 +1718,7 @@
     <SUITE FILE_PATH="coverage/nlp$run_language_modeling.coverage" NAME="run_language_modeling Coverage Results" MODIFIED="1595997166744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huggingface项目中重要例子/transformers/examples/language-modeling" />
     <SUITE FILE_PATH="coverage/fairseq_gec$huizong2albert222.coverage" NAME="huizong2使用的是albert大版本222 Coverage Results" MODIFIED="1597988278339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
     <SUITE FILE_PATH="coverage/fairseq_gec$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1592955876362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$similarity.coverage" NAME="similarity Coverage Results" MODIFIED="1598579460685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子相似度qa/QAServer-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$t5finetune.coverage" NAME="t5摘要效果还行加了finetune Coverage Results" MODIFIED="1598494875277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$langconv.coverage" NAME="langconv Coverage Results" MODIFIED="1594902961545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/nstools/zhtools" />
     <SUITE FILE_PATH="coverage/fairseq_gec$3434343__1_.coverage" NAME="3434343 (1) Coverage Results" MODIFIED="1594108565431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/垃圾" />

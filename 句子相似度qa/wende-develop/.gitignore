@@ -1,0 +1,34 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+.idea/
+venv
+.vscode
+
+# Project-specific resources
+data/user_ask.txt
+data/models/*
+!data/models/ltp_data/README.md
+!data/models/wende/README.md
+!data/models/word2vec/README.md

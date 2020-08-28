@@ -1,0 +1,19 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Wende{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row col-lg-6 col-lg-offset-3">
+        <h1 class="text-center">WCQA</h1>
+        <hr>
+        <p>
+            <h3 class="text-center">
+                {{ question }}
+                <span class="label label-default">{{ qtype }}</span>
+            </h3>
+        </p>
+    </div>
+</div>
+{% endblock %}
