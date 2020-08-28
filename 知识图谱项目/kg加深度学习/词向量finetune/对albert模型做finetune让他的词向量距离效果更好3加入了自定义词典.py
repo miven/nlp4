@@ -14,6 +14,7 @@ http://ltp.ai/docs/quickstart.html#id5
 
 
 '''
+辅助跳转:
 创造2级搜索.比如天津的大夫没有
 
 那么我们把天津的所有属性里面的属性 都跟天津相连接. 作为天津新的边. 作为扩充搜索.
@@ -33,7 +34,7 @@ text='天津最好的治疗骨科的大夫是谁'
 # text='黄瓜的烹饪方法'
 # text='决明子的烹饪方法'          #  决明子---------烹饪方法
 # text='姚明的妻子'
-text='肖申克的救赎的导演'
+# text='肖申克的救赎的导演负重前行中碰到了谁'
 
 
 
@@ -87,6 +88,7 @@ from torch.nn.functional import softmax
 from transformers import *
 from albertForVec import  AlbertModelForVec
 pretrained = 'voidful/albert_chinese_tiny'          # 这次我们使用小模型,加速训练侧效果.
+# pretrained = 'voidful/albert_chinese_xxlarge'          # 这次我们使用小模型,加速训练侧效果.
 tokenizer = BertTokenizer.from_pretrained(pretrained)  # 主要这里面的tokenizer是bert的.
 model = AlbertModelForVec.from_pretrained(pretrained)
 
@@ -100,7 +102,7 @@ model = AlbertModelForVec.from_pretrained(pretrained)
 '''
 
 
-
+# 很神秘的一点是, 学习老婆==妻子, 之后词向量对于大学也更精准了.............
 def finetune():
 
 
@@ -145,7 +147,7 @@ def finetune():
     return "over"
 
 
-if 0:
+if 1:
     finetune()
 
 print("finetune结束")
@@ -264,7 +266,12 @@ ltp = LTP()
 # 注意max_window一定要开大, 开大字典里面词组最大长度.
 ltp.init_dict(path="user_dict.txt", max_window=6)
 # 也可以在代码中添加自定义的词语
-ltp.add_words(words=["肖申克的救赎", "长江大桥"], max_window=6)
+
+
+#改成自动算最大窗口吧.
+words=["肖申克的救赎", "长江大桥","负重前行"]
+max_window=max([len(i) for i in words])
+ltp.add_words(words=words, max_window=max_window)
 
 
 
@@ -455,6 +462,11 @@ for ner_sample in ner:
 
 #--------------上面拿到路线了luxian, 在kg里面进行跳转即可.# 可以做词向量距离,来进行模糊跳转.
 
+
+
+'''
+辅助跳转:  如果
+'''
 
 # 如果luxian里面长度是1,说明没有找到跳转.只有ner.那么我们就用luxian里面这个.进入词向量.搜索算法即可.
 if 1:
