@@ -12,6 +12,15 @@ huggingface:使用说明:
 本仓库,项目汇总说明:
 
 
+英文长文本qa:
+longformeQA/长文本qa2.py
+
+
+
+
+
+
+
 
 图谱最新进展3: 加入了自己的词典.
 知识图谱项目/kg加深度学习/词向量finetune/对albert模型做finetune让他的词向量距离效果更好3加入了自定义词典.py

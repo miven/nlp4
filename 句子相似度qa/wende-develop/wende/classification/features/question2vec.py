@@ -57,7 +57,7 @@ class Question2VecVectorizer(BaseEstimator, VectorizerMixin):
         return self
 
     def transform(self, raw_documents, y=None):
-        analyzer = self.build_analyzer()r0
+        analyzer = self.build_analyzer()
         raw_X = [analyzer(doc) for doc in raw_documents]
         X = gen_docs_vecs(raw_X)
 
