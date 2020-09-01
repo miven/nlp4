@@ -311,11 +311,11 @@ class AlbertLayer(nn.Module):
 
         return (hidden_states,) + attention_output[1:]  # add attentions if we output them
 
-
+# 把layer都封装起来的一层.
 class AlbertLayerGroup(nn.Module):
     def __init__(self, config):
         super().__init__()
-
+# 每一个layerGroup是一堆layer的叠加
         self.albert_layers = nn.ModuleList([AlbertLayer(config) for _ in range(config.inner_group_num)])
 
     def forward(
@@ -326,15 +326,15 @@ class AlbertLayerGroup(nn.Module):
 
         for layer_index, albert_layer in enumerate(self.albert_layers):
             layer_output = albert_layer(hidden_states, attention_mask, head_mask[layer_index], output_attentions)
-            hidden_states = layer_output[0]
+            hidden_states = layer_output[0]  # 再送回输入变量,不停的循环即可.
 
             if output_attentions:
                 layer_attentions = layer_attentions + (layer_output[1],)
 
-            if output_hidden_states:
+            if output_hidden_states: # 是否输出中间层.
                 layer_hidden_states = layer_hidden_states + (hidden_states,)
 
-        outputs = (hidden_states,)
+        outputs = (hidden_states,)  # 输出就是最后一个层的hiden_state
         if output_hidden_states:
             outputs = outputs + (layer_hidden_states,)
         if output_attentions:
@@ -342,11 +342,14 @@ class AlbertLayerGroup(nn.Module):
         return outputs  # last-layer hidden state, (layer hidden states), (layer attentions)
 
 
+
+# 模型最后的封装
 class AlbertTransformer(nn.Module):
     def __init__(self, config):
         super().__init__()
 
         self.config = config
+        # 整体思路就是全连接之后接一堆layerGroup的叠加.
         self.embedding_hidden_mapping_in = nn.Linear(config.embedding_size, config.hidden_size)
         self.albert_layer_groups = nn.ModuleList([AlbertLayerGroup(config) for _ in range(config.num_hidden_groups)])
 
@@ -365,7 +368,7 @@ class AlbertTransformer(nn.Module):
         all_attentions = () if output_attentions else None
 
         for i in range(self.config.num_hidden_layers):
-            # Number of layers in a hidden group
+            # Number of layers in a hidden group  self.config.num_hidden_layers表示所有的layer数量
             layers_per_group = int(self.config.num_hidden_layers / self.config.num_hidden_groups)
 
             # Index of the hidden group
@@ -388,7 +391,7 @@ class AlbertTransformer(nn.Module):
 
         if return_tuple:
             return tuple(v for v in [hidden_states, all_hidden_states, all_attentions] if v is not None)
-        return BaseModelOutput(
+        return BaseModelOutput(#吧结果封装到一个类里面.
             last_hidden_state=hidden_states, hidden_states=all_hidden_states, attentions=all_attentions
         )
 
@@ -471,13 +474,13 @@ ALBERT_INPUTS_DOCSTRING = r"""
 
             `What are input IDs? <../glossary.html#input-ids>`__
         attention_mask (:obj:`torch.FloatTensor` of shape :obj:`(batch_size, sequence_length)`, `optional`, defaults to :obj:`None`):
-            Mask to avoid performing attention on padding token indices.
+            Mask to avoid performing attention on padding token indices.  # 在pad token上避免计算注意力
             Mask values selected in ``[0, 1]``:
-            ``1`` for tokens that are NOT MASKED, ``0`` for MASKED tokens.
+            ``1`` for tokens that are NOT MASKED, ``0`` for MASKED tokens.  # 1代表没有maks掉, 0代表mask掉.即不要的东西.
 
             `What are attention masks? <../glossary.html#attention-mask>`__
         token_type_ids (:obj:`torch.LongTensor` of shape :obj:`(batch_size, sequence_length)`, `optional`, defaults to :obj:`None`):
-            Segment token indices to indicate first and second portions of the inputs.
+            Segment token indices to indicate first and second portions of the inputs.  # 句子上下句的token
             Indices are selected in ``[0, 1]``: ``0`` corresponds to a `sentence A` token, ``1``
             corresponds to a `sentence B` token
 
@@ -508,6 +511,8 @@ ALBERT_INPUTS_DOCSTRING = r"""
     "The bare ALBERT Model transformer outputting raw hidden-states without any specific head on top.",
     ALBERT_START_DOCSTRING,
 )
+
+# 这个是不带任何头部的, 只是输出hidden层的.
 class AlbertModel(AlbertPreTrainedModel):
 
     config_class = AlbertConfig
@@ -516,7 +521,7 @@ class AlbertModel(AlbertPreTrainedModel):
 
     def __init__(self, config):
         super().__init__(config)
-
+# 整体就是embedding------->transformer层-------->linear
         self.config = config
         self.embeddings = AlbertEmbeddings(config)
         self.encoder = AlbertTransformer(config)
@@ -527,16 +532,16 @@ class AlbertModel(AlbertPreTrainedModel):
 
     def get_input_embeddings(self):
         return self.embeddings.word_embeddings
-
+# 强制设置embedding表示.
     def set_input_embeddings(self, value):
         self.embeddings.word_embeddings = value
-
+# 修改模型token的数量, 换字典的时候需要这个函数
     def _resize_token_embeddings(self, new_num_tokens):
         old_embeddings = self.embeddings.word_embeddings
         new_embeddings = self._get_resized_embeddings(old_embeddings, new_num_tokens)
         self.embeddings.word_embeddings = new_embeddings
         return self.embeddings.word_embeddings
-
+# 传入需要微调的head
     def _prune_heads(self, heads_to_prune):
         """ Prunes heads of the model.
             heads_to_prune: dict of {layer_num: list of heads to prune in this layer}
@@ -552,7 +557,7 @@ class AlbertModel(AlbertPreTrainedModel):
         """
         for layer, heads in heads_to_prune.items():
             group_idx = int(layer / self.config.inner_group_num)
-            inner_group_idx = int(layer - group_idx * self.config.inner_group_num)
+            inner_group_idx = int(layer - group_idx * self.config.inner_group_num) # 算出第几个索引,然后调用prune函数.
             self.encoder.albert_layer_groups[group_idx].albert_layers[inner_group_idx].attention.prune_heads(heads)
 
     @add_start_docstrings_to_callable(ALBERT_INPUTS_DOCSTRING)
