@@ -22,7 +22,7 @@ class HfArgumentParser(ArgumentParser):
     """
 
     dataclass_types: Iterable[DataClassType]
-
+# Union[x,y] 表示输入 x 或者y 都可以. 下面参数表示dataclass_types 所取的类型是DataClassType 或者 DataClassType的数组.
     def __init__(self, dataclass_types: Union[DataClassType, Iterable[DataClassType]], **kwargs):
         """
         Args:
@@ -34,7 +34,7 @@ class HfArgumentParser(ArgumentParser):
         """
         super().__init__(**kwargs)
         if dataclasses.is_dataclass(dataclass_types):
-            dataclass_types = [dataclass_types]
+            dataclass_types = [dataclass_types]  # 都进行用数组统一化处理.
         self.dataclass_types = dataclass_types
         for dtype in self.dataclass_types:
             self._add_dataclass_arguments(dtype)
@@ -93,6 +93,10 @@ class HfArgumentParser(ArgumentParser):
         """
         Parse command-line args into instances of the specified dataclass types.
 
+        把命令行的参数变成dataclass类型的对象
+
+        下面代码就是参数封装而已
+
         This relies on argparse's `ArgumentParser.parse_known_args`.
         See the doc at:
         docs.python.org/3.7/library/argparse.html#argparse.ArgumentParser.parse_args
@@ -149,6 +153,8 @@ class HfArgumentParser(ArgumentParser):
         """
         Alternative helper method that does not use `argparse` at all,
         instead loading a json file and populating the dataclass types.
+
+        一样,也就是参数解析而已,然后封装成对象.
         """
         data = json.loads(Path(json_file).read_text())
         outputs = []

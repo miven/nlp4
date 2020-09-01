@@ -91,7 +91,7 @@ def load_tf_weights_in_albert(model, config, tf_checkpoint_path):
 
     for name, array in zip(names, arrays):
         print(name)
-
+# 下面对于names 和arrays 分别进行 tf----------> pytorch 模型的赋值.
     for name, array in zip(names, arrays):
         original_name = name
 
@@ -150,6 +150,9 @@ def load_tf_weights_in_albert(model, config, tf_checkpoint_path):
             continue
 
         pointer = model
+
+
+        # 进行名字拆分.
         for m_name in name:
             if re.fullmatch(r"[A-Za-z]+_\d+", m_name):
                 scope_names = re.split(r"_(\d+)", m_name)
@@ -165,12 +168,12 @@ def load_tf_weights_in_albert(model, config, tf_checkpoint_path):
             elif scope_names[0] == "squad":
                 pointer = getattr(pointer, "classifier")
             else:
-                try:
+                try:   # 否则就按照自己的名字读取参数即可.
                     pointer = getattr(pointer, scope_names[0])
                 except AttributeError:
                     logger.info("Skipping {}".format("/".join(name)))
                     continue
-            if len(scope_names) >= 2:
+            if len(scope_names) >= 2: # 大于1个,就表示后面那个代表索引,下面读取索引即可.
                 num = int(scope_names[1])
                 pointer = pointer[num]
 
@@ -184,7 +187,7 @@ def load_tf_weights_in_albert(model, config, tf_checkpoint_path):
             e.args += (pointer.shape, array.shape)
             raise
         print("Initialize PyTorch weight {} from {}".format(name, original_name))
-        pointer.data = torch.from_numpy(array)
+        pointer.data = torch.from_numpy(array)  # 字典里面的传参数都是传地址.所以最后输出model即可.
 
     return model
 
@@ -202,37 +205,45 @@ class AlbertEmbeddings(BertEmbeddings):
         self.token_type_embeddings = nn.Embedding(config.type_vocab_size, config.embedding_size)
         self.LayerNorm = torch.nn.LayerNorm(config.embedding_size, eps=config.layer_norm_eps)
 
-
+# attention 还是跟bert差不多.改动不大.
 class AlbertAttention(BertSelfAttention):
     def __init__(self, config):
         super().__init__(config)
 
         self.num_attention_heads = config.num_attention_heads
         self.hidden_size = config.hidden_size
-        self.attention_head_size = config.hidden_size // config.num_attention_heads
+        self.attention_head_size = config.hidden_size // config.num_attention_heads # 注意力中每一个头有多少神经元叫 attention_head_size
         self.dropout = nn.Dropout(config.attention_probs_dropout_prob)
         self.dense = nn.Linear(config.hidden_size, config.hidden_size)
         self.LayerNorm = nn.LayerNorm(config.hidden_size, eps=config.layer_norm_eps)
         self.pruned_heads = set()
 
+
+
+
+
     def prune_heads(self, heads):
-        if len(heads) == 0:
+        # 传入一个新的头,来替换老的头.
+        if len(heads) == 0: # 如果新的头是0,直接返回空.
             return
+
         heads, index = find_pruneable_heads_and_indices(
             heads, self.num_attention_heads, self.attention_head_size, self.pruned_heads
         )
 
-        # Prune linear layers
+        # Prune linear layers         index是那些需要修正的索引.
         self.query = prune_linear_layer(self.query, index)
         self.key = prune_linear_layer(self.key, index)
         self.value = prune_linear_layer(self.value, index)
         self.dense = prune_linear_layer(self.dense, index, dim=1)
 
-        # Update hyper params and store pruned heads
+        # Update hyper params and store pruned heads  更新超参数.
         self.num_attention_heads = self.num_attention_heads - len(heads)
         self.all_head_size = self.attention_head_size * self.num_attention_heads
         self.pruned_heads = self.pruned_heads.union(heads)
 
+
+# 核心函数还是forward.  上面的prune自己写freeze都一样.
     def forward(self, input_ids, attention_mask=None, head_mask=None, output_attentions=False):
         mixed_query_layer = self.query(input_ids)
         mixed_key_layer = self.key(input_ids)
@@ -243,14 +254,14 @@ class AlbertAttention(BertSelfAttention):
         value_layer = self.transpose_for_scores(mixed_value_layer)
 
         # Take the dot product between "query" and "key" to get the raw attention scores.
-        attention_scores = torch.matmul(query_layer, key_layer.transpose(-1, -2))
+        attention_scores = torch.matmul(query_layer, key_layer.transpose(-1, -2)) # matmul函数是在tensor的最后2维进行乘法的.
         attention_scores = attention_scores / math.sqrt(self.attention_head_size)
         if attention_mask is not None:
             # Apply the attention mask is (precomputed for all layers in BertModel forward() function)
-            attention_scores = attention_scores + attention_mask
+            attention_scores = attention_scores + attention_mask          # 如果有mask层就进行相加,一般没有这个.
 
         # Normalize the attention scores to probabilities.
-        attention_probs = nn.Softmax(dim=-1)(attention_scores)
+        attention_probs = nn.Softmax(dim=-1)(attention_scores) # 变成分布
 
         # This is actually dropping out entire tokens to attend to, which might
         # seem a bit unusual, but is taken from the original Transformer paper.
@@ -272,7 +283,7 @@ class AlbertAttention(BertSelfAttention):
         )
         b = self.dense.bias.to(context_layer.dtype)
 
-        projected_context_layer = torch.einsum("bfnd,ndh->bfh", context_layer, w) + b
+        projected_context_layer = torch.einsum("bfnd,ndh->bfh", context_layer, w) + b # 投影层, 从这个代码看出来,里面完全没有decoder.只是简单的encoder结构.   这个层把维度变回到单个head
         projected_context_layer_dropout = self.dropout(projected_context_layer)
         layernormed_context_layer = self.LayerNorm(input_ids + projected_context_layer_dropout)
         return (layernormed_context_layer, attention_probs) if output_attentions else (layernormed_context_layer,)
@@ -293,7 +304,7 @@ class AlbertLayer(nn.Module):
         self, hidden_states, attention_mask=None, head_mask=None, output_attentions=False, output_hidden_states=False
     ):
         attention_output = self.attention(hidden_states, attention_mask, head_mask, output_attentions)
-        ffn_output = self.ffn(attention_output[0])
+        ffn_output = self.ffn(attention_output[0])  # 0表示输出, 1表示attention
         ffn_output = self.activation(ffn_output)
         ffn_output = self.ffn_output(ffn_output)
         hidden_states = self.full_layer_layer_norm(ffn_output + attention_output[0])

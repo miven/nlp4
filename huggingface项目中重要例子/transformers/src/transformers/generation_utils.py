@@ -358,7 +358,8 @@ class GenerationMixin:
         if (attention_mask is None) and (pad_token_id is not None) and (pad_token_id in input_ids):
             attention_mask = input_ids.ne(pad_token_id).long()
         elif attention_mask is None:
-            attention_mask = input_ids.new_ones(input_ids.shape)
+            attention_mask = input_ids.new_ones(input_ids.shape) # 没有就全写1.表示全不进行mask
+            # mask里面要的写1, 不要的写0. 这样更符合逻辑.
 
         # set pad_token_id to eos_token_id if not set. Important that this is done after
         # attention_mask is created
@@ -366,7 +367,7 @@ class GenerationMixin:
             logger.warning(
                 "Setting `pad_token_id` to {} (first `eos_token_id`) to generate sequence".format(eos_token_id)
             )
-            pad_token_id = eos_token_id
+            pad_token_id = eos_token_id        # 如果pad 没有那么我们就用eos 来表示pad
 
         # current position and vocab size
         if hasattr(self.config, "vocab_size"):
@@ -382,7 +383,7 @@ class GenerationMixin:
         if do_sample:
             effective_batch_size = batch_size * num_return_sequences
             effective_batch_mult = num_return_sequences
-        else:
+        else:  # do_sample 就是进行抽样, 表示非贪心.
             effective_batch_size = batch_size
             effective_batch_mult = 1
 
@@ -528,7 +529,7 @@ class GenerationMixin:
         sent_lengths = input_ids.new(batch_size).fill_(max_length)
 
         past = (encoder_outputs, None) if encoder_outputs is not None else None
-
+# 通过迭代来每一成成一个token
         while cur_len < max_length:
             model_inputs = self.prepare_inputs_for_generation(
                 input_ids, past=past, attention_mask=attention_mask, use_cache=use_cache, **model_specific_kwargs
@@ -554,7 +555,7 @@ class GenerationMixin:
             # if model has past, then set the past variable to speed up decoding
             if self._use_cache(outputs, use_cache):
                 past = outputs[1]
-
+# 进行非贪婪算法.
             if do_sample:
                 # Temperature (higher temperature => more likely to sample low probability tokens)
                 if temperature != 1.0:
@@ -565,37 +566,40 @@ class GenerationMixin:
                 probs = F.softmax(next_token_logscores, dim=-1)
                 next_token = torch.multinomial(probs, num_samples=1).squeeze(1)
             else:
-                # Greedy decoding
+                # Greedy decoding # 进行贪婪算法, 直接argmax
                 next_token = torch.argmax(next_token_logits, dim=-1)
 
             # update generations and finished sentences
             if eos_token_id is not None:
                 # pad finished sentences if eos_token_id exist
                 tokens_to_add = next_token * unfinished_sents + (pad_token_id) * (1 - unfinished_sents)
+                # 这行代码表示如果返回0,那么就用pad填充, 如果返回1, 就用 next_token填充.至于是不是0,需要下面代码进行计算.
             else:
                 tokens_to_add = next_token
 
             # add token and increase length by one
+
+            # 更新输入,作为下次while时候使用.
             input_ids = torch.cat([input_ids, tokens_to_add.unsqueeze(-1)], dim=-1)
             cur_len = cur_len + 1
 
             if eos_token_id is not None:
-                eos_in_sents = tokens_to_add == eos_token_id
+                eos_in_sents = tokens_to_add == eos_token_id      # 如果到了结尾.
                 # if sentence is unfinished and the token to add is eos, sent_lengths is filled with current length
                 is_sents_unfinished_and_token_to_add_is_eos = unfinished_sents.mul(eos_in_sents.long()).bool()
-                sent_lengths.masked_fill_(is_sents_unfinished_and_token_to_add_is_eos, cur_len)
-                # unfinished_sents is set to zero if eos in sentence
+                sent_lengths.masked_fill_(is_sents_unfinished_and_token_to_add_is_eos, cur_len) # 那么就强制结束.
+                # unfinished_sents is set to zero if eos in sentence  让结束的句子做个标记.
                 unfinished_sents.mul_((~eos_in_sents).long())
 
             # stop when there is a </s> in each sentence, or if we exceed the maximul length
-            if unfinished_sents.max() == 0:
+            if unfinished_sents.max() == 0: #如果所有句子都/s了就结束while
                 break
 
             # extend attention_mask for new generated input if only decoder
             if self.config.is_encoder_decoder is False:
                 attention_mask = torch.cat(
                     [attention_mask, attention_mask.new_ones((attention_mask.shape[0], 1))], dim=-1
-                )
+                )  # 新加入一个maks 全是1的即可.
 
         return input_ids
 

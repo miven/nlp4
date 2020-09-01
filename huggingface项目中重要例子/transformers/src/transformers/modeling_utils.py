@@ -64,12 +64,14 @@ def find_pruneable_heads_and_indices(
 ) -> Tuple[set, "torch.LongTensor"]:
     mask = torch.ones(n_heads, head_size)
     heads = set(heads) - already_pruned_heads  # Convert to set and remove already pruned heads
+    # 找到还未修正的head
     for head in heads:
         # Compute how many pruned heads are before the head and move the index accordingly
         head = head - sum(1 if h < head else 0 for h in already_pruned_heads)
         mask[head] = 0
-    mask = mask.view(-1).contiguous().eq(1)
-    index: torch.LongTensor = torch.arange(len(mask))[mask].long()
+    mask = mask.view(-1).contiguous().eq(1)  # 得到true false
+    index: torch.LongTensor = torch.arange(len(mask))[mask].long() # 抽取其中的true的索引.
+    #所以最后返回的index 就是那些还需要修正的head的索引表.
     return heads, index
 
 
@@ -1175,7 +1177,7 @@ class SequenceSummary(nn.Module):
 
         return output
 
-
+# prune是finetune的意思.
 def prune_linear_layer(layer, index, dim=0):
     """ Prune a linear layer (a model parameters) to keep only entries in index.
         Return the pruned layer as a new layer with requires_grad=True.
@@ -1191,9 +1193,12 @@ def prune_linear_layer(layer, index, dim=0):
     new_size = list(layer.weight.size())
     new_size[dim] = len(index)
     new_layer = nn.Linear(new_size[1], new_size[0], bias=layer.bias is not None).to(layer.weight.device)
+
+    # 复制W    把旧的层设置为freeze, 再copy到锌层,再设置true
     new_layer.weight.requires_grad = False
     new_layer.weight.copy_(W.contiguous())
     new_layer.weight.requires_grad = True
+    # 复制 bias
     if layer.bias is not None:
         new_layer.bias.requires_grad = False
         new_layer.bias.copy_(b.contiguous())

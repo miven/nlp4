@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/longformeQA/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longformeQA/长文本qa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longformeQA/长文本qa2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1213.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2343245.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/句子相似度qa/wende-develop/wende/classification/features/question2vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/句子相似度qa/wende-develop/wende/classification/features/question2vec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/hf_argparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/hf_argparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_albert.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_albert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +85,8 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.长文本qa2 (1)">
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.2343245">
+    <configuration name="1213" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,12 +94,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/主题模型" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/主题模型/2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1213.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2343245" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fairseq-gec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2343245.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,28 +144,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/主题模型/python-LDA-master" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/主题模型/python-LDA-master/lda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,43 +240,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t5摘要效果还行加了finetune" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="fairseq-gec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/abstract算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Users\Administrator\PycharmProjects\fairseq-gec\abstract算法\t5摘要效果还行加了finetune.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.run_language_modeling" />
-      <item itemvalue="Python.2" />
-      <item itemvalue="Python.lda" />
       <item itemvalue="Python.长文本qa" />
       <item itemvalue="Python.长文本qa2" />
       <item itemvalue="Python.长文本qa2 (1)" />
+      <item itemvalue="Python.1213" />
+      <item itemvalue="Python.2343245" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2343245" />
+        <item itemvalue="Python.1213" />
         <item itemvalue="Python.长文本qa2 (1)" />
         <item itemvalue="Python.长文本qa2" />
         <item itemvalue="Python.长文本qa" />
-        <item itemvalue="Python.lda" />
-        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +368,9 @@
       <workItem from="1598140423850" duration="46700000" />
       <workItem from="1598310435335" duration="48023000" />
       <workItem from="1598491176773" duration="10290000" />
-      <workItem from="1598512212867" duration="45012000" />
+      <workItem from="1598512212867" duration="47172000" />
+      <workItem from="1598801814822" duration="1905000" />
+      <workItem from="1598837301410" duration="25625000" />
     </task>
     <servers />
   </component>
@@ -444,18 +425,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="358" y="0" key="#train/0.0.1280.680@0.0.1280.680" timestamp="1595513082480" />
-    <state x="454" y="79" width="777" height="583" key="#xdebugger.evaluate" timestamp="1598543926013">
+    <state x="454" y="79" width="777" height="583" key="#xdebugger.evaluate" timestamp="1598866252390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="454" y="79" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1598543926013" />
+    <state x="454" y="79" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1598866252390" />
     <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1596430478936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596430478936" />
-    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1598592386454">
+    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1598843800812">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1598592386454" />
+    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1598843800812" />
     <state x="130" y="77" width="1095" height="495" key="DiffContextDialog" timestamp="1597536533322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -468,38 +449,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="138" key="GridCell.Tab.0.bottom" timestamp="1598776696843">
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom" timestamp="1598867969903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598776696843" />
-    <state width="1237" height="138" key="GridCell.Tab.0.center" timestamp="1598776696843">
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598867969903" />
+    <state width="1237" height="208" key="GridCell.Tab.0.center" timestamp="1598867969903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598776696843" />
-    <state width="1237" height="138" key="GridCell.Tab.0.left" timestamp="1598776696843">
+    <state width="1237" height="208" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598867969903" />
+    <state width="1237" height="208" key="GridCell.Tab.0.left" timestamp="1598867969903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598776696843" />
-    <state width="1237" height="138" key="GridCell.Tab.0.right" timestamp="1598776696843">
+    <state width="1237" height="208" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598867969903" />
+    <state width="1237" height="208" key="GridCell.Tab.0.right" timestamp="1598867969903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598776696843" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1598624055017">
+    <state width="1237" height="208" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598867969903" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1598867969903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598624055017" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1598624055017">
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598867969903" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1598867969903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598624055017" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1598624055016">
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598867969903" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1598867969903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598624055016" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1598624055017">
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598867969903" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1598867969903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598624055017" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598867969903" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -516,10 +497,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="169" y="80" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1598456800091" />
-    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1598772847380">
+    <state x="123" y="103" width="1157" height="570" key="find.popup" timestamp="1598857372455">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598772847380" />
+    <state x="123" y="103" width="1157" height="570" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1598857372455" />
     <state x="1039" y="95" key="ftp.server.browser" timestamp="1596014081714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1596,6 +1577,16 @@
           <line>245</line>
           <option name="timeStamp" value="570" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/1213.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="571" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2343245.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="572" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1614,6 +1605,11 @@
         <watch expression="lme" />
         <watch expression="dpre" language="Python" />
         <watch expression="K" />
+        <watch expression="new_inputs" />
+        <watch expression="b" />
+        <watch expression="mask" />
+        <watch expression="torch.arange(len(mask))" />
+        <watch expression="torch.arange(len(mask))[mask]" />
       </configuration>
     </watches-manager>
   </component>
@@ -1820,6 +1816,7 @@
     <SUITE FILE_PATH="coverage/nlp$predict.coverage" NAME="predict Coverage Results" MODIFIED="1595302213208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/22222222/gector-master2" />
     <SUITE FILE_PATH="coverage/fairseq_gec$22222albert.coverage" NAME="22222albert Coverage Results" MODIFIED="1597654519196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$11111111111.coverage" NAME="python字典的传地址特性 Coverage Results" MODIFIED="1598528762234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习/词向量finetune" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1213.coverage" NAME="1213 Coverage Results" MODIFIED="1598843784948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$56.coverage" NAME="56 Coverage Results" MODIFIED="1597972528534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bert_wordEmbed-master" />
     <SUITE FILE_PATH="coverage/nlp$roberta.coverage" NAME="roberta模型的调用 Coverage Results" MODIFIED="1595922750528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/学习roberta/roberta/commonsense_qa" />
     <SUITE FILE_PATH="coverage/fairseq_gec$7878787.coverage" NAME="7878787 Coverage Results" MODIFIED="1593397641945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -1829,5 +1826,6 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$ImportantExmaple.coverage" NAME="ImportantExmaple Coverage Results" MODIFIED="1597824297416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$generateByme.coverage" NAME="generateByme Coverage Results" MODIFIED="1596533106763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gpt2做中文nlg/GPT2-Chinese-master修改为mega版本" />
     <SUITE FILE_PATH="coverage/fairseq_gec$tmodel1.coverage" NAME="tmodel1 Coverage Results" MODIFIED="1598530913878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/研究qa/QAmodel-for-Retrievalchatbot-master/QAdemo_base1" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$2343245.coverage" NAME="2343245 Coverage Results" MODIFIED="1598867835609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
