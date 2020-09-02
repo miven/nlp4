@@ -51,6 +51,7 @@ _CONFIG_FOR_DOC = "BartConfig"
 _TOKENIZER_FOR_DOC = "BartTokenizer"
 
 
+# 下面看bart模型,  做abstract 很多.
 BART_PRETRAINED_MODEL_ARCHIVE_LIST = [
     "facebook/bart-base",
     "facebook/bart-large",
@@ -106,6 +107,8 @@ BART_INPUTS_DOCSTRING = r"""
             `last_hidden_state` of shape :obj:`(batch_size, sequence_length, hidden_size)`, `optional`, defaults to :obj:`None`) is a sequence of hidden-states at the output of the last layer of the encoder.
             Used in the cross-attention of the decoder.
         decoder_input_ids (:obj:`torch.LongTensor` of shape :obj:`(batch_size, target_sequence_length)`, `optional`, defaults to :obj:`None`):
+        
+            在翻译和summary的训练中使用.
             Provide for translation and summarization training. By default, the model will create this tensor by shifting the input_ids right, following the paper.
         decoder_attention_mask (:obj:`torch.BoolTensor` of shape :obj:`(batch_size, tgt_seq_len)`, `optional`, defaults to :obj:`None`):
             Default behavior: generate a tensor that ignores pad tokens in decoder_input_ids. Causal mask will also be used by default.

@@ -343,7 +343,7 @@ class AlbertLayerGroup(nn.Module):
 
 
 
-# 模型最后的封装
+# 模型特征层的最后封装
 class AlbertTransformer(nn.Module):
     def __init__(self, config):
         super().__init__()
@@ -395,7 +395,7 @@ class AlbertTransformer(nn.Module):
             last_hidden_state=hidden_states, hidden_states=all_hidden_states, attentions=all_attentions
         )
 
-
+# 真正使用的入口类,后续head在这个基础上进行添加,因为这个里面带有训练后的参数
 class AlbertPreTrainedModel(PreTrainedModel):
     """ An abstract class to handle weights initialization and
         a simple interface for downloading and loading pretrained models.
@@ -601,9 +601,9 @@ class AlbertModel(AlbertPreTrainedModel):
         if token_type_ids is None:
             token_type_ids = torch.zeros(input_shape, dtype=torch.long, device=device)
 
-        extended_attention_mask = attention_mask.unsqueeze(1).unsqueeze(2)
+        extended_attention_mask = attention_mask.unsqueeze(1).unsqueeze(2)  # 首先扩充2个维度.
         extended_attention_mask = extended_attention_mask.to(dtype=self.dtype)  # fp16 compatibility
-        extended_attention_mask = (1.0 - extended_attention_mask) * -10000.0
+        extended_attention_mask = (1.0 - extended_attention_mask) * -10000.0  # mask进行转化.方便后面概率计算.
         head_mask = self.get_head_mask(head_mask, self.config.num_hidden_layers)
 
         embedding_output = self.embeddings(
@@ -619,7 +619,7 @@ class AlbertModel(AlbertPreTrainedModel):
         )
 
         sequence_output = encoder_outputs[0]
-
+#ffn层.
         pooled_output = self.pooler_activation(self.pooler(sequence_output[:, 0]))
 
         if return_tuple:
@@ -638,11 +638,13 @@ class AlbertModel(AlbertPreTrainedModel):
     a `sentence order prediction (classification)` head. """,
     ALBERT_START_DOCSTRING,
 )
+
+# 下面是预训练里面的模型. 支持的任务是mll和 sop 2个任务.
 class AlbertForPreTraining(AlbertPreTrainedModel):
     def __init__(self, config):
         super().__init__(config)
 
-        self.albert = AlbertModel(config)
+        self.albert = AlbertModel(config)         # 复用前面的特征层.
         self.predictions = AlbertMLMHead(config)
         self.sop_classifier = AlbertSOPHead(config)
 
@@ -652,7 +654,7 @@ class AlbertForPreTraining(AlbertPreTrainedModel):
     def tie_weights(self):
         self._tie_or_clone_weights(self.predictions.decoder, self.albert.embeddings.word_embeddings)
 
-    def get_output_embeddings(self):
+    def get_output_embeddings(self):       #------------------另外一种方式,得到的是词向量,错误的, 得到的是下一个词的分布.
         return self.predictions.decoder
 
     @add_start_docstrings_to_callable(ALBERT_INPUTS_DOCSTRING)
@@ -726,6 +728,7 @@ class AlbertForPreTraining(AlbertPreTrainedModel):
 
         sequence_output, pooled_output = outputs[:2]
 
+# 下面对于特征层进行计算.
         prediction_scores = self.predictions(sequence_output)
         sop_scores = self.sop_classifier(pooled_output)
 
@@ -735,7 +738,7 @@ class AlbertForPreTraining(AlbertPreTrainedModel):
             masked_lm_loss = loss_fct(prediction_scores.view(-1, self.config.vocab_size), labels.view(-1))
             sentence_order_loss = loss_fct(sop_scores.view(-1, 2), sentence_order_label.view(-1))
             total_loss = masked_lm_loss + sentence_order_loss
-
+# loss 相加之后输出即可!!!!!!!!!!!!!
         if return_tuple:
             output = (prediction_scores, sop_scores) + outputs[2:]
             return ((total_loss,) + output) if total_loss is not None else output
@@ -754,7 +757,7 @@ class AlbertMLMHead(nn.Module):
         super().__init__()
 
         self.LayerNorm = nn.LayerNorm(config.embedding_size)
-        self.bias = nn.Parameter(torch.zeros(config.vocab_size))
+        self.bias = nn.Parameter(torch.zeros(config.vocab_size))# 定义一些变量,用parameter
         self.dense = nn.Linear(config.hidden_size, config.embedding_size)
         self.decoder = nn.Linear(config.embedding_size, config.vocab_size)
         self.activation = ACT2FN[config.hidden_act]
@@ -789,6 +792,9 @@ class AlbertSOPHead(nn.Module):
 @add_start_docstrings(
     "Albert Model with a `language modeling` head on top.", ALBERT_START_DOCSTRING,
 )
+
+
+#  这个头只有ml模型. 就是上面一个类的简化而已.没任何新意.
 class AlbertForMaskedLM(AlbertPreTrainedModel):
     def __init__(self, config):
         super().__init__(config)
@@ -876,12 +882,14 @@ class AlbertForMaskedLM(AlbertPreTrainedModel):
         )
 
 
+
+# 下面是句子分类任务,  作为glue 任务. 跟mlm任务类似
 @add_start_docstrings(
     """Albert Model transformer with a sequence classification/regression head on top (a linear layer on top of
     the pooled output) e.g. for GLUE tasks. """,
     ALBERT_START_DOCSTRING,
 )
-class AlbertForSequenceClassification(AlbertPreTrainedModel):
+class AlbertForSequenceClassification(AlbertPreTrainedModel): # 首先我们继承一个特征层.
     def __init__(self, config):
         super().__init__(config)
         self.num_labels = config.num_labels
@@ -940,11 +948,11 @@ class AlbertForSequenceClassification(AlbertPreTrainedModel):
 
         loss = None
         if labels is not None:
-            if self.num_labels == 1:
+            if self.num_labels == 1: # 回归任务
                 #  We are doing regression
                 loss_fct = MSELoss()
-                loss = loss_fct(logits.view(-1), labels.view(-1))
-            else:
+                loss = loss_fct(logits.view(-1), labels.view(-1)) # -1表示flatten
+            else: # 分类任务
                 loss_fct = CrossEntropyLoss()
                 loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
 
@@ -956,7 +964,7 @@ class AlbertForSequenceClassification(AlbertPreTrainedModel):
             loss=loss, logits=logits, hidden_states=outputs.hidden_states, attentions=outputs.attentions,
         )
 
-
+#NER 任务的头
 @add_start_docstrings(
     """Albert Model with a token classification head on top (a linear layer on top of
     the hidden-states output) e.g. for Named-Entity-Recognition (NER) tasks. """,
@@ -1012,21 +1020,21 @@ class AlbertForTokenClassification(AlbertPreTrainedModel):
             return_tuple=return_tuple,
         )
 
-        sequence_output = outputs[0]
+        sequence_output = outputs[0]  # 跟mlm一样
 
         sequence_output = self.dropout(sequence_output)
-        logits = self.classifier(sequence_output)
+        logits = self.classifier(sequence_output) # logits就是最后的输出...............
 
         loss = None
         if labels is not None:
             loss_fct = CrossEntropyLoss()
             # Only keep active parts of the loss
-            if attention_mask is not None:
+            if attention_mask is not None:          # loss 部分做maks, 因为那些pad 就不要算loss了.没意义.
                 active_loss = attention_mask.view(-1) == 1
-                active_logits = logits.view(-1, self.num_labels)[active_loss]
+                active_logits = logits.view(-1, self.num_labels)[active_loss]  # 进行遮罩.
                 active_labels = labels.view(-1)[active_loss]
                 loss = loss_fct(active_logits, active_labels)
-            else:
+            else:# 如果没有maks, 那么我们就直接loss即可.
                 loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
 
         if return_tuple:
@@ -1038,6 +1046,9 @@ class AlbertForTokenClassification(AlbertPreTrainedModel):
         )
 
 
+
+
+# 下面是qa的头. 原理都是一样的, 接pretrained模型,然后进行
 @add_start_docstrings(
     """Albert Model with a span classification head on top for extractive question-answering tasks like SQuAD (a linear layers on top of
     the hidden-states output to compute `span start logits` and `span end logits`). """,
@@ -1098,7 +1109,7 @@ class AlbertForQuestionAnswering(AlbertPreTrainedModel):
             return_tuple=return_tuple,
         )
 
-        sequence_output = outputs[0]
+        sequence_output = outputs[0] # qa 也是用的mlm 的特征
 
         logits = self.qa_outputs(sequence_output)
         start_logits, end_logits = logits.split(1, dim=-1)
@@ -1106,6 +1117,9 @@ class AlbertForQuestionAnswering(AlbertPreTrainedModel):
         end_logits = end_logits.squeeze(-1)
 
         total_loss = None
+
+
+        # 下面计算loss, 需要收尾答案都存在才行
         if start_positions is not None and end_positions is not None:
             # If we are on multi-GPU, split add a dimension
             if len(start_positions.size()) > 1:
@@ -1113,7 +1127,7 @@ class AlbertForQuestionAnswering(AlbertPreTrainedModel):
             if len(end_positions.size()) > 1:
                 end_positions = end_positions.squeeze(-1)
             # sometimes the start/end positions are outside our model inputs, we ignore these terms
-            ignored_index = start_logits.size(1)
+            ignored_index = start_logits.size(1)  # 最大长度.
             start_positions.clamp_(0, ignored_index)
             end_positions.clamp_(0, ignored_index)
 
@@ -1135,6 +1149,14 @@ class AlbertForQuestionAnswering(AlbertPreTrainedModel):
         )
 
 
+
+
+
+
+
+
+
+# 下面是多项选择题
 @add_start_docstrings(
     """Albert Model with a multiple choice classification head on top (a linear layer on top of
     the pooled output and a softmax) e.g. for RocStories/SWAG tasks. """,
@@ -1200,11 +1222,11 @@ class AlbertForMultipleChoice(AlbertPreTrainedModel):
             return_tuple=return_tuple,
         )
 
-        pooled_output = outputs[1]
+        pooled_output = outputs[1]  # 这次我们使用的是nsp特征. 就是经过激活之后的.
 
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
-        reshaped_logits = logits.view(-1, num_choices)
+        reshaped_logits = logits.view(-1, num_choices)  # 然后变形到我们需要的shape即可.
 
         loss = None
         if labels is not None:

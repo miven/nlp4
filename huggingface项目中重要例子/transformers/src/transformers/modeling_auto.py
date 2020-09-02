@@ -356,6 +356,13 @@ MODEL_FOR_MULTIPLE_CHOICE_MAPPING = OrderedDict(
 )
 
 
+
+
+
+
+
+
+# auto是对所有模型的封装, 可以直接进行搜索匹配了.
 class AutoModel:
     r"""
         :class:`~transformers.AutoModel` is a generic model class
