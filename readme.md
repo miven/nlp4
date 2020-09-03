@@ -29,6 +29,10 @@ longformeQA/长文本qa2.py
 
 
 
+LearnedPositionEmbedding:
+huggingface项目中重要例子/transformers/src/transformers/modeling_bart.py
+
+
 
 
 

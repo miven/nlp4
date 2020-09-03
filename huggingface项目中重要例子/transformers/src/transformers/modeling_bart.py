@@ -138,6 +138,7 @@ def invert_mask(attention_mask):
     return attention_mask.eq(0)
 
 
+# 进行处理decoder的输入.
 def _prepare_bart_decoder_inputs(
     config, input_ids, decoder_input_ids=None, decoder_padding_mask=None, causal_mask_dtype=torch.float32
 ):
@@ -153,9 +154,13 @@ def _prepare_bart_decoder_inputs(
         decoder_padding_mask = make_padding_mask(decoder_input_ids, pad_token_id)
     else:
         decoder_padding_mask = invert_mask(decoder_padding_mask)
+
+        # 因果mask, 现在的光宇将来的注意力一定要是0.  tri upper :triu
     causal_mask = torch.triu(fill_with_neg_inf(torch.zeros(tgt_len, tgt_len)), 1).to(
-        dtype=causal_mask_dtype, device=decoder_input_ids.device
+        dtype=causal_mask_dtype, device=decoder_input_ids.device   # 注意这里面是填充负无穷, 所以后续这个处理直接maks即可.
     )
+
+
     return decoder_input_ids, decoder_padding_mask, causal_mask
 
 
@@ -384,7 +389,7 @@ class DecoderLayer(nn.Module):
             self.embed_dim,
             config.decoder_attention_heads,
             dropout=config.attention_dropout,
-            encoder_decoder_attention=True,
+            encoder_decoder_attention=True,          # encoder_decoder_attention=True, 这个是decoder层特殊的.
         )
         self.encoder_attn_layer_norm = LayerNorm(self.embed_dim)
         self.fc1 = nn.Linear(self.embed_dim, config.decoder_ffn_dim)
@@ -408,7 +413,7 @@ class DecoderLayer(nn.Module):
         if self.normalize_before:
             x = self.self_attn_layer_norm(x)
         # Self Attention
-
+# 首先对x做自注意力,得到x的表示,还是记做x  , 这个x是decoder层的输入.
         x, self_attn_weights = self.self_attn(
             query=x,
             key=x,
@@ -421,7 +426,7 @@ class DecoderLayer(nn.Module):
         x = residual + x
         if not self.normalize_before:
             x = self.self_attn_layer_norm(x)
-
+# 之后计算x 和 encoder的输出之间的注意力. 叫做cross attention
         # Cross attention
         residual = x
         assert self.encoder_attn.cache_key != self.self_attn.cache_key
@@ -437,7 +442,7 @@ class DecoderLayer(nn.Module):
         x = residual + x
         if not self.normalize_before:
             x = self.encoder_attn_layer_norm(x)
-
+# 最后进行ffp即可.
         # Fully Connected
         residual = x
         if self.normalize_before:
@@ -604,7 +609,8 @@ def _reorder_buffer(attn_cache, new_order):
             attn_cache[k] = input_buffer_k.index_select(0, new_order)
     return attn_cache
 
-
+# 标准的自注意力代码---------------------------------------------------很精简很重要!!!!!!!!!!!
+# 里面带encoder decoder 的实现都有.
 class SelfAttention(nn.Module):
     """Multi-headed attention from 'Attention Is All You Need' paper"""
 
@@ -629,12 +635,12 @@ class SelfAttention(nn.Module):
         self.v_proj = nn.Linear(embed_dim, embed_dim, bias=bias)
         self.q_proj = nn.Linear(embed_dim, embed_dim, bias=bias)
         self.out_proj = nn.Linear(embed_dim, embed_dim, bias=bias)
-        self.cache_key = "encoder_decoder" if self.encoder_decoder_attention else "self"
+        self.cache_key = "encoder_decoder" if self.encoder_decoder_attention else "self"  # 类型flag
 
     def _shape(self, tensor, seq_len, bsz):
         return tensor.contiguous().view(seq_len, bsz * self.num_heads, self.head_dim).transpose(0, 1)
 
-    def forward(
+    def forward( # 这份代码很精简啊----------------------
         self,
         query,
         key: Optional[Tensor],
@@ -650,7 +656,7 @@ class SelfAttention(nn.Module):
         assert list(query.size()) == [tgt_len, bsz, embed_dim]
         # get here for encoder decoder cause of static_kv
         if layer_state is not None:  # reuse k,v and encoder_padding_mask
-            saved_state = layer_state.get(self.cache_key, {})
+            saved_state = layer_state.get(self.cache_key, {})  # 设置cache
             if "prev_key" in saved_state and static_kv:
                 # previous time steps are cached - no need to recompute key and value if they are static
                 key = None
@@ -659,22 +665,22 @@ class SelfAttention(nn.Module):
             layer_state = {}
 
         q = self.q_proj(query) * self.scaling
-        if static_kv:
-            if key is None:
+        if static_kv:#这个flag表示是否是decoder模型
+            if key is None:         # 如果key是None,  那么k,v都是None
                 k = v = None
             else:
-                k = self.k_proj(key)
+                k = self.k_proj(key)           # 否则k,v 都是
                 v = self.v_proj(key)
-        else:
+        else: # else表示是encoder模型,所以跟query都一样了.
             k = self.k_proj(query)
             v = self.v_proj(query)
-
+# 做一些reshape
         q = self._shape(q, tgt_len, bsz)
         if k is not None:
             k = self._shape(k, -1, bsz)
         if v is not None:
             v = self._shape(v, -1, bsz)
-
+# 一些cache
         if saved_state is not None:
             k, v, key_padding_mask = self._use_saved_state(k, v, saved_state, key_padding_mask, static_kv, bsz)
 
@@ -689,7 +695,7 @@ class SelfAttention(nn.Module):
         src_len = k.size(1)
         attn_weights = torch.bmm(q, k.transpose(1, 2))
         assert attn_weights.size() == (bsz * self.num_heads, tgt_len, src_len)
-
+# attn_mask  这个是因果mask.因为我们输入的是负无穷,所以直接加就起到了maks作用. 所以整个逻辑是先进行因果mask 再进行pad mask
         if attn_mask is not None:
             attn_weights = attn_weights.view(bsz, self.num_heads, tgt_len, src_len) + attn_mask
             attn_weights = attn_weights.view(bsz * self.num_heads, tgt_len, src_len)
@@ -699,17 +705,28 @@ class SelfAttention(nn.Module):
             key_padding_mask = None
         assert key_padding_mask is None or key_padding_mask.size()[:2] == (bsz, src_len,)
 
+
+
         if key_padding_mask is not None:  # don't attend to padding symbols
             attn_weights = attn_weights.view(bsz, self.num_heads, tgt_len, src_len)
             reshaped = key_padding_mask.unsqueeze(1).unsqueeze(2)
-            attn_weights = attn_weights.masked_fill(reshaped, float("-inf"))
+            attn_weights = attn_weights.masked_fill(reshaped, float("-inf"))  # 进行mask处理, padding mask
             attn_weights = attn_weights.view(bsz * self.num_heads, tgt_len, src_len)
+
+
+
+
         attn_weights = F.softmax(attn_weights, dim=-1)
         attn_probs = F.dropout(attn_weights, p=self.dropout, training=self.training,)
 
         assert v is not None
+
+        # 对得到的注意力,乘以v即可.
         attn_output = torch.bmm(attn_probs, v)
         assert attn_output.size() == (bsz * self.num_heads, tgt_len, self.head_dim)
+
+
+
         attn_output = attn_output.transpose(0, 1).contiguous().view(tgt_len, bsz, embed_dim)
         attn_output = self.out_proj(attn_output)
         if output_attentions:
@@ -749,7 +766,7 @@ class SelfAttention(nn.Module):
             new_key_padding_mask = key_padding_mask
         return k, v, new_key_padding_mask
 
-
+# 接一个linear头而已, 没意思
 class BartClassificationHead(nn.Module):
     """Head for sentence-level classification tasks."""
 
@@ -771,7 +788,7 @@ class BartClassificationHead(nn.Module):
         x = self.out_proj(x)
         return x
 
-
+# 这个是目前transformer的创新, 就是position学出来.而不是sin,cos写死
 class LearnedPositionalEmbedding(nn.Embedding):
     """
     This module learns positional embeddings up to a fixed maximum size.
@@ -783,7 +800,7 @@ class LearnedPositionalEmbedding(nn.Embedding):
     def __init__(self, num_embeddings: int, embedding_dim: int, padding_idx: int, offset):
         # Bart is set up so that if padding_idx is specified then offset the embedding ids by 2
         # and adjust num_embeddings appropriately. Other models dont have this hack
-        self.offset = offset
+        self.offset = offset         # 设置了一个常数偏移量.
         assert padding_idx is not None
         num_embeddings += offset
         super().__init__(num_embeddings, embedding_dim, padding_idx=padding_idx)
@@ -795,7 +812,7 @@ class LearnedPositionalEmbedding(nn.Embedding):
             positions = input_ids.data.new(1, 1).fill_(seq_len - 1)  # called before slicing
         else:
             # starts at 0, ends at 1-seq_len
-            positions = torch.arange(seq_len, dtype=torch.long, device=self.weight.device)
+            positions = torch.arange(seq_len, dtype=torch.long, device=self.weight.device)  # 就是把位置index作为编码, 做一个embedding变换之后, 作为特征即可.
         return super().forward(positions + self.offset)
 
 
@@ -820,6 +837,15 @@ def _get_shape(t):
     return getattr(t, "shape", None)
 
 
+
+
+
+
+
+
+
+
+#---------------------下面是导入预训练模型.,第一个是没有任何头的,特征提取器.也是核心东西.
 @add_start_docstrings(
     "The bare BART Model outputting raw hidden-states without any specific head on top.", BART_START_DOCSTRING,
 )
@@ -830,7 +856,7 @@ class BartModel(PretrainedBartModel):
         padding_idx, vocab_size = config.pad_token_id, config.vocab_size
         self.shared = nn.Embedding(vocab_size, config.d_model, padding_idx)
 
-        self.encoder = BartEncoder(config, self.shared)
+        self.encoder = BartEncoder(config, self.shared) # 结果是经典的transformer结构, 先encode再decode
         self.decoder = BartDecoder(config, self.shared)
 
         self.init_weights()
@@ -844,9 +870,9 @@ class BartModel(PretrainedBartModel):
     )
     def forward(
         self,
-        input_ids,
+        input_ids,                     # 输入X
         attention_mask=None,
-        decoder_input_ids=None,
+        decoder_input_ids=None,         # 这个就是label
         encoder_outputs: Optional[Tuple] = None,
         decoder_attention_mask=None,
         decoder_past_key_values=None,
@@ -867,6 +893,8 @@ class BartModel(PretrainedBartModel):
         use_cache = use_cache if use_cache is not None else self.config.use_cache
         return_tuple = return_tuple if return_tuple is not None else self.config.use_return_tuple
 
+
+#首先准备好decoder数据
         # make masks if user doesn't supply
         if not use_cache:
             decoder_input_ids, decoder_padding_mask, causal_mask = _prepare_bart_decoder_inputs(
@@ -936,6 +964,12 @@ class BartModel(PretrainedBartModel):
         return _make_linear_from_emb(self.shared)  # make it on the fly
 
 
+
+
+
+
+
+# lm head.
 @add_start_docstrings(
     "The BART Model with a language modeling head. Can be used for summarization.", BART_START_DOCSTRING
 )
@@ -1024,7 +1058,7 @@ class BartForConditionalGeneration(PretrainedBartModel):
 
         if labels is not None:
             use_cache = False
-
+#首先得到基本特征ouputs
         outputs = self.model(
             input_ids,
             attention_mask=attention_mask,
@@ -1037,6 +1071,7 @@ class BartForConditionalGeneration(PretrainedBartModel):
             output_hidden_states=output_hidden_states,
             return_tuple=return_tuple,
         )
+        # 再接fn层.
         lm_logits = F.linear(outputs[0], self.model.shared.weight, bias=self.final_logits_bias)
 
         masked_lm_loss = None
@@ -1060,6 +1095,13 @@ class BartForConditionalGeneration(PretrainedBartModel):
             encoder_attentions=outputs.encoder_attentions,
         )
 
+
+
+
+
+
+
+
     def prepare_inputs_for_generation(self, decoder_input_ids, past, attention_mask, use_cache, **kwargs):
         assert past is not None, "past has to be defined for encoder_outputs"
 
@@ -1073,12 +1115,15 @@ class BartForConditionalGeneration(PretrainedBartModel):
             "use_cache": use_cache,  # change this to avoid caching (presumably for debugging)
         }
 
+
+# 强制生成句子长度的句子.
     def adjust_logits_during_generation(self, logits, cur_len, max_length):
         if cur_len == 1:
             self._force_token_ids_generation(logits, self.config.bos_token_id)
         if cur_len == max_length - 1 and self.config.eos_token_id is not None:
             self._force_token_ids_generation(logits, self.config.eos_token_id)
         return logits
+
 
     def _force_token_ids_generation(self, scores, token_ids) -> None:
         """force one of token_ids to be generated by setting prob of all other tokens to 0"""
@@ -1091,6 +1136,8 @@ class BartForConditionalGeneration(PretrainedBartModel):
         )
         assert len(scores.shape) == 2, "scores should be of rank 2 with shape: [batch_size, vocab_size]"
         scores[:, all_but_token_ids_mask] = -float("inf")
+
+
 
     @staticmethod
     def _reorder_cache(past, beam_idx):
@@ -1198,6 +1245,13 @@ class BartForSequenceClassification(PretrainedBartModel):
         )
 
 
+
+
+
+
+
+
+# QA头
 @add_start_docstrings(
     """BART Model with a span classification head on top for extractive question-answering tasks like SQuAD (a linear layer on top of
     the hidden-states output to compute `span start logits` and `span end logits`). """,
@@ -1303,6 +1357,8 @@ class BartForQuestionAnswering(PretrainedBartModel):
         )
 
 
+
+#  经典sin cos编码.看一下
 class SinusoidalPositionalEmbedding(nn.Embedding):
     """This module produces sinusoidal positional embeddings of any length."""
 
@@ -1324,7 +1380,7 @@ class SinusoidalPositionalEmbedding(nn.Embedding):
         out[:, 0 : dim // 2] = torch.FloatTensor(np.sin(position_enc[:, 0::2]))  # This line breaks for odd n_pos
         out[:, dim // 2 :] = torch.FloatTensor(np.cos(position_enc[:, 1::2]))
         out.detach_()
-        out.requires_grad = False
+        out.requires_grad = False # 锁死参数.
         return out
 
     @torch.no_grad()
