@@ -1366,7 +1366,7 @@ class SinusoidalPositionalEmbedding(nn.Embedding):
         super().__init__(num_positions, embedding_dim)
         if embedding_dim % 2 != 0:
             raise NotImplementedError(f"odd embedding_dim {embedding_dim} not supported")
-        self.weight = self._init_weight(self.weight)
+        self.weight = self._init_weight(self.weight) # 首先初始化参数到self.weight
 
     @staticmethod
     def _init_weight(out: nn.Parameter):
@@ -1392,4 +1392,14 @@ class SinusoidalPositionalEmbedding(nn.Embedding):
         else:
             # starts at 0, ends at 1-seq_len
             positions = torch.arange(seq_len, dtype=torch.long, device=self.weight.device)
-        return super().forward(positions)
+        return super().forward(positions)  # 调用父方法即可.
+
+
+
+
+
+
+
+
+
+

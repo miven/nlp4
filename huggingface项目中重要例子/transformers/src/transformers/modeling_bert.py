@@ -173,7 +173,7 @@ class BertEmbeddings(nn.Module):
         super().__init__()
         self.word_embeddings = nn.Embedding(config.vocab_size, config.hidden_size, padding_idx=config.pad_token_id)
         self.position_embeddings = nn.Embedding(config.max_position_embeddings, config.hidden_size)
-        self.token_type_embeddings = nn.Embedding(config.type_vocab_size, config.hidden_size)
+        self.token_type_embeddings = nn.Embedding(config.type_vocab_size, config.hidden_size) # nsp的toekn
 
         # self.LayerNorm is not snake-cased to stick with TensorFlow model variable name and be able to load
         # any TensorFlow checkpoint file
@@ -205,6 +205,9 @@ class BertEmbeddings(nn.Module):
         return embeddings
 
 
+
+
+# 注意bert的结构只有encoder.
 class BertSelfAttention(nn.Module):
     def __init__(self, config):
         super().__init__()
@@ -243,7 +246,7 @@ class BertSelfAttention(nn.Module):
         # If this is instantiated as a cross-attention module, the keys
         # and values come from an encoder; the attention mask needs to be
         # such that the encoder's padding tokens are not attended to.
-        if encoder_hidden_states is not None:
+        if encoder_hidden_states is not None:  # 是否有输入的状态.和输入mask
             mixed_key_layer = self.key(encoder_hidden_states)
             mixed_value_layer = self.value(encoder_hidden_states)
             attention_mask = encoder_attention_mask
@@ -260,7 +263,7 @@ class BertSelfAttention(nn.Module):
         attention_scores = attention_scores / math.sqrt(self.attention_head_size)
         if attention_mask is not None:
             # Apply the attention mask is (precomputed for all layers in BertModel forward() function)
-            attention_scores = attention_scores + attention_mask
+            attention_scores = attention_scores + attention_mask # 这里面mask还是负无穷,所以用加法.
 
         # Normalize the attention scores to probabilities.
         attention_probs = nn.Softmax(dim=-1)(attention_scores)
@@ -283,6 +286,8 @@ class BertSelfAttention(nn.Module):
         return outputs
 
 
+#   下面是bert本身 hidden层的输出!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#  可以看做输出embedding
 class BertSelfOutput(nn.Module):
     def __init__(self, config):
         super().__init__()
