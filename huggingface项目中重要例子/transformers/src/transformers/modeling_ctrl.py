@@ -32,6 +32,7 @@ from .modeling_utils import Conv1D, PreTrainedModel, find_pruneable_heads_and_in
 
 logger = logging.getLogger(__name__)
 
+#最强生成模型ctrl.---------------非常重要的代码.
 _CONFIG_FOR_DOC = "CTRLConfig"
 _TOKENIZER_FOR_DOC = "CTRLTokenizer"
 

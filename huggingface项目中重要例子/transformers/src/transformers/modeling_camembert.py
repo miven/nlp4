@@ -28,7 +28,7 @@ from .modeling_roberta import (
     RobertaModel,
 )
 
-
+# 这个代码不用看,全都是roberta的复用而已.
 logger = logging.getLogger(__name__)
 
 _TOKENIZER_FOR_DOC = "CamembertTokenizer"
