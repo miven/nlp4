@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12312/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12312/weixin_article-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12312/weixin_article-master/weixin_article.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12312/weixin_article-master/wxget.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/公众号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fairseq-gec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fairseq-gec.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12312/weixin_article-master/1111111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/现代数学译丛 有限群论导引 [德]Hans.Kuzweil 施武杰 李士恒(译) 2009年版.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/77777777.py" beforeDir="false" afterPath="$PROJECT_DIR$/77777777.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_bart.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_bart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_bert.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_bert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12312" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py" />
@@ -81,15 +76,15 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\12312" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习\词向量finetune" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\主题模型" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\句子相似度qa" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\研究qa" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.weixin_article">
-    <configuration name="2343245" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1111111">
+    <configuration name="1111111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fairseq-gec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,12 +92,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="sftp://root@127.0.0.1:10022/usr/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12312/weixin_article-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2343245.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12312/weixin_article-master/1111111.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,19 +240,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.run_language_modeling" />
-      <item itemvalue="Python.2343245" />
       <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好4另外一种词向量" />
       <item itemvalue="Python.77777777" />
       <item itemvalue="Python.wxget" />
       <item itemvalue="Python.weixin_article" />
+      <item itemvalue="Python.1111111" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1111111" />
         <item itemvalue="Python.weixin_article" />
         <item itemvalue="Python.wxget" />
         <item itemvalue="Python.77777777" />
         <item itemvalue="Python.对albert模型做finetune让他的词向量距离效果更好4另外一种词向量" />
-        <item itemvalue="Python.2343245" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +368,7 @@
       <workItem from="1598491176773" duration="10290000" />
       <workItem from="1598512212867" duration="47172000" />
       <workItem from="1598801814822" duration="1905000" />
-      <workItem from="1598837301410" duration="100833000" />
+      <workItem from="1598837301410" duration="112330000" />
     </task>
     <servers />
   </component>
@@ -452,38 +447,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1599179216543">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1599192343163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599179216543" />
-    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1599179216543">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599192343163" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1599192343163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599179216543" />
-    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1599179216543">
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599192343163" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1599192343163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599179216543" />
-    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1599179216543">
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599192343163" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1599192343163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599179216543" />
-    <state width="1237" height="180" key="GridCell.Tab.1.bottom" timestamp="1599179216544">
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599192343163" />
+    <state width="1237" height="180" key="GridCell.Tab.1.bottom" timestamp="1599192343164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599179216544" />
-    <state width="1237" height="180" key="GridCell.Tab.1.center" timestamp="1599179216544">
+    <state width="1237" height="180" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599192343164" />
+    <state width="1237" height="180" key="GridCell.Tab.1.center" timestamp="1599192343163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599179216544" />
-    <state width="1237" height="180" key="GridCell.Tab.1.left" timestamp="1599179216543">
+    <state width="1237" height="180" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599192343163" />
+    <state width="1237" height="180" key="GridCell.Tab.1.left" timestamp="1599192343163">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599179216543" />
-    <state width="1237" height="180" key="GridCell.Tab.1.right" timestamp="1599179216544">
+    <state width="1237" height="180" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599192343163" />
+    <state width="1237" height="180" key="GridCell.Tab.1.right" timestamp="1599192343164">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599179216544" />
+    <state width="1237" height="180" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599192343164" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1600,6 +1595,11 @@
           <line>478</line>
           <option name="timeStamp" value="581" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/12312/weixin_article-master/1111111.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="582" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1625,12 +1625,13 @@
         <watch expression="torch.arange(len(mask))[mask]" />
         <watch expression="outputs1" />
         <watch expression="weixin(&quot;qrc_dir&quot;)._get_article_list(&quot;我们&quot;)" />
+        <watch expression="causal_mask" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fairseq_gec$1111111.coverage" NAME="1111111 Coverage Results" MODIFIED="1597318221795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianghua" />
     <SUITE FILE_PATH="coverage/fairseq_gec$312321.coverage" NAME="312321 Coverage Results" MODIFIED="1598260741982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$1111111.coverage" NAME="1111111 Coverage Results" MODIFIED="1599192211888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12312/weixin_article-master" />
     <SUITE FILE_PATH="coverage/fairseq_gec$Unittests_for_66666666_TestClass_test_case2.coverage" NAME="Unittests for 66666666.TestClass.test_case2 Coverage Results" MODIFIED="1592956791878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fairseq_gec$qa_____________________1_.coverage" NAME="中文qa模型!!!!!!!!!!!!!!!!!!! (1) Coverage Results" MODIFIED="1597830630130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/albert使用" />
     <SUITE FILE_PATH="coverage/fairseq_gec$Doctests_in_filter.coverage" NAME="Doctests in filter Coverage Results" MODIFIED="1594952028511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jiexi2-master加很多工具/这个文件夹用来存一个相关的项目包可以作为工具来使用/someUtils/textfilter" />

@@ -336,9 +336,13 @@ class BertAttention(nn.Module):
         encoder_attention_mask=None,
         output_attentions=False,
     ):
+
+        # 先得到hidden
         self_outputs = self.self(
             hidden_states, attention_mask, head_mask, encoder_hidden_states, encoder_attention_mask, output_attentions,
         )
+
+        #再接fn
         attention_output = self.output(self_outputs[0], hidden_states)
         outputs = (attention_output,) + self_outputs[1:]  # add attentions if we output them
         return outputs
@@ -439,7 +443,7 @@ class BertEncoder(nn.Module):
             if output_hidden_states:
                 all_hidden_states = all_hidden_states + (hidden_states,)
 
-            if getattr(self.config, "gradient_checkpointing", False):
+            if getattr(self.config, "gradient_checkpointing", False): # 是否使用加载点.
 
                 def create_custom_forward(module):
                     def custom_forward(*inputs):
@@ -477,7 +481,7 @@ class BertEncoder(nn.Module):
             last_hidden_state=hidden_states, hidden_states=all_hidden_states, attentions=all_attentions
         )
 
-
+# pooler 在nlp里面就是激活函数的意思.  把结果映射到-1,1
 class BertPooler(nn.Module):
     def __init__(self, config):
         super().__init__()
@@ -486,11 +490,19 @@ class BertPooler(nn.Module):
 
     def forward(self, hidden_states):
         # We "pool" the model by simply taking the hidden state corresponding
-        # to the first token.
+        # to the first token.  # 这里面只对第一个cls ,做pooler运算,然后输出出来.
         first_token_tensor = hidden_states[:, 0]
         pooled_output = self.dense(first_token_tensor)
         pooled_output = self.activation(pooled_output)
         return pooled_output
+
+
+
+
+
+
+
+
 
 
 class BertPredictionHeadTransform(nn.Module):
@@ -508,6 +520,18 @@ class BertPredictionHeadTransform(nn.Module):
         hidden_states = self.transform_act_fn(hidden_states)
         hidden_states = self.LayerNorm(hidden_states)
         return hidden_states
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 class BertLMPredictionHead(nn.Module):
@@ -560,6 +584,14 @@ class BertPreTrainingHeads(nn.Module):
         prediction_scores = self.predictions(sequence_output)
         seq_relationship_score = self.seq_relationship(pooled_output)
         return prediction_scores, seq_relationship_score
+
+
+
+
+
+
+
+
 
 
 class BertPreTrainedModel(PreTrainedModel):
@@ -770,6 +802,8 @@ class BertModel(BertPreTrainedModel):
 
         # We can provide a self-attention mask of dimensions [batch_size, from_seq_length, to_seq_length]
         # ourselves in which case we just need to make it broadcastable to all heads.
+
+        # 得到因果关系之后的注意力:extended_attention_mask
         extended_attention_mask: torch.Tensor = self.get_extended_attention_mask(attention_mask, input_shape, device)
 
         # If a 2D ou 3D attention mask is provided for the cross-attention
@@ -925,6 +959,13 @@ class BertForPreTraining(BertPreTrainedModel):
         )
 
 
+
+
+
+
+
+
+# clm?
 @add_start_docstrings(
     """Bert Model with a `language modeling` head on top for CLM fine-tuning. """, BERT_START_DOCSTRING
 )
