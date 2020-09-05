@@ -1172,9 +1172,12 @@ class BertForMaskedLM(BertPreTrainedModel):
         #  add a dummy token
         assert self.config.pad_token_id is not None, "The PAD token should be defined for generation"
 
-# 配好后面的nsp attention
+# 配好后面的nsp attention?????????????????????????????????????????
+        # w为甚没需要补0......... 每一个sample最后都多加一个0.
         attention_mask = torch.cat([attention_mask, attention_mask.new_zeros((attention_mask.shape[0], 1))], dim=-1)
 
+
+# 在input后面也加一个pad.... 所以就能匹配上上面的attention_mask了.
         dummy_token = torch.full(  # 用后面的东西填充前面的shape
             (effective_batch_size, 1), self.config.pad_token_id, dtype=torch.long, device=input_ids.device
         )

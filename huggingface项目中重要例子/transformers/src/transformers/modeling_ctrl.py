@@ -47,6 +47,14 @@ def angle_defn(pos, i, d_model_size):
     return pos * angle_rates
 
 
+
+
+
+
+
+
+
+# ctrl的特色是位置编码.--------其实跟bert一样.只是写法不同.
 def positional_encoding(position, d_model_size, dtype):
     # create the sinusoidal pattern for the positional encoding
     angle_rads = angle_defn(
@@ -71,7 +79,10 @@ def scaled_dot_product_attention(q, k, v, mask, attention_mask=None, head_mask=N
 
     if mask is not None:
         nd, ns = scaled_attention_logits.size(-2), scaled_attention_logits.size(-1)
-        scaled_attention_logits += mask[ns - nd : ns, :ns] * -1e4
+        scaled_attention_logits += mask[ns - nd : ns, :ns] * -1e4   # mask就表示带1的地方 都干成负无穷.
+        # ------------------为什么要ns-nd???, 估计是因为后nd维才是数据,才需要做mask.
+
+
 
     if attention_mask is not None:
         # Apply the attention mask
@@ -130,11 +141,11 @@ class MultiHeadAttention(torch.nn.Module):
         k,
         q,
         mask,
-        layer_past=None,
-        attention_mask=None,
+        layer_past=None,       #这个是创新, 看看如何加速的!!!!!!!!!!!!!!!!
+        attention_mask=None,  # 对输出进行mask.  这里面把mask抽取出来,逻辑在其他地方写.
         head_mask=None,
         use_cache=False,
-        output_attentions=False,
+        output_attentions=False,  # 是否输出attention
     ):
         batch_size = q.shape[0]
 
@@ -145,10 +156,18 @@ class MultiHeadAttention(torch.nn.Module):
         q = self.split_into_heads(q, batch_size)
         k = self.split_into_heads(k, batch_size)
         v = self.split_into_heads(v, batch_size)
+
         if layer_past is not None:
             past_key, past_value = layer_past[0], layer_past[1]
-            k = torch.cat((past_key, k), dim=-2)
+            k = torch.cat((past_key, k), dim=-2) # 在seq_len维度上添加.
             v = torch.cat((past_value, v), dim=-2)
+
+
+
+
+
+
+
 
         if use_cache is True:
             present = torch.stack((k, v))
@@ -319,7 +338,7 @@ class CTRLModel(CTRLPreTrainedModel):
         self.dropout = nn.Dropout(config.embd_pdrop)
         self.h = nn.ModuleList(
             [EncoderLayer(config.n_embd, config.n_head, config.dff, config.resid_pdrop) for _ in range(config.n_layer)]
-        )
+        ) # 居然只有encoding层, 就能做generate
         self.layernorm = nn.LayerNorm(config.n_embd, eps=config.layer_norm_epsilon)
 
         self.init_weights()
@@ -359,6 +378,10 @@ class CTRLModel(CTRLPreTrainedModel):
         return_tuple=None,
         **kwargs,
     ):
+
+
+
+
         if "past" in kwargs:
             warnings.warn(
                 "The `past` argument is deprecated and will be removed in a future version, use `past_key_values` instead.",
@@ -374,6 +397,10 @@ class CTRLModel(CTRLPreTrainedModel):
         )
         return_tuple = return_tuple if return_tuple is not None else self.config.use_return_tuple
 
+
+
+
+
         if input_ids is not None and inputs_embeds is not None:
             raise ValueError("You cannot specify both input_ids and inputs_embeds at the same time")
         elif input_ids is not None:
@@ -386,15 +413,28 @@ class CTRLModel(CTRLPreTrainedModel):
         else:
             raise ValueError("You have to specify either input_ids or inputs_embeds")
 
-        if past_key_values is None:
+
+# 配置记忆体.
+        if past_key_values is None:  # 初始化记忆体.长度是0,数据是跟h一样.
             past_length = 0
             past_key_values = [None] * len(self.h)
         else:
             past_length = past_key_values[0][0].size(-2)
+
+
+
         if position_ids is None:
             device = input_ids.device if input_ids is not None else inputs_embeds.device
             position_ids = torch.arange(past_length, input_shape[-1] + past_length, dtype=torch.long, device=device)
             position_ids = position_ids.unsqueeze(0).view(-1, input_shape[-1])
+
+
+
+
+
+
+
+
 
         # Attention mask.
         if attention_mask is not None:
@@ -413,11 +453,13 @@ class CTRLModel(CTRLPreTrainedModel):
             # Since we are adding it to the raw scores before the softmax, this is
             # effectively the same as removing these entirely.
             attention_mask = attention_mask.to(dtype=self.dtype)  # fp16 compatibility
-            attention_mask = (1.0 - attention_mask) * -10000.0
+            attention_mask = (1.0 - attention_mask) * -10000.0       # 反转mask
 
         # Prepare head mask if needed
         head_mask = self.get_head_mask(head_mask, self.config.n_layer)
 
+
+# 表示上下句.
         if token_type_ids is not None:
             token_type_ids = token_type_ids.view(-1, input_shape[-1])
             token_type_embeds = self.w(token_type_ids)
@@ -430,8 +472,9 @@ class CTRLModel(CTRLPreTrainedModel):
             inputs_embeds = self.w(input_ids)
         # inputs_embeds = embedded.unsqueeze(0) if len(input_ids.shape)<2 else embedded
         seq_len = input_shape[-1]
+# 因果遮罩.
         mask = torch.triu(torch.ones(seq_len + past_length, seq_len + past_length), 1).to(inputs_embeds.device)
-
+# 3类叠加.
         inputs_embeds *= np.sqrt(self.d_model_size)
 
         pos_embeds = self.pos_encoding[position_ids, :].to(inputs_embeds.device)
@@ -439,6 +482,7 @@ class CTRLModel(CTRLPreTrainedModel):
         hidden_states = inputs_embeds + pos_embeds + token_type_embeds
 
         hidden_states = self.dropout(hidden_states)
+
 
         output_shape = input_shape + (inputs_embeds.size(-1),)
         presents = () if use_cache else None
@@ -536,7 +580,7 @@ class CTRLLMHeadModel(CTRLPreTrainedModel):
             Note that the labels **are shifted** inside the model, i.e. you can set ``labels = input_ids``
             Indices are selected in ``[-100, 0, ..., config.vocab_size]``
             All labels set to ``-100`` are ignored (masked), the loss is only
-            computed for labels in ``[0, ..., config.vocab_size]``
+            computed for labels in ``[0, ..., config.vocab_size]``  # 多一个token 叫-100
         """
         if "past" in kwargs:
             warnings.warn(
@@ -568,8 +612,9 @@ class CTRLLMHeadModel(CTRLPreTrainedModel):
         loss = None
         if labels is not None:
             # Shift so that tokens < n predict n
-            shift_logits = lm_logits[..., :-1, :].contiguous()
-            shift_labels = labels[..., 1:].contiguous()
+            shift_logits = lm_logits[..., :-1, :].contiguous()   # 去掉最后一个/s
+            shift_labels = labels[..., 1:].contiguous()        #标签去掉第一个提示符.  因为输出的东西不带提示符了.比如Wikipad这种.
+            # 所以第一个位置不应该作为label,切掉即可.
             # Flatten the tokens
             loss_fct = CrossEntropyLoss()
             loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1))

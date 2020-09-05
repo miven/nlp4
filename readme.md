@@ -216,7 +216,7 @@ ctrl模型/run_generation (2)_for_ctrl.py
 
 
 ctrl模型/ctrl原始代码/ctrl/training_utils/training.py
-    ctrl模型训练代码.还没调通.
+    ctrl模型训练代码.还没调通. 但是基本从make_tf里面知道了训练数据的样子.
     
     
 
