@@ -109,10 +109,9 @@ all_tokens = tokenizer.convert_ids_to_tokens(input_ids[0])
 end=torch.argmax(end_scores)+1
 start=torch.argmax(start_scores)
 if end<start:
-    answer = ' '.join(all_tokens[start:])
-else:
+   end,start=start,end
 
-    answer = ' '.join(all_tokens[start:end])
+answer = ' '.join(all_tokens[start:end])
 answer = tokenizer.convert_tokens_to_ids(answer.split())
 answer = tokenizer.decode(answer)
 

@@ -87,17 +87,12 @@ albert词向量究极版本:
 
 
 
-中文qa模型:
-albert使用/中文qa模型!!!!!!!!!!!!!!!!!!!.py
-
-
-注意函数返回值有propability,自己设置一个阈值,如果小于这个值,就表示答案在text中不存在,返回error即可.
-
-
 
 
 中文qa finetune模型 :
 albert使用/中文qa模型!Finetune.py
+
+注意函数返回值有propability,自己设置一个阈值,如果小于这个值,就表示答案在text中不存在,返回error即可.
 
 
 
@@ -107,10 +102,6 @@ albert使用/中文qa模型!Finetune.py
 
 英文qa finetune代码:
 albert使用/ImportantExmapleForFinetune.py
-
-
-英文qa:
-albert使用/ImportantExmaple.py
 
 
 
