@@ -75,6 +75,14 @@ def _get_question_end_index(input_ids, sep_token_id):
     return sep_token_indices.view(batch_size, 3, 2)[:, 0, 1]
 
 
+
+
+
+
+
+
+
+
 def _compute_global_attention_mask(input_ids, sep_token_id, before_sep_token=True):
     """
         Computes global attention mask by putting attention on all tokens
@@ -95,6 +103,15 @@ def _compute_global_attention_mask(input_ids, sep_token_id, before_sep_token=Tru
         ).to(torch.uint8)
 
     return attention_mask
+
+
+
+
+
+
+
+
+
 
 
 class LongformerSelfAttention(nn.Module):
@@ -120,7 +137,7 @@ class LongformerSelfAttention(nn.Module):
 
         self.dropout = config.attention_probs_dropout_prob
 
-        self.layer_id = layer_id
+        self.layer_id = layer_id              # 滑动窗口来计算注意力. 延长注意力.
         attention_window = config.attention_window[self.layer_id]
         assert (
             attention_window % 2 == 0
@@ -134,14 +151,32 @@ class LongformerSelfAttention(nn.Module):
     @staticmethod
     def _pad_and_transpose_last_two_dims(hidden_states_padded, padding):
         """pads rows and then flips rows and columns"""
-        hidden_states_padded = F.pad(
+        hidden_states_padded = F.pad(                     # padding
             hidden_states_padded, padding
-        )  # padding value is not important because it will be overwritten
+        )  # padding value is not important because it will be overwritten        # 最后2个维度transpose
         hidden_states_padded = hidden_states_padded.view(
             *hidden_states_padded.size()[:-2], hidden_states_padded.size(-1), hidden_states_padded.size(-2)
         )
         return hidden_states_padded
 
+    '''
+    
+    pytorch pad 使用说明:         是逆着看padding顺序的.
+    >>> t4d = torch.empty(3, 3, 4, 2)
+        >>> p1d = (1, 1) # pad last dim by 1 on each side
+        >>> out = F.pad(t4d, p1d, "constant", 0)  # effectively zero padding
+        >>> print(out.size())
+        torch.Size([3, 3, 4, 4])
+        >>> p2d = (1, 1, 2, 2) # pad last dim by (1, 1) and 2nd to last by (2, 2)
+        >>> out = F.pad(t4d, p2d, "constant", 0)
+        >>> print(out.size())
+        torch.Size([3, 3, 8, 4])
+        >>> t4d = torch.empty(3, 3, 4, 2)
+        >>> p3d = (0, 1, 2, 1, 3, 3) # pad by (0, 1), (2, 1), and (3, 3)
+        >>> out = F.pad(t4d, p3d, "constant", 0)
+        >>> print(out.size())
+        torch.Size([3, 9, 7, 3])
+    '''
     @staticmethod
     def _pad_by_window_overlap_except_last_row(chunked_hidden_states):
         """shift every row 1 step right, converting columns into diagonals"""
