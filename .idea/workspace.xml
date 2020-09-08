@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" beforeDir="false" afterPath="$PROJECT_DIR$/albert使用/中文qa模型!Finetune.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/longformeQA/长文本qa2.py" beforeDir="false" afterPath="$PROJECT_DIR$/longformeQA/长文本qa2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/现代数学译丛 有限群论导引 [德]Hans.Kuzweil 施武杰 李士恒(译) 2009年版.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/现代数学译丛 有限群论导引 [德]Hans.Kuzweil 施武杰 李士恒(译) 2009年版.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +366,7 @@
       <workItem from="1598491176773" duration="10290000" />
       <workItem from="1598512212867" duration="47172000" />
       <workItem from="1598801814822" duration="1905000" />
-      <workItem from="1598837301410" duration="179487000" />
+      <workItem from="1598837301410" duration="197760000" />
     </task>
     <servers />
   </component>
@@ -429,10 +429,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596430478936" />
-    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1599474012078">
+    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1599556205560">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1599474012078" />
+    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1599556205560" />
     <state x="130" y="77" width="1095" height="495" key="DiffContextDialog" timestamp="1597536533322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -445,46 +445,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="125" key="GridCell.Tab.0.bottom" timestamp="1599529739717">
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom" timestamp="1599558508902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599529739717" />
-    <state width="1237" height="125" key="GridCell.Tab.0.center" timestamp="1599529739717">
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
+    <state width="1237" height="181" key="GridCell.Tab.0.center" timestamp="1599558508902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599529739717" />
-    <state width="1237" height="125" key="GridCell.Tab.0.left" timestamp="1599529739717">
+    <state width="1237" height="181" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
+    <state width="1237" height="181" key="GridCell.Tab.0.left" timestamp="1599558508902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599529739717" />
-    <state width="1237" height="125" key="GridCell.Tab.0.right" timestamp="1599529739717">
+    <state width="1237" height="181" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right" timestamp="1599558508902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599529739717" />
-    <state width="1237" height="125" key="GridCell.Tab.1.bottom" timestamp="1599529739717">
+    <state width="1237" height="181" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
+    <state width="1237" height="181" key="GridCell.Tab.1.bottom" timestamp="1599558508902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599529739717" />
-    <state width="1237" height="125" key="GridCell.Tab.1.center" timestamp="1599529739717">
+    <state width="1237" height="181" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
+    <state width="1237" height="181" key="GridCell.Tab.1.center" timestamp="1599558508902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599529739717" />
-    <state width="1237" height="125" key="GridCell.Tab.1.left" timestamp="1599529739717">
+    <state width="1237" height="181" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
+    <state width="1237" height="181" key="GridCell.Tab.1.left" timestamp="1599558508902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599529739717" />
-    <state width="1237" height="125" key="GridCell.Tab.1.right" timestamp="1599529739717">
+    <state width="1237" height="181" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
+    <state width="1237" height="181" key="GridCell.Tab.1.right" timestamp="1599558508902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="125" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599529739717" />
+    <state width="1237" height="181" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="127" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597046113236" />
-    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1599472056409">
+    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1599552964926">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1599472056409" />
+    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1599552964926" />
     <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598256455756">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1613,6 +1613,16 @@
           <line>112</line>
           <option name="timeStamp" value="588" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
+          <line>982</line>
+          <option name="timeStamp" value="595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
+          <line>293</line>
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1628,7 +1638,7 @@
         <watch expression="global_attention_mask" />
         <watch expression=" (attention_window - seq_len % attention_window)" />
         <watch expression="input_ids" language="Python" />
-        <watch expression="token_type_ids" />
+        <watch expression="token_type_ids" language="Python" />
         <watch expression=" attention_mask[:, None, None, :]" />
         <watch expression="extended_attention_mask" />
         <watch expression="query_vectors" />
@@ -1653,6 +1663,18 @@
         <watch expression="diagonal_attention_scores" />
         <watch expression="diagonal_mask" />
         <watch expression="input_ids" language="Python" />
+        <watch expression="input_ids" language="Python" />
+        <watch expression="input_ids" />
+        <watch expression="tokenizer" />
+        <watch expression="LongformerLayer" />
+        <watch expression="hidden_states" />
+        <watch expression=" hidden_states.size(0),&#10;            hidden_states.size(1) // (window_overlap * 2),&#10;            window_overlap * 2,&#10;            hidden_states.size(2)," />
+        <watch expression="(&#10;            hidden_states.size(0),&#10;            hidden_states.size(1) // (window_overlap * 2),&#10;            window_overlap * 2,&#10;            hidden_states.size(2),&#10;        )" />
+        <watch expression="list(hidden_states.stride())" language="Python" />
+        <watch expression="list(hidden_states.stride())" />
+        <watch expression="query" />
+        <watch expression="hidden_states.as_strided(size=chunk_size, stride=chunk_stride)  # size 返回的大小,stride:表示当前维度应该下个书之间的offsize" />
+        <watch expression="diagonal_chunked_attention_scores" />
       </configuration>
     </watches-manager>
   </component>
@@ -1742,7 +1764,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$eval_lm.coverage" NAME="eval_lm Coverage Results" MODIFIED="1594801149907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/fairseq_cli" />
     <SUITE FILE_PATH="coverage/fairseq_gec$t5__1_.coverage" NAME="t5摘要效果还行 (1) Coverage Results" MODIFIED="1598284276389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$lca.coverage" NAME="lca库包 Coverage Results" MODIFIED="1598538503482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="长文本qa2 Coverage Results" MODIFIED="1599529678301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/longformeQA" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="长文本qa2 Coverage Results" MODIFIED="1599532851618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/longformeQA" />
     <SUITE FILE_PATH="coverage/fairseq_gec$predictfacenet.coverage" NAME="predictfacenet Coverage Results" MODIFIED="1596968961324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1595118406055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/bart" />
     <SUITE FILE_PATH="coverage/fairseq_gec$huizong__1_.coverage" NAME="huizong修改为词向量 (1) Coverage Results" MODIFIED="1597738293920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
