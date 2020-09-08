@@ -94,7 +94,7 @@ print("8888888888888888888888")
 
 
 
-question, text = "时间", "上午八时,我杀了一个人"
+question, text = "时间", "上午八时我在天津市的一所大学里面,我杀了一个人"
 encoding = tokenizer(question, text, return_tensors='pt')
 input_ids = encoding['input_ids']
 attention_mask = encoding['attention_mask']
@@ -103,11 +103,26 @@ attention_mask = encoding['attention_mask']
 start_scores, end_scores = model(input_ids, attention_mask=attention_mask, output_attentions=False)[:2]
 
 
+'''
+对question 进行mask  ,找到sep
+'''
+1111111111
+for dex in range(len(input_ids[0])):
+    if input_ids[0][dex]==tokenizer.encode('[SEP]')[1]:
+        break
+start_scores[0,:dex+1]=-float("inf")
+end_scores[0,:dex+1]=-float("inf")
 
+
+
+
+
+start_scores
 
 all_tokens = tokenizer.convert_ids_to_tokens(input_ids[0])
 end=torch.argmax(end_scores)+1
 start=torch.argmax(start_scores)
+print(start,end,333333333333333)
 if end<start:
    end,start=start,end
 
