@@ -2,9 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/longformer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/longformer/diagonaled_mm_tvm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/longformer/lib/lib_diagonaled_mm_float32_cuda.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/longformer/longformer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/longformer/sliding_chunks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/cheatsheet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/convert_model_to_long.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/triviaqa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/triviaqa_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/triviaqa_utils/convert_to_squad_format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/triviaqa_utils/dataset_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/triviaqa_utils/evaluation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/scripts/triviaqa_utils/file_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tests/test_integration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tests/test_readme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tests/test_sliding_chunks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tests/test_var_global_attn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/_ctypes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/_ctypes/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/_ctypes/ndarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/_ctypes/node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/_ctypes/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/_ctypes/vmobj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/libinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/ndarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/node_generic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/_ffi/runtime_ctypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/contrib/dlpack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/libtvm_runtime.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm/ndarray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longformer的官网实现/longformer-master/tvm_docker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/generation_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_ctrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/huggingface项目中重要例子/transformers/src/transformers/modeling_ctrl.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/longformeQA/长文本qa2.py" beforeDir="false" afterPath="$PROJECT_DIR$/longformeQA/长文本qa2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/现代数学译丛 有限群论导引 [德]Hans.Kuzweil 施武杰 李士恒(译) 2009年版.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/现代数学译丛 有限群论导引 [德]Hans.Kuzweil 施武杰 李士恒(译) 2009年版.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +106,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/longformer的官网实现" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/文本生成/GPT2-Chinese-master/tokenizations/tokenization_bert_word_level.py" />
@@ -74,11 +120,11 @@
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\文本生成\huggingface重要例子" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\longformer的官网实现" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\12312" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\知识图谱项目\kg加深度学习\词向量finetune" />
       <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\主题模型" />
-      <recent name="E:\Users\Administrator\PycharmProjects\fairseq-gec\句子相似度qa" />
     </key>
   </component>
   <component name="RunManager" selected="Python.长文本qa2">
@@ -366,7 +412,7 @@
       <workItem from="1598491176773" duration="10290000" />
       <workItem from="1598512212867" duration="47172000" />
       <workItem from="1598801814822" duration="1905000" />
-      <workItem from="1598837301410" duration="197760000" />
+      <workItem from="1598837301410" duration="217682000" />
     </task>
     <servers />
   </component>
@@ -429,10 +475,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596430478936" />
-    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1599556205560">
+    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1599619745464">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1599556205560" />
+    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1599619745464" />
     <state x="130" y="77" width="1095" height="495" key="DiffContextDialog" timestamp="1597536533322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -445,46 +491,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="181" key="GridCell.Tab.0.bottom" timestamp="1599558508902">
+    <state width="1237" height="201" key="GridCell.Tab.0.bottom" timestamp="1599636949907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="181" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
-    <state width="1237" height="181" key="GridCell.Tab.0.center" timestamp="1599558508902">
+    <state width="1237" height="201" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599636949907" />
+    <state width="1237" height="201" key="GridCell.Tab.0.center" timestamp="1599636949907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="181" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
-    <state width="1237" height="181" key="GridCell.Tab.0.left" timestamp="1599558508902">
+    <state width="1237" height="201" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599636949907" />
+    <state width="1237" height="201" key="GridCell.Tab.0.left" timestamp="1599636949907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="181" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
-    <state width="1237" height="181" key="GridCell.Tab.0.right" timestamp="1599558508902">
+    <state width="1237" height="201" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599636949907" />
+    <state width="1237" height="201" key="GridCell.Tab.0.right" timestamp="1599636949907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="181" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
-    <state width="1237" height="181" key="GridCell.Tab.1.bottom" timestamp="1599558508902">
+    <state width="1237" height="201" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599636949907" />
+    <state width="1237" height="201" key="GridCell.Tab.1.bottom" timestamp="1599636949907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="181" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
-    <state width="1237" height="181" key="GridCell.Tab.1.center" timestamp="1599558508902">
+    <state width="1237" height="201" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599636949907" />
+    <state width="1237" height="201" key="GridCell.Tab.1.center" timestamp="1599636949907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="181" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
-    <state width="1237" height="181" key="GridCell.Tab.1.left" timestamp="1599558508902">
+    <state width="1237" height="201" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599636949907" />
+    <state width="1237" height="201" key="GridCell.Tab.1.left" timestamp="1599636949907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="181" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
-    <state width="1237" height="181" key="GridCell.Tab.1.right" timestamp="1599558508902">
+    <state width="1237" height="201" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599636949907" />
+    <state width="1237" height="201" key="GridCell.Tab.1.right" timestamp="1599636949907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="181" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599558508902" />
+    <state width="1237" height="201" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599636949907" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="127" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597046113236" />
-    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1599552964926">
+    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1599608673880">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1599552964926" />
+    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1599608673880" />
     <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598256455756">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1605,7 +1651,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/longformeQA/长文本qa2.py</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="585" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1622,6 +1668,21 @@
           <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
           <line>293</line>
           <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
+          <line>205</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
+          <line>319</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
+          <line>220</line>
+          <option name="timeStamp" value="599" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1660,7 +1721,7 @@
         <watch expression=" diagonal_chunked_attention_scores[&#10;            :, :, :window_overlap, : window_overlap + 1&#10;        ]" />
         <watch expression="     diagonal_attention_scores[:, :-1, :, window_overlap:] " />
         <watch expression=" diagonal_attention_scores[:, -1, :, window_overlap:]" />
-        <watch expression="diagonal_attention_scores" />
+        <watch expression="diagonal_attention_scores" language="Python" />
         <watch expression="diagonal_mask" />
         <watch expression="input_ids" language="Python" />
         <watch expression="input_ids" language="Python" />
@@ -1674,7 +1735,16 @@
         <watch expression="list(hidden_states.stride())" />
         <watch expression="query" />
         <watch expression="hidden_states.as_strided(size=chunk_size, stride=chunk_stride)  # size 返回的大小,stride:表示当前维度应该下个书之间的offsize" />
+        <watch expression="diagonal_chunked_attention_scores" language="Python" />
+        <watch expression=" diagonal_chunked_attention_scores[&#10;            :, :, :window_overlap, : window_overlap + 1  # 右边是1,5,512,513           # 左边1,6, 256,513&#10;        ]" />
+        <watch expression="[&#10;            :, 0, : window_overlap - 1, 1 - window_overlap :&#10;        ]" />
+        <watch expression="1 - window_overlap" />
+        <watch expression="window_overlap - 1" />
+        <watch expression=" :, :, -(window_overlap + 1) : -1, window_overlap + 1 :" />
+        <watch expression="diagonal_attention_scores[:, :-1, :, window_overlap:]" />
+        <watch expression="diagonal_attention_scores" />
         <watch expression="diagonal_chunked_attention_scores" />
+        <watch expression="diagonal_chunked_attention_scores[&#10;            :, :, :window_overlap, : window_overlap + 1&#10;        ]" />
       </configuration>
     </watches-manager>
   </component>
@@ -1764,7 +1834,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$eval_lm.coverage" NAME="eval_lm Coverage Results" MODIFIED="1594801149907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/fairseq_cli" />
     <SUITE FILE_PATH="coverage/fairseq_gec$t5__1_.coverage" NAME="t5摘要效果还行 (1) Coverage Results" MODIFIED="1598284276389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$lca.coverage" NAME="lca库包 Coverage Results" MODIFIED="1598538503482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="长文本qa2 Coverage Results" MODIFIED="1599532851618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/longformeQA" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="长文本qa2 Coverage Results" MODIFIED="1599611220129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/longformeQA" />
     <SUITE FILE_PATH="coverage/fairseq_gec$predictfacenet.coverage" NAME="predictfacenet Coverage Results" MODIFIED="1596968961324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1595118406055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/bart" />
     <SUITE FILE_PATH="coverage/fairseq_gec$huizong__1_.coverage" NAME="huizong修改为词向量 (1) Coverage Results" MODIFIED="1597738293920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />

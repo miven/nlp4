@@ -527,7 +527,7 @@ class CTRLModel(CTRLPreTrainedModel):
             attentions=all_attentions,
         )
 
-
+#-------------------2020-09-09,15点49 讲一下lm 里面的生成predict时候参数配置问题
 @add_start_docstrings(
     """The CTRL Model transformer with a language modeling head on top
     (linear layer with weights tied to the input embeddings). """,

@@ -49,9 +49,9 @@ huggingface项目中重要例子/transformers/src/transformers/modeling_bart.py
 
 
 
+生成任务的参数配置详细:
 
-
-
+huggingface项目中重要例子/transformers/src/transformers/generation_utils.py
 
 
 
