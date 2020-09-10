@@ -17,6 +17,16 @@ longformeQA/长文本qa2.py
 
 
 
+longFormer代码:
+huggingface项目中重要例子/transformers/src/transformers/modeling_longformer.py
+
+    改进: 在上下文中对于 名词和动词 进行global_attention
+
+
+
+
+
+
 
 
 

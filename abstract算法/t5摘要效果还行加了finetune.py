@@ -112,7 +112,7 @@ print("下面是finetune代码!!!!!!!!!!!!!!!!!!!!!!!!!!")
 
 
 #做finetune
-if 1:
+if 0:
     from transformers import pipeline, AdamW
     class A():
         pass
@@ -158,7 +158,7 @@ model.eval()
 
 print("下面打印finetune之后的结果!!!!!!!!!!!!!!!")
 input_ids = tokenizer.encode("summarize: "+"Hello, my dog is cute and what is the problem of it ? i don't know", return_tensors="pt")
-outputs = model.generate(input_ids, num_beams=5, max_length=50, early_stopping=True)
+outputs = model.generate(input_ids, num_beams=5, max_length=50, early_stopping=True,no_repeat_ngram_size=3)
 
 print(outputs)
 print([tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=False) for g in outputs])

@@ -10,6 +10,7 @@ class TestLongformerSelfAttention(unittest.TestCase):
     def _run_test(self, attn, hidden_state, attention_mask):
         output3 = attn(hidden_states=hidden_state, attention_mask=attention_mask if attention_mask is not None else None)[0]
 
+
         output1 = attn(hidden_states=hidden_state[:1], attention_mask=attention_mask[:1] if attention_mask is not None else None)[0]
         output2 = attn(hidden_states=hidden_state[1:], attention_mask=attention_mask[1:] if attention_mask is not None else None)[0]
         self.assertTrue(torch.allclose(output3, torch.cat((output1, output2), dim=0), atol=1e-7))
