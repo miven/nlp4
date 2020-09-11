@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d624af8-c777-4086-b121-16f765477978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07d7b483b4c109ad089426edd744958f.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2004.05150.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytorch的切片是传用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytorch的切片是传用2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytorch的切片是传用3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme日常开发规范" beforeDir="false" afterPath="$PROJECT_DIR$/readme日常开发规范" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2004.05150.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/2004.05150.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/现代数学译丛 有限群论导引 [德]Hans.Kuzweil 施武杰 李士恒(译) 2009年版.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/现代数学译丛 有限群论导引 [德]Hans.Kuzweil 施武杰 李士恒(译) 2009年版.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -373,7 +368,7 @@
       <workItem from="1598801814822" duration="1905000" />
       <workItem from="1598837301410" duration="220483000" />
       <workItem from="1599640785572" duration="4664000" />
-      <workItem from="1599666086326" duration="32062000" />
+      <workItem from="1599666086326" duration="38494000" />
     </task>
     <servers />
   </component>
@@ -428,18 +423,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="358" y="0" key="#train/0.0.1280.680@0.0.1280.680" timestamp="1595513082480" />
-    <state x="331" y="97" width="777" height="583" key="#xdebugger.evaluate" timestamp="1599731537398">
+    <state x="331" y="97" width="777" height="583" key="#xdebugger.evaluate" timestamp="1599795285017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="331" y="97" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1599731537398" />
+    <state x="331" y="97" width="777" height="583" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1599795285017" />
     <state x="258" y="0" key="CommitChangelistDialog2" timestamp="1596430478936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="258" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596430478936" />
-    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1599745596534">
+    <state width="1147" height="459" key="DebuggerActiveHint" timestamp="1599795299429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1599745596534" />
+    <state width="1147" height="459" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1599795299429" />
     <state x="130" y="77" width="1095" height="495" key="DiffContextDialog" timestamp="1597536533322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -452,46 +447,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="604" y="143" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595725279250" />
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1599784517966">
+    <state width="1237" height="111" key="GridCell.Tab.0.bottom" timestamp="1599795453038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599784517966" />
-    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1599784517966">
+    <state width="1237" height="111" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599795453038" />
+    <state width="1237" height="111" key="GridCell.Tab.0.center" timestamp="1599795453038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599784517966" />
-    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1599784517965">
+    <state width="1237" height="111" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599795453038" />
+    <state width="1237" height="111" key="GridCell.Tab.0.left" timestamp="1599795453038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599784517965" />
-    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1599784517966">
+    <state width="1237" height="111" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599795453038" />
+    <state width="1237" height="111" key="GridCell.Tab.0.right" timestamp="1599795453038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599784517966" />
-    <state width="1237" height="175" key="GridCell.Tab.1.bottom" timestamp="1599784517966">
+    <state width="1237" height="111" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599795453038" />
+    <state width="1237" height="111" key="GridCell.Tab.1.bottom" timestamp="1599795453039">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599784517966" />
-    <state width="1237" height="175" key="GridCell.Tab.1.center" timestamp="1599784517966">
+    <state width="1237" height="111" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599795453039" />
+    <state width="1237" height="111" key="GridCell.Tab.1.center" timestamp="1599795453038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599784517966" />
-    <state width="1237" height="175" key="GridCell.Tab.1.left" timestamp="1599784517966">
+    <state width="1237" height="111" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1599795453038" />
+    <state width="1237" height="111" key="GridCell.Tab.1.left" timestamp="1599795453038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599784517966" />
-    <state width="1237" height="175" key="GridCell.Tab.1.right" timestamp="1599784517966">
+    <state width="1237" height="111" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1599795453038" />
+    <state width="1237" height="111" key="GridCell.Tab.1.right" timestamp="1599795453038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599784517966" />
+    <state width="1237" height="111" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1599795453038" />
     <state x="127" y="0" key="SettingsEditor" timestamp="1597046113236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="127" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597046113236" />
-    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1599731506710">
+    <state width="668" height="347" key="XDebugger.FullValuePopup" timestamp="1599795268525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1599731506710" />
+    <state width="668" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1599795268525" />
     <state x="93" y="93" width="1095" height="495" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598256455756">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -1617,7 +1612,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
-          <line>982</line>
+          <line>984</line>
           <option name="timeStamp" value="595" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -1632,18 +1627,13 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
-          <line>346</line>
+          <line>348</line>
           <option name="timeStamp" value="602" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
-          <line>387</line>
+          <line>389</line>
           <option name="timeStamp" value="604" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
-          <line>169</line>
-          <option name="timeStamp" value="608" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pytorch的切片是传用.py</url>
@@ -1662,11 +1652,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
-          <line>172</line>
-          <option name="timeStamp" value="612" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
           <line>205</line>
           <option name="timeStamp" value="613" />
         </line-breakpoint>
@@ -1677,18 +1662,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
-          <line>293</line>
+          <line>295</line>
           <option name="timeStamp" value="615" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
-          <line>319</line>
+          <line>321</line>
           <option name="timeStamp" value="616" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/-337502517/transformers/modeling_longformer.py</url>
-          <line>121</line>
-          <option name="timeStamp" value="617" />
+          <line>338</line>
+          <option name="timeStamp" value="618" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -1772,6 +1757,7 @@
         <watch expression=" diagonal_chunked_attention_scores.new_empty(&#10;            (batch_size * num_heads, chunks_count + 1, window_overlap, window_overlap * 2 + 1)&#10;        )" />
         <watch expression="hidden_states_padded" />
         <watch expression="(&#10;            (batch_size * num_heads, chunks_count + 1, window_overlap, window_overlap * 2 + 1)&#10;        )" />
+        <watch expression="key" />
       </configuration>
     </watches-manager>
   </component>
@@ -1863,7 +1849,7 @@
     <SUITE FILE_PATH="coverage/fairseq_gec$eval_lm.coverage" NAME="eval_lm Coverage Results" MODIFIED="1594801149907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2019.3/system/remote_sources/-456540730/1397887433/fairseq_cli" />
     <SUITE FILE_PATH="coverage/fairseq_gec$t5__1_.coverage" NAME="t5摘要效果还行 (1) Coverage Results" MODIFIED="1598284276389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/abstract算法" />
     <SUITE FILE_PATH="coverage/fairseq_gec$lca.coverage" NAME="lca库包 Coverage Results" MODIFIED="1598538503482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/句子分割算法" />
-    <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="长文本qa2 Coverage Results" MODIFIED="1599731429835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/longformeQA" />
+    <SUITE FILE_PATH="coverage/fairseq_gec$qa2.coverage" NAME="长文本qa2 Coverage Results" MODIFIED="1599795155110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/longformeQA" />
     <SUITE FILE_PATH="coverage/fairseq_gec$predictfacenet.coverage" NAME="predictfacenet Coverage Results" MODIFIED="1596968961324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/人脸/facenet-pytorch/examples" />
     <SUITE FILE_PATH="coverage/fairseq_gec$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1595118406055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/一些可以直接调用的nlp算法/bart" />
     <SUITE FILE_PATH="coverage/fairseq_gec$huizong__1_.coverage" NAME="huizong修改为词向量 (1) Coverage Results" MODIFIED="1597738293920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/知识图谱项目/kg加深度学习" />
